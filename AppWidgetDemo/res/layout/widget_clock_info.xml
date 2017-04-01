@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 描述 时钟 AppWidget 的大小、更新频率和初始界面等信息 -->
+<!-- 必须放在layout目录下 -->
+<appwidget-provider
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:initialLayout="@layout/widget_clock_layout"
+	android:minWidth="100dp"
+	android:minHeight="100dp"
+	android:updatePeriodMillis="5"
+	android:resizeMode="horizontal|vertical"
+	android:widgetCategory="home_screen"
+	android:previewImage="@drawable/clock_preview">
+</appwidget-provider>
