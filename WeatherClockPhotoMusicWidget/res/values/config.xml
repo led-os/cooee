@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1280x720 -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 插件宽高 -->
+    <dimen name="widget_width_min">292.5dp</dimen>
+    <dimen name="widget_height_min">242.5dp</dimen>
+
+    <!-- 三个插件之间的间隙 -->
+    <dimen name="gap_y_between_clock_weather_and_music_photo">2dp</dimen>
+    <dimen name="gap_x_between_photo_and_music">2dp</dimen>
+
+    <!-- 天气时钟插件配置 start -->
+    <dimen name="weather_weather_city_and_temperatrue_text_style_size">12sp</dimen>
+    <!-- clock start -->
+    <!-- 是否显示时钟日历 -->
+    <bool name="show_clockView">true</bool>
+    <!-- 时间的边距 -->
+    <dimen name="clock_time_margin_left">7.5dp</dimen>
+    <dimen name="clock_time_margin_top">20dp</dimen>
+    <!-- 时间之间的间隔 -->
+    <dimen name="clock_time_gap_x_between_number_and_number">0dp</dimen>
+    <!-- 时间"点"与左边小时之间的间隔 -->
+    <dimen name="clock_time_gap_x_between_hour_and_dot">0dp</dimen>
+    <!-- 日期边距 -->
+    <dimen name="clock_date_margin_top">45.5dp</dimen>
+    <dimen name="clock_date_margin_left">126.5dp</dimen>
+    <!-- 是否截取日期长度 更改日期为 日期/月份 默认false 要截取true -->
+    <bool name="sub_week">false</bool>
+    <!-- clock end -->
+    <!-- weather start -->
+    <!-- 是否显示天气 -->
+    <bool name="show_weatherView">true</bool>
+    <!-- 城市边距 -->
+    <dimen name="weather_city_margin_left">126.5dp</dimen>
+    <dimen name="weather_city_margin_top">30dp</dimen>
+    <!-- 城市默认显示名称 -->
+    <string name="weather_city_name_default">----</string>
+    <!-- 没有数据时候是否显示天气模块 true 显示默认数据 false 不显示任何数据 默认不显示 -->
+    <bool name="show_default_data">true</bool>
+    <!-- 天气默认显示名称 -->
+    <string name="weather_data_name_default">晴</string>
+    <!-- 温度默认显示名称 -->
+    <string name="weather_tempC_default">0</string>
+
+    <style name="weather_city_and_temperatrue_text_style">
+
+        <!-- 城市名字和温度的文字颜色 -->
+        <item name="android:textColor">#FFFFFFFF</item>
+        <!-- 城市名字和温度的阴影 -->
+        <item name="android:shadowColor">#FFE4E1C0</item>
+        <!-- 城市名字和温度的投影距离 -->
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:textSize">@dimen/weather_weather_city_and_temperatrue_text_style_size</item>
+    </style>
+    <!-- 天气图片边距 -->
+    <dimen name="weather_data_margin_left">225dp</dimen>
+    <dimen name="weather_data_margin_top">20.5dp</dimen>
+    <!-- 温度边距 -->
+    <dimen name="weather_temperature_margin_left">210dp</dimen>
+    <dimen name="weather_temperature_margin_top">55dp</dimen>
+    <!-- 温度范围边距 -->
+    <dimen name="weather_temperature_range_margin_left">5dp</dimen>
+    <dimen name="weather_temperature_range_margin_top">58dp</dimen>
+    <!-- 点击时间组件后进入的默认apk的包名，不填则根据默认规则进入时钟 -->
+    <string name="default_clock_package"></string>
+    <!-- 点击天气组件后默认进入的天气客户端apk的包名，不填则根据默认对接2345天气客户端(com.tianqiwhite),我们的天气客户端包名是com.cooee.widget.samweatherclock -->
+    <string name="default_weather_package">com.cooee.widget.samweatherclock</string>
+    <!-- weather end -->
+    <!-- 天气时钟插件配置 end -->
+
+
+    <!-- 相机插件配置 start -->
+    <bool name="isShowChooseAlbum">false</bool>
+
+    <dimen name="photo_width_min">175dp</dimen>
+    <dimen name="photo_height_min">160dp</dimen>
+    <dimen name="photo_pick_pic_dialog_activity_text_size">19sp</dimen>
+    <dimen name="photo_pick_pic_dialog_activity_item_margin_left">20dp</dimen>
+
+    <color name="photo_pick_pic_dialog_activity_item_pressed_color">#fff2f2f2</color>
+    <color name="photo_pick_pic_dialog_activity_item_unpressed_color">#00f9f9f9</color>
+    <!-- 相机插件配置 end -->
+
+
+    <!-- 音乐插件配置 start -->
+    <dimen name="music_song_name_text_size">12sp</dimen>
+    <dimen name="music_width_min">116dp</dimen>
+    <dimen name="music_height_min">160dp</dimen>
+    <!-- 上一曲按钮 -->
+    <dimen name="music_previous_button_width">20dp</dimen>
+    <dimen name="music_previous_button_height">20dp</dimen>
+    <dimen name="music_previous_button_marginLeft">20.5dp</dimen>
+    <dimen name="music_previous_button_marginBottom">17.5dp</dimen>
+    <!-- 上一曲的内边距,为了扩大点击区域 -->
+    <dimen name="music_previous_button_paddingLeft">5.5dp</dimen>
+    <dimen name="music_previous_button_paddingRight">5.5dp</dimen>
+    <dimen name="music_previous_button_paddingTop">2.5dp</dimen>
+    <dimen name="music_previous_button_paddingBottom">2.5dp</dimen>
+    <!-- 播放/暂停按钮 -->
+    <dimen name="music_play_button_width">20dp</dimen>
+    <dimen name="music_play_button_height">20dp</dimen>
+    <dimen name="music_play_button_marginBottom">16dp</dimen>
+    <!-- 歌词 -->
+    <dimen name="music_tv_song_name_marginBottom">4dp</dimen>
+    <!-- 按钮 歌名背景 -->
+    <dimen name="music_control_and_song_name_bg_height">60dp</dimen>
+    <dimen name="music_control_and_song_name_bg_margin_bottom">10dp</dimen>
+
+    <color name="music_control_and_song_name_bg_color">#33000000</color>
+    <!-- 音乐插件配置 end -->
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 三合一插件布局 -->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="@dimen/widget_width_min"
+	android:layout_height="@dimen/widget_height_min"
+	android:clickable="true"
+	android:orientation="vertical"
+	android:weightSum="3"
+	android:id="@+id/widget_layout">
+
+	<!-- 天气时钟插件布局 -->
+	<include
+		android:id="@+id/clock_weather_layout_include"
+		layout="@layout/widget_layout_clock_weather"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_marginBottom="@dimen/gap_y_between_clock_weather_and_music_photo"
+		android:layout_weight="1" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:orientation="horizontal"
+		android:layout_weight="2"
+		android:weightSum="5">
+
+		<!-- 相机插件布局 -->
+		<include
+			android:id="@+id/photo_layout_include"
+			layout="@layout/widget_layout_photo"
+			android:clickable="true"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="3" />
+
+		<!-- 音乐插件布局 -->
+		<include
+			android:id="@+id/music_layout_include"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			layout="@layout/widget_layout_music"
+			android:layout_marginLeft="@dimen/gap_x_between_photo_and_music"
+			android:clickable="true"
+			android:layout_weight="2" />
+
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/pick_pic_dialog_layout"
+    android:onClick="onClick" >
+
+    <!-- 多套了一层线性布局,因为alertDialog的宽度我改不来,来不及去仔细看咋回事儿。 -->
+
+    <LinearLayout
+        android:id="@+id/pick_pic_dialog"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/photo_pick_pic_bg"
+        android:onClick="onClick"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/photo_choose_imgs"
+            android:textColor="#ff5e5e5e"
+            android:textSize="@dimen/photo_pick_pic_dialog_activity_text_size" />
+
+        <ImageView
+            android:id="@+id/dialog_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ffd4d4d4" />
+
+        <TextView
+            android:id="@+id/dialog_view_photos"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@drawable/photo_pick_pic_dialog_item_bg_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/photo_pick_pic_dialog_activity_item_margin_left"
+            android:text="@string/photo_view_photos"
+            android:textColor="#ff707070"
+            android:textSize="@dimen/photo_pick_pic_dialog_activity_text_size"
+            android:onClick="onClick" />
+
+        <LinearLayout
+            android:id="@+id/ll_photo_choose_album"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#ffd4d4d4" />
+
+            <TextView
+                android:id="@+id/dialog_photo_choose_album"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@drawable/photo_pick_pic_dialog_item_bg_selector"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/photo_pick_pic_dialog_activity_item_margin_left"
+                android:text="@string/photo_choose_album"
+                android:textColor="#ff707070"
+                android:textSize="@dimen/photo_pick_pic_dialog_activity_text_size"
+                android:onClick="onClick" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ffd4d4d4" />
+
+        <TextView
+            android:id="@+id/dialog_choose_img"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@drawable/photo_pick_pic_dialog_item_bg_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/photo_pick_pic_dialog_activity_item_margin_left"
+            android:text="@string/photo_choose_an_img"
+            android:textColor="#ff707070"
+            android:textSize="@dimen/photo_pick_pic_dialog_activity_text_size"
+            android:onClick="onClick" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ffd4d4d4" />
+
+        <TextView
+            android:id="@+id/dialog_cancel"
+            android:layout_width="284dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="19dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/photo_pick_pic_dialog_cancel_button_selector"
+            android:gravity="center"
+            android:text="@string/photo_pick_pic_dialog_cancel"
+            android:textColor="#ff707070"
+            android:textSize="@dimen/photo_pick_pic_dialog_activity_text_size"
+            android:clickable="true"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</LinearLayout>
