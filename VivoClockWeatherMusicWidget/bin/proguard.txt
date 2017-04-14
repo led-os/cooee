@@ -1,0 +1,42 @@
+# view AndroidManifest.xml #generated:81
+-keep class com.cooee.shell.download.DownloaderActivityHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.cooee.shell.pay.PayActivityHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.cooee.shell.pay.PayServiceHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.cooee.shell.shell.SdkActivityHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.cooee.shell.shell.SdkReceiverHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.cooee.shell.shell.SdkServiceHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.cooee.statistics.StatisticsServiceNew { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.cooee.widgetnative.enjoy.DownloadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.cooee.widgetnative.enjoy.ReStartBroadcast { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.cooee.widgetnative.enjoy.WidgetProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.cooee.widgetnative.enjoy.service.ClockWeatherMusicService { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.kpsh.sdk.KpshActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.kpsh.sdk.KpshReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.kpsh.sdk.KpshService { <init>(...); }
+

@@ -1,0 +1,25 @@
+<resources>
+
+	<string name="app_name">Enjoy</string>
+
+	<string name="music_def_name">Song name</string>
+	<string name="singer_def_name">Artist name</string>
+	<string name="unknown_singer">Unknown artist</string>
+
+	<!-- download_layout -->
+	<string name="download_layout_title">Weather the client</string>
+	<string name="download_layout_message">"Weather the client" has not been installed on your phone and click ok will download and install!</string>
+	<string name="download_layout_left_button">Cancle</string>
+	<string name="download_layout_right_button">Confirm</string>
+	
+	<!-- //com.cooee.download	//start -->
+    <string name="download_toast_tip_insert_SD">Please insert the SD card,then try again!</string>
+    <string name="download_toast_tip_internet_err">The network connection is not available, please check your network settings</string>
+    <string name="download_toast_tip_downloading">Downloading </string>
+    <string name="download_notification_tip_downloading">Downloading </string>
+    <string name="download_notification_tip_download_finish"> download finish!</string>
+    <string name="download_notification_tip_download_fail"> download fail!</string>
+    <!-- //com.cooee.download	//end -->
+
+
+</resources>
