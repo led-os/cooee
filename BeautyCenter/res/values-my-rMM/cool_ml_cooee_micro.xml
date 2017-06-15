@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="cool_ml_dl_failed">ေဒါင္းလုပ္က်ရှုံး</string>
+    <string name="cool_ml_install_jixu">အင္စေတာဆက္လုပ္မည္</string>
+    <string name="cool_ml_donwloadorinstall_manager">ေဒါင္းလုပ္/အင္စေတာထိန္းသိမ္းျခင္း</string>
+    <string name="cool_ml_dl_installed_text">ႏွိပ္ၿပီးစတင္ပါ</string>
+    <string name="cool_ml_dl_stop">ေဒါင္းလုပ္ရပ္သြားသည္</string>
+    <string name="cool_ml_dl_ing">ခုေဒါင္းလုပ္ေနသည္</string>
+    <string name="cool_ml_install_manager">အင္စေတာမန္ေနဂ်ာ</string>
+    <string name="cool_ml_dl_sucess">ေဒါင္းလုပ္ျခင္းေအာင္ျမင္သည္</string>
+    <string name="cool_ml_loading_1">စာမ်က္ႏွာလုပ္ဒင္း</string>
+    <string name="cool_ml_install_quxiao">အင္စေတာပယ္ဖ်က္</string>
+    <string name="cool_ml_network_not_available">အင္တာနက္အသံုးျပဳ၍မရ</string>
+    <string name="cool_ml_dl_stop_text">ေဒါင္းလုပ္ရန္ႏွိပ္ပါ</string>
+    <string name="cool_ml_download_quxiao">ေဒါင္းလုပ္ျခင္းပယ္ဖ်က္</string>
+    <string name="cool_ml_dl_failed_text">ျပန္လည္ေဒါင္းလုပ္ရန္ႏွိပ္ပါ</string>
+    <string name="cool_ml_download_failed">ေဒါင္းလုပ္က်ရှုံး</string>
+    <string name="cool_ml_donwload_manager">ေဒါင္းလုပ္မန္ေနဂ်ာ</string>
+    <string name="cool_ml_dl_ing_text">ၾကည့္ရန္ႏွိပ္ပါ</string>
+    <string name="cool_ml_download_jixu">ဆက္လက္၍လုပ္ဒင္း</string>
+    <string name="cool_ml_dl_sucess_text">အင္စေတာရန္ႏွိပ္ပါ</string>
+    <string name="cool_ml_dl_installed">လုပ္ဒင္းၿပီး</string>
+    <string name="cool_ml_storage_not_available">မီမိုရီအသံုးျပဳ၍မရပါ</string>
+
+</resources>

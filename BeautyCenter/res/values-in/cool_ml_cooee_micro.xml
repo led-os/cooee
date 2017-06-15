@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="cool_ml_dl_failed">Unduh gagal</string>
+    <string name="cool_ml_install_jixu">Lanjutkan instalasi</string>
+    <string name="cool_ml_donwloadorinstall_manager">Unduh / Manajemen Instalasi</string>
+    <string name="cool_ml_dl_installed_text">Klik untuk memulai</string>
+    <string name="cool_ml_dl_stop">unduhan berhenti</string>
+    <string name="cool_ml_dl_ing">Tugas mengunduh</string>
+    <string name="cool_ml_install_manager">Manajer Instalasi</string>
+    <string name="cool_ml_dl_sucess">Mengunduh berhasil</string>
+    <string name="cool_ml_loading_1">Memuat halaman ...</string>
+    <string name="cool_ml_install_quxiao">Membatalkan instalasi</string>
+    <string name="cool_ml_network_not_available">Jaringan tidak tersedia</string>
+    <string name="cool_ml_dl_stop_text">Klik untuk mengunduh</string>
+    <string name="cool_ml_download_quxiao">Batalkan unduh</string>
+    <string name="cool_ml_dl_failed_text">Klik untuk mengunduh ulang</string>
+    <string name="cool_ml_download_failed">Unduh gagal</string>
+    <string name="cool_ml_donwload_manager">Manajer unduhan</string>
+    <string name="cool_ml_dl_ing_text">Klik untuk melihat</string>
+    <string name="cool_ml_download_jixu">Teruskan untuk memuat</string>
+    <string name="cool_ml_dl_sucess_text">Klik untuk menginstal</string>
+    <string name="cool_ml_dl_installed">Instalasi dilakukan</string>
+    <string name="cool_ml_storage_not_available">Ruang penyimpanan tidak tersedia</string>
+
+</resources>

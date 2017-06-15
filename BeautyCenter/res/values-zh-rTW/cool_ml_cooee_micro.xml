@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="cool_ml_donwloadorinstall_manager">下載/安裝管理</string>
+    <string name="cool_ml_install_manager">安裝管理</string>
+    <string name="cool_ml_donwload_manager">下載管理</string>
+    <string name="cool_ml_loading_1">正在加載頁面...</string>
+    <string name="cool_ml_download_failed">下載失敗</string>
+    <string name="cool_ml_network_not_available">網絡不可用</string>
+    <string name="cool_ml_storage_not_available">存儲空間不可用</string>
+    <string name="cool_ml_new_content">桌面新內容</string>
+    <string name="cool_ml_more_content">更多精彩內容，去看看！</string>
+    <string name="cool_ml_confirm_content">更多精彩內容 ，加入到桌面上吧!</string>
+    <string name="cool_ml_confirm_ok">確認</string>
+    <string name="cool_ml_confirm_canel">取消</string>
+    <string name="cool_ml_dl_ing">个任务正在下载</string>
+    <string name="cool_ml_dl_ing_text">点击查看</string>
+    <string name="cool_ml_dl_stop">下载暂停</string>
+    <string name="cool_ml_dl_stop_text">点击下载</string>
+    <string name="cool_ml_dl_sucess">下载成功</string>
+    <string name="cool_ml_dl_sucess_text">点击安装</string>
+    <string name="cool_ml_dl_failed">下载失败</string>
+    <string name="cool_ml_dl_failed_text">点击重新下载</string>
+    <string name="cool_ml_dl_installed">安装完成</string>
+    <string name="cool_ml_dl_installed_text">点击启动</string>
+    <string name="cool_ml_download_jixu">繼續下載</string>
+    <string name="cool_ml_download_quxiao">取消下載</string>
+    <string name="cool_ml_install_jixu">繼續安裝</string>
+    <string name="cool_ml_install_quxiao">取消安裝</string>
+
+</resources>

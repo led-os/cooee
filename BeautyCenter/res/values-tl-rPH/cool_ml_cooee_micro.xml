@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="cool_ml_dl_failed">Di nagtagumpay ang pag-download</string>
+    <string name="cool_ml_install_jixu">Ituloy ang instalasyon</string>
+    <string name="cool_ml_donwloadorinstall_manager">Pamamahala ng Instalasyon / Download</string>
+    <string name="cool_ml_dl_installed_text">I-click upang magsimula</string>
+    <string name="cool_ml_dl_stop">Pansamantalang tumigil ang download</string>
+    <string name="cool_ml_dl_ing">tasks downloading</string>
+    <string name="cool_ml_install_manager">INSTALLATION MANAGER</string>
+    <string name="cool_ml_dl_sucess">Matagumpay na nai-download</string>
+    <string name="cool_ml_loading_1">Nilo-load ang pahina</string>
+    <string name="cool_ml_install_quxiao">I-kansel ang instalasyon</string>
+    <string name="cool_ml_network_not_available">Walang available na network</string>
+    <string name="cool_ml_dl_stop_text">Iclick upang mai-download</string>
+    <string name="cool_ml_download_quxiao">I-kansel ang Download</string>
+    <string name="cool_ml_dl_failed_text">I-click upang muling i-download</string>
+    <string name="cool_ml_download_failed">Di nagtagumpay ang pag-download</string>
+    <string name="cool_ml_donwload_manager">DOWNLOAD MANAGER</string>
+    <string name="cool_ml_dl_ing_text">I-click upang makita</string>
+    <string name="cool_ml_download_jixu">Mapatuloy sa pag-load</string>
+    <string name="cool_ml_dl_sucess_text">I-click upang mailagay</string>
+    <string name="cool_ml_dl_installed">Tapos na ang instalasyon</string>
+    <string name="cool_ml_storage_not_available">Walang espasyong paglalagyan</string>
+
+</resources>

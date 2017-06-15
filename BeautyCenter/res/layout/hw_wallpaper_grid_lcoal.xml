@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/spitline"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="3dip"
+        android:background="#c6c6c6" />
+
+    <RadioGroup
+        android:id="@+id/wallpaperradioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="7dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="7dip"
+        android:background="@drawable/radiogroup_bg1"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radiolocal"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/hw_radiobutton_left"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/wallpaper_static"
+            android:textColor="@drawable/hw_button_font_radio_style" />
+
+        <RadioButton
+            android:id="@+id/radiolocallive"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/hw_radiobutton_middle"
+            android:button="@android:color/transparent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/wallpaper_live"
+            android:textColor="@drawable/hw_button_font_radio_style" />
+
+        <RadioButton
+            android:id="@+id/radiomore"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/hw_radiobutton_right"
+            android:button="@android:color/transparent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/more"
+            android:textColor="@drawable/hw_button_font_radio_style" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/spitView"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#c6c6c6" />
+
+    <LinearLayout
+        android:id="@+id/wallpaper_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/gridlocal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdgeLength="0dip"
+            android:listSelector="@drawable/grid_selector"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" >
+        </GridView>
+
+        <ListView
+            android:id="@+id/listMore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:cacheColorHint="#00000000"
+            android:divider="#c6c6c6"
+            android:dividerHeight="1px"
+            android:visibility="gone" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
