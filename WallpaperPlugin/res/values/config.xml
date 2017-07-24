@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-     <!--一键换壁纸获取网络壁纸等待时间-->
-	<integer name="one_key_wallpaper_wait_time">8000</integer>
-</resources>

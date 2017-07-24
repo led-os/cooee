@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add whole file -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/workspace_menu_vertical_list_item_icon_widget_focus" android:state_focused="true"/>
-    <item android:drawable="@drawable/workspace_menu_vertical_list_item_icon_widget_focus" android:state_pressed="true"/>
-    <item android:drawable="@drawable/workspace_menu_vertical_list_item_icon_widget_normal"/>
-
-</selector>

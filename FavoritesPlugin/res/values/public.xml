@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<!-- //cheyingkun add whole file	//解决“launcher3的R文件中id和酷生活R文件中id冲突”的问题 -->
-    <public-padding name="zmap" start="0x7f030000" end="0x7f030fff" type="id"/>
-</resources>

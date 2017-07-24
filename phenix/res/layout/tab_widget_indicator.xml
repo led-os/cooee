@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 原先launcher2 主菜单上方用于切换ALLAPP和ALLwidget的tab -->
-<com.cooee.phenix.AccessibleTabView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/TabIndicator.AppsCustomize" />

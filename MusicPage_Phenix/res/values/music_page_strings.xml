@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <!-- MusicPage , start , shlt , 20140825 -->
-    <string name="music_page_application_not_installed">application not installed</string>
-    <string name="music_page_unknown">unknown</string>
-    <!-- MusicPage , end , shlt , 20140825 -->
-
-</resources>

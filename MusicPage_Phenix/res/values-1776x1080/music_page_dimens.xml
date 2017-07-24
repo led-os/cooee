@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    
-    <!-- 文字广告与歌手名的间距 -->
-    <dimen name="music_page_ad_text_view_to_singer_name_margin">17dp</dimen>
-
-</resources>

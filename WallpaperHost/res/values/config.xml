@@ -1,8 +1,0 @@
-<resources>
-
-   
-	<bool name="enable_update_debug">false</bool>
-	<bool name="enable_umeng">true</bool>
-	<bool name="enable_ads">true</bool><!-- 是否展示广告，true为展示，false默认不展示，读取服务器开关，服务器开就展示，关则不展示 -->
-	<integer name="online_wallpaper_from">1</integer><!-- 1表示读取Nano壁纸中的资源，2表示获取美化中心的资源 -->
-</resources>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- workspace 单独一页界面 -->
-<com.cooee.phenix.CellLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.cooee.phenix"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:hapticFeedbackEnabled="false"
-    launcher:maxGap="@dimen/workspace_max_gap" />
