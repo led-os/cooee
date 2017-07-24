@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 软件管理listview每个item的布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/cool_ml_liner01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/cool_ml_rela01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip" >
+
+            <ImageView
+                android:id="@+id/cool_ml_manager_appIco1"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cool_ml_download_install" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cool_ml_rela02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dip" >
+
+            <TextView
+                android:id="@+id/cool_ml_manager_appName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cool_ml_manager_appName1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/cool_ml_manager_appVersion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:scrollHorizontally="true"
+                    android:textColor="#6e6e6e"
+                    android:textSize="13.76sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cool_ml_manager_appSize1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_weight="2"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="#6e6e6e"
+                    android:textSize="13.76sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/cool_ml_manager_button1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/cool_ml_icon_btn_list_install"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

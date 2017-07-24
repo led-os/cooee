@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/music_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_albumart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_music_bg"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/music_control_and_song_name_bg_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/music_control_and_song_name_bg_margin_bottom"
+        android:background="@color/music_control_and_song_name_bg_color" >
+
+        <ImageView
+            android:id="@+id/iv_previous"
+            android:layout_width="@dimen/music_previous_button_width"
+            android:layout_height="@dimen/music_previous_button_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/music_previous_button_marginBottom"
+            android:layout_marginLeft="@dimen/music_previous_button_marginLeft"
+            android:paddingBottom="@dimen/music_previous_button_paddingBottom"
+            android:paddingLeft="@dimen/music_previous_button_paddingLeft"
+            android:paddingRight="@dimen/music_previous_button_paddingRight"
+            android:paddingTop="@dimen/music_previous_button_paddingTop"
+            android:src="@drawable/music_previous" />
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="@dimen/music_play_button_width"
+            android:layout_height="@dimen/music_play_button_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/music_play_button_marginBottom"
+            android:src="@drawable/music_play" />
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="@dimen/music_previous_button_width"
+            android:layout_height="@dimen/music_previous_button_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/music_previous_button_marginBottom"
+            android:layout_marginRight="@dimen/music_previous_button_marginLeft"
+            android:paddingBottom="@dimen/music_previous_button_paddingBottom"
+            android:paddingLeft="@dimen/music_previous_button_paddingLeft"
+            android:paddingRight="@dimen/music_previous_button_paddingRight"
+            android:paddingTop="@dimen/music_previous_button_paddingTop"
+            android:src="@drawable/music_next" />
+
+        <TextView
+            android:id="@+id/tv_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/iv_next"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/music_tv_song_name_marginBottom"
+            android:singleLine="true"
+            android:text="歌曲名"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/music_song_name_text_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

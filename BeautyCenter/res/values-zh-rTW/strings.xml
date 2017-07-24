@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="theme_box_name">美化中心</string>
+    <string name="gadget_error_text">問題裝載窗口小部件</string>
+    <string name="default_theme">默認主題</string>
+    <string name="title_activity_main">百變主題</string>
+    <string name="title_activity_setting">鎖屏設置</string>
+    <string name="system_lock">系統鎖屏</string>
+    <string name="preferLock">開啟鎖屏</string>
+    <string name="chooseLauncher">選擇啟動器</string>
+    <string name="clearLauncher">清除原默認桌面</string>
+    <string name="Launcher">啟動器</string>
+    <string name="preferlockHomeTitle">鎖定HOME鍵</string>
+    <string name="btnReturn">返回</string>
+    <string name="btnShare">分享</string>
+    <string name="bgSpace">背景</string>
+    <string name="btnApply">應用</string>
+    <string name="btnApplyWallpaper">應用壁紙</string>
+    <string name="btnDownload">下載</string>
+    <string name="btnInstall">安裝</string>
+    <string name="textPreview">預覽</string>
+    <string name="toastPreviewApply">正在應用%s主題</string>
+    <string name="btnLocalLock">本地鎖屏</string>
+    <string name="btnLocalTheme">本地主題</string>
+    <string name="btnHotLock">熱門推薦</string>
+    <string name="btnSetting">設置</string>
+    <string name="shareSubject">分享主題</string>
+    <string name="shareText">我正在使用CoCo主題的&quot;%s&quot;，你也來試試</string>
+    <string name="previewLockSize">鎖屏包大小: </string>
+    <string name="previewLockAuther">作者:  </string>
+    <string name="previewThemeSize">主題包大小: </string>
+    <string name="previewThemeAuther">作者: </string>
+    <string name="previewIntroduction">簡介:</string>
+    <string name="btnUninstall">卸載</string>
+    <string name="textIntroduction">介紹</string>
+    <string name="textLockSize">尺寸</string>
+    <string name="thumbImage">縮略圖</string>
+    <string name="textLock"> 鎖屏</string>
+    <string name="textTheme"> 主題</string>
+    <string name="bgTheme">主題</string>
+    <string name="textDownloading">%d%%</string>
+    <string name="textPause">%d%%</string>
+    <string name="soft_update_no">已經是最新版本</string>
+    <string name="soft_update_title">軟件更新</string>
+    <string name="soft_update_checking"> 正在檢查更新，請稍候</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍後更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="internet_err">網絡連接不可用，請檢查網絡設置</string>
+    <string name="internet_unusual">網絡不穩定，請稍後再試</string>
+    <string name="textSdCardNotPrepare">SD卡未準備好</string>
+    <string name="sdcard_not_available">無可用SD卡，請檢查連接</string>
+    <string name="server_download_file_name">CoCo鎖屏</string>
+    <string name="server_begin_download">開始下載</string>
+    <string name="server_download_finish">下載完成，點擊安裝</string>
+    <string name="server_download_fail">下載失敗</string>
+    <string name="server_downloading">正在下載</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">鬆開後刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">鬆開後刷新</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉刷新</string>
+    <string name="pull_to_refresh_footer_refreshing_label">刷新\u2026</string>
+    <string name="is_downloading">正在下載引擎，請稍候！</string>
+    <string name="more">更多</string>
+    <string name="version_update">版本更新</string>
+    <string name="wallpaper">壁紙</string>
+    <string name="server_downloadRecommend_file_name">%s</string>
+    <string name="recommend">精品推薦</string>
+    <string name="memory_prompt">下載已超過5個，請先刪除手機中已下載的apk文件</string>
+    <string name="textFont"> 字體</string>
+    <string name="textWallpaper"> 壁紙</string>
+    <string name="text_lcoal_Wallpapers">本地壁紙</string>
+    <string name="text_lcoal_Fonts">本地字體</string>
+    <string name="defaultFont">默認字體</string>
+    <string name="changingWallpaper">正在更換壁紙，請稍候...</string>
+    <string name="setwallpaper">設置壁紙</string>
+    <string name="btnBuy">購買</string>
+    <string name="theme_price">價格:%1$d元</string>
+    <string name="Workspace_effect_list">桌面</string>
+    <string name="App_effect_list">主菜單</string>
+    <string name="textEffect"> 切頁</string>
+    <string name="textScene"> 場景</string>
+    <string name="textWidget"> 小組件</string>
+    <string name="previewSize">大小:%1$dKB&#160;&#160;&#160;&#160;&#160;&#160;作者:%2$s</string>
+    <string name="btnLocalWidget">本地組件</string>
+    <string name="btnLocalScene">本地場景</string>
+    <string name="makesure_to_delete">確認刪除？</string>
+    <string name="delete_ok">確定</string>
+    <string name="delete_cancel">取消</string>
+    <string name="lockHome">鎖定HOME鍵</string>
+    <string name="notify_downloading">正在下載</string>
+    <string name="notify_add_download">%s加入下載</string>
+    <string name="notify_pause_download">%s暫停下載</string>
+    <string name="notify_exception_download">獲取網絡數據異常，請檢查網絡狀態是否暢通</string>
+    <string name="toast_setwallpaper_success">設置壁紙成功</string>
+    <string name="widget_local_click_toast">桌面長按換出編輯模式后，可拖至桌面</string>
+    <string name="has_bought">已購買</string>
+    <string name="wallpaper_static">桌面壁紙</string>
+    <string name="wallpaper_live">動態壁紙</string>
+    <string name="applyfont">正在更換字體，請稍候...</string>
+    <string name="lock_wallpaper">鎖屏壁紙</string>
+    <string name="changeLockWallpaper">正在設置鎖屏壁紙，請稍候...</string>
+    <string name="download_enginer">下載引擎</string>
+    <string name="unknown">未知</string>
+    <string name="lock_apply_new_toast">请到"屏幕鎖屏"中選擇"滑动解鎖"后退出</string>
+    <string name="text_lcoal_operate">本地</string>
+    <string name="text_hot_opertate">熱門</string>
+    <string name="text_online_operate">在線</string>
+    <string name="open_operate">打開</string>
+    <string name="activity_not_found">沒有安裝此應用</string>
+    <string name="sdcar_full">存儲空間不足</string>
+    <string name="shortcut">精品軟件</string>
+    <string name="data_storage_is_full">手機空間不足，設置失敗</string>
+    <string name="apply_fail">設置失敗</string>
+    <string name="apply_ok">設置成功</string>
+    <string name="now_use">正在使用</string>
+    <string name="gallery">圖庫</string>
+    <string name="apply_to_desktop">應用桌面</string>
+    <string name="apply_to_lockwallpaper">應用鎖屏</string>
+    <string name="lockwallpaper_apply_tost">場景類鎖屏無法更換壁紙,請嘗試其他鎖屏</string>
+    <string name="warn">提醒</string>
+    <string name="no_remind_next_time">下次不再提醒</string>
+    <string name="exit">退出</string>
+    <string name="i_know">我知道了</string>
+    <string name="can_not_uninstall">系統組件,無法卸載</string>
+    <string name="can_not_delete_wallpaper">當前壁紙正在使用中,無法刪除</string>
+    <string name="system_theme">系統主題</string>
+    <string name="reLoadApk">下載內容丟失，重新下載。</string>
+    <string name="disclaimer_dialog_info">使用美化中心可能會產生流量費用，由提供網絡服務的運營商收取。為了不斷優化產品體驗，將對產品進行統計，包含但不限於IMEI號等，相關數據會自動上報，我們將依據分析結果持續提升產品體驗、改善功能。統計針對對美化中心的內容，絕對不涉及用戶的個人隱私數據。美化中心向系統申請獲取手機ID權限，主要用於統計等；會向系統申請粘滯廣播權限，主要用於通知用戶等。這些權利都提供公開權限，絕不涉及用戶個人隱私問題。</string>
+    <string name="setDesktopwallpaper">設為桌面</string>
+    <string name="setLockWallpaper">設為鎖屏</string>
+    <string name="setBoth">同時設置</string>
+
+</resources>

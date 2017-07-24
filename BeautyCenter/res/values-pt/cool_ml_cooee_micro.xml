@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="cool_ml_dl_failed">Falha no baixar</string>
+    <string name="cool_ml_install_jixu">Continue a instalação  </string>
+    <string name="cool_ml_donwloadorinstall_manager">Baixar/Gestão de Instalação</string>
+    <string name="cool_ml_dl_installed_text">Clique para iniciar</string>
+    <string name="cool_ml_dl_stop">Baixar pausa</string>
+    <string name="cool_ml_dl_ing">Tarefas baixando</string>
+    <string name="cool_ml_install_manager">Gerenciador de Instalação</string>
+    <string name="cool_ml_dl_sucess">Baixado com sucesso</string>
+    <string name="cool_ml_loading_1">Carregando página </string>
+    <string name="cool_ml_install_quxiao">Cancelar a instalação</string>
+    <string name="cool_ml_network_not_available">Rede indisponíveis</string>
+    <string name="cool_ml_dl_stop_text">Clique para baixar</string>
+    <string name="cool_ml_download_quxiao">Cancelar o download</string>
+    <string name="cool_ml_dl_failed_text">Clique para re-baixar</string>
+    <string name="cool_ml_download_failed">Falha no baixar</string>
+    <string name="cool_ml_donwload_manager">Gerenciador de baixar</string>
+    <string name="cool_ml_dl_ing_text">Clique para ver</string>
+    <string name="cool_ml_download_jixu">Continue a carregar</string>
+    <string name="cool_ml_dl_sucess_text">Clica para instalar</string>
+    <string name="cool_ml_dl_installed">Instalação feito</string>
+    <string name="cool_ml_storage_not_available">O espaço de armazenamento não está disponível</string>
+
+</resources>

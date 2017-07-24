@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0 ,user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div style="position: absolute; width:100%; height:300px;margin: -150px auto;top:50%; text-align:center;">
+ <img src="file:///android_asset/cool_ml_noNetwork.png" style="margin: 0 auto; max-width:100%;" />
+ <div id='divmsg'></div>
+ <br /><br />
+ <a id="networkset" style="font-size:large; color:Orange;" href="#" onclick="Set_Network();"></a>
+</div>  
+</body>
+<script type="text/javascript">
+    var lan = 'zh';//默认中文
+    try {
+        lan = window.JSClass.GetSysLanguage();
+    }
+    catch (e) { }
+    if (lan == 'zh' || lan == 'ZH') {
+        document.getElementById("divmsg").innerHTML = "抱歉，无法处理请求，请检查您的网络";
+        document.getElementById("networkset").innerHTML = "网络设置";
+    }
+    else {
+        document.getElementById("divmsg").innerHTML = "Sorry,request Error!!!<br/>please check your network";
+        document.getElementById("networkset").innerHTML = "Network Setting";
+    }
+try {
+        window.JSClass.canelDialog();
+    } catch (e) { }
+    function Refresh_Retry() {
+        try { window.JSClass.Refresh_Retry(); } catch (e) { }
+    }
+    function Set_Network() {
+        try { window.JSClass.Set_Network(); } catch (e) { }
+    }
+</script>
+</html>

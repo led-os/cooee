@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="text_lcoal_Wallpapers">Fondo de pantalla</string>
+    <string name="textWallpaper">Fondo de pantalla</string>
+    <string name="wallpaper">Fondo de pantalla</string>
+    <string name="textTheme">Tema</string>
+    <string name="bgTheme">Tema</string>
+
+</resources>

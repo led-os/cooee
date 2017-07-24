@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="3dip"
+        android:background="#c6c6c6" />
+
+    <RadioGroup
+        android:id="@+id/wallpaperradioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="7dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="7dip"
+        android:background="@drawable/radiogroup_bg2"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioStatic"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/hw_radiobutton_left"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/wallpaper_static"
+            android:textColor="@drawable/hw_button_font_radio_style" />
+
+        <RadioButton
+            android:id="@+id/radioLive"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/hw_radiobutton_right"
+            android:button="@android:color/transparent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/wallpaper_live"
+            android:textColor="@drawable/hw_button_font_radio_style" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#c6c6c6" />
+
+    <com.coco.theme.themebox.PullToRefreshView
+        android:id="@+id/wallpaper_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/gridStatic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdgeLength="0dip"
+            android:listSelector="@drawable/grid_selector"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" >
+        </GridView>
+
+        <GridView
+            android:id="@+id/gridLive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="@dimen/gridItemWidth"
+            android:fadingEdgeLength="0dip"
+            android:listSelector="@drawable/grid_selector"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:visibility="gone" >
+        </GridView>
+    </com.coco.theme.themebox.PullToRefreshView>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfig>
+
+    <!-- 点击天气组件后默认进入的天气客户端apk的包名,2345天气客户端(com.tianqiwhite),我们的天气客户端包名是com.cooee.widget.samweatherclock -->
+
+    <item
+        name="defaultPackage"
+        value="com.tianqiwhite"/>
+    
+    <!-- 点击时钟部分后进入的应用的包类名,格式为包名;类名,只允许填写一条。如有填写，则优先打开填写的包类名对应的应用，默认为空,为空时打开代码中默认的应用 -->
+	
+    <item 
+        name="defaultClockComp"
+        value=""/>
+
+</AppConfig>

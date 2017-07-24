@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="cool_ml_dl_failed">ডাউনলোড ব্যর্থ হয়েছে</string>
+    <string name="cool_ml_install_jixu">ইনস্টলেশন চালিয়ে যান</string>
+    <string name="cool_ml_donwloadorinstall_manager">ডাউনলোড / ইনস্টলেশন ম্যানেজমেন্ট</string>
+    <string name="cool_ml_dl_installed_text">শুরু করার জন্য ক্লিক করুন</string>
+    <string name="cool_ml_dl_stop">ডাউনলোড বিরাম</string>
+    <string name="cool_ml_dl_ing">কর্ম ডাউনলোড হচ্ছে</string>
+    <string name="cool_ml_install_manager">ইনস্টলেশন ম্যানেজার</string>
+    <string name="cool_ml_dl_sucess">সফলভাবে ডাউনলোড হয়েছে</string>
+    <string name="cool_ml_loading_1">পেজ লোড হচ্ছে ...</string>
+    <string name="cool_ml_install_quxiao">ইনস্টলেশন প্রক্রিয়া বাতিল</string>
+    <string name="cool_ml_network_not_available">অনুপলব্ধ নেটওয়ার্ক</string>
+    <string name="cool_ml_dl_stop_text">ডাউনলোড করার জন্য ক্লিক করুন</string>
+    <string name="cool_ml_download_quxiao">ডাউনলোড বাতিল</string>
+    <string name="cool_ml_dl_failed_text">পুনরায় ডাউনলোড এর জন্য ক্লিক করুন </string>
+    <string name="cool_ml_download_failed">ডাউনলোড ব্যর্থ হয়েছে</string>
+    <string name="cool_ml_donwload_manager">ডাউনলোড ম্যানেজার</string>
+    <string name="cool_ml_dl_ing_text">দেখার জন্য ক্লিক করুন</string>
+    <string name="cool_ml_download_jixu">লোড চালিয়ে যান</string>
+    <string name="cool_ml_dl_sucess_text">ইনস্টল করার জন্য ক্লিক করুন</string>
+    <string name="cool_ml_dl_installed">ইনস্টলেশন সম্পন্ন হয়েছে</string>
+    <string name="cool_ml_storage_not_available">স্টোরেজ স্থান অনুপলব্ধ</string>
+
+</resources>

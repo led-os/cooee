@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1776*1080 -->
+<resources>
+
+	<dimen name="widget_minwidth">293dp</dimen>
+	<dimen name="widget_minheight">145dp</dimen>
+	<!-- 时钟配置 -->
+	<dimen name="widget_click_Layout_width">144dp</dimen>
+	<dimen name="widget_click_Layout_height">42dp</dimen>
+	<!-- 天气配置 -->
+	<dimen name="widget_weather_layout_margin_left">200dp</dimen>
+	<dimen name="widget_weather_layout_margin_top">2dp</dimen>
+	<dimen name="widget_weather_img_size">25dp</dimen>
+	<dimen name="widget_weather_f_margin_left">7dp</dimen>
+	<dimen name="widget_weather_temperature_gap">3dp</dimen>
+	<dimen name="widget_weather_city_text_size">11dp</dimen>
+	<dimen name="widget_weather_line_margin_top">6dp</dimen>
+	<!-- 音乐配置 -->
+	<dimen name="widget_music_layout_height">82dp</dimen>
+	<dimen name="widget_music_layout_margin_top">7dp</dimen>
+	<dimen name="widget_music_round_size">70dp</dimen>
+	<dimen name="widget_music_round_margin_left">209dp</dimen>
+	<dimen name="widget_music_name_text_size">12dp</dimen>
+	<dimen name="widget_music_name_margin_top">3dp</dimen>
+	<dimen name="widget_music_name_padding_left">1dp</dimen>
+	<dimen name="widget_music_player_text_size">11dp</dimen>
+	<dimen name="widget_music_player_margin_top">3dp</dimen>
+	<dimen name="widget_music_player_padding_left">2dp</dimen>
+	<dimen name="widget_music_btn_next_widget">30dp</dimen>
+	<dimen name="widget_music_btn_next_height">38dp</dimen>
+	<dimen name="widget_music_btn_gap">27dp</dimen>
+
+</resources>

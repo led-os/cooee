@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/cool_ml_InstallListTextView1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/cool_ml_bg_item_top_normal"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/cool_ml_install_jixu"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/cool_ml_InstallListTextView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/cool_ml_bg_item_bottom_normal"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/cool_ml_install_quxiao"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+</LinearLayout>

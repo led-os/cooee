@@ -1,0 +1,171 @@
+# view res/layout/cool_ml_apk_manager.xml #generated:50
+# view res/layout/effect_main.xml #generated:49
+# view res/layout/hw_wallpaper_main.xml #generated:46
+# view res/layout/lock_main.xml #generated:76
+# view res/layout/preview_wallpaper.xml #generated:15
+# view res/layout/privew_live_wallpaper.xml #generated:14
+# view res/layout/theme_main.xml #generated:77
+# view res/layout/wallpaper_preview_window.xml #generated:8
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.coco.font.fontbox.FontPreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.coco.font.fontbox.FontPreviewLocalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.coco.lock2.lockbox.InstallDownloadAPKReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:279
+-keep class com.coco.lock2.lockbox.LockHomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:295
+-keep class com.coco.lock2.lockbox.LockHomeSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:262
+-keep class com.coco.lock2.lockbox.LockReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:274
+-keep class com.coco.lock2.lockbox.LockService { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.coco.lock2.lockbox.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:255
+-keep class com.coco.lock2.lockbox.preview.PreviewHotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.coco.pub.provider.PubContentProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:243
+-keep class com.coco.scene.scenebox.preview.ScenePreviewHotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:328
+-keep class com.coco.shortcut.shortcutbox.NetworkListenerReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:307
+-keep class com.coco.shortcut.shortcutbox.OperateCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:321
+-keep class com.coco.shortcut.shortcutbox.OperateContentPreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:302
+-keep class com.coco.theme.themebox.DownloadApkContentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.coco.theme.themebox.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:337
+-keep class com.coco.theme.themebox.MainTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.coco.theme.themebox.OnlineListenerReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.coco.theme.themebox.PersonalCenterApplication { <init>(...); }
+
+# view res/layout/preview_hot_picture.xml #generated:64
+-keep class com.coco.theme.themebox.PreViewGallery { <init>(...); }
+
+# view res/layout/hw_wallpaper_grid_hot.xml #generated:62
+# view res/layout/lock_grid_hot.xml #generated:2
+# view res/layout/wallpaper_grid_hot.xml #generated:50
+-keep class com.coco.theme.themebox.PullToRefreshView { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.coco.theme.themebox.UIStaticsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class com.coco.theme.themebox.apprecommend.DownloadRecomdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.coco.theme.themebox.apprecommend.LoadRecomandActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.coco.theme.themebox.preview.ThemePreviewFullActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.coco.theme.themebox.preview.ThemePreviewHotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.coco.theme.themebox.update.UpdateService { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.coco.theme.themebox.util.DownloadEngineApkService { <init>(...); }
+
+# view AndroidManifest.xml #generated:343
+-keep class com.coco.wallpaper.wallpaperbox.GalleryClipActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:237
+-keep class com.coco.wallpaper.wallpaperbox.LiveWallpaperPreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:225
+-keep class com.coco.wallpaper.wallpaperbox.LockWallpaperPreview { <init>(...); }
+
+# view AndroidManifest.xml #generated:349
+-keep class com.coco.wallpaper.wallpaperbox.WallpaperPreViewWindowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.coco.wallpaper.wallpaperbox.WallpaperPreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:249
+-keep class com.coco.widget.widgetbox.WidgetPreviewHotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:457
+-keep class com.cooee.shell.download.DownloaderActivityHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:451
+-keep class com.cooee.shell.pay.PayActivityHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:432
+-keep class com.cooee.shell.pay.PayServiceHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:446
+-keep class com.cooee.shell.shell.SdkActivityHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:462
+-keep class com.cooee.shell.shell.SdkReceiverHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:425
+-keep class com.cooee.shell.shell.SdkServiceHullV5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:440
+-keep class com.cooee.statistics.StatisticsServiceNew { <init>(...); }
+
+# view AndroidManifest.xml #generated:358
+-keep class com.iLoong.launcher.MList.ApkMangerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:365
+-keep class com.iLoong.launcher.MList.MEServiceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:370
+-keep class com.iLoong.launcher.MList.Main_FirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:391
+-keep class com.iLoong.launcher.MList.Main_FourthActicity { <init>(...); }
+
+# view AndroidManifest.xml #generated:377
+-keep class com.iLoong.launcher.MList.Main_SecondActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:384
+-keep class com.iLoong.launcher.MList.Main_ThreeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:415
+-keep class com.iLoong.launcher.MList.MyReceiver { <init>(...); }
+
+# view res/layout/workspace_screen.xml #generated:19
+-keep class com.iLoong.launcher.Workspace.CellLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:502
+-keep class com.kpsh.sdk.KpshActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:483
+-keep class com.kpsh.sdk.KpshReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:475
+-keep class com.kpsh.sdk.KpshService { <init>(...); }
+
+# view AndroidManifest.xml #generated:399
+-keep class cool.sdk.update.manager.UpdateReceiver { <init>(...); }
+
