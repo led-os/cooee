@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Апликација није инсталирана."</string>
+    <string name="widgets_tab_label">"Виџети"</string>
+    <string name="toggle_weight_watcher">"Прикажи меморију"</string>
+    <string name="long_press_widget_to_add">"Додирните и задржите да бисте изабрали виџет."</string>
+    <string name="widget_dims_format">"%1$d×%2$d"</string>
+    <string name="group_applications">"Апликације"</string>
+    <string name="out_of_space">"Нема више простора на овом почетном екрану."</string>
+    <string name="hotseat_out_of_space">"Нема више простора на траци актуелности."</string>
+    <string name="shortcut_uninstalled">"Пречица „<xliff:g id="NAME">%s</xliff:g>“ је уклоњена."</string>
+    <string name="shortcut_duplicate">"Пречица „<xliff:g id="NAME">%s</xliff:g>“ већ постоји."</string>
+    <string name="title_select_application">"Избор апликације"</string>
+    <string name="hotseat_all_apps_button_string">"Апликације"</string>
+    <string name="delete_zone_label_workspace">"Уклони"</string>
+    <string name="delete_target_remove_label">"Уклони"</string>
+    <string name="delete_target_uninstall_label">"Деинсталирај"</string>
+    <string name="info_target_label">"Информације о апликацији"</string>
+    <string name="permlab_install_shortcut">"инсталирање пречица"</string>
+    <string name="permdesc_install_shortcut">"Дозвољава апликацији да додаје пречице без интервенције корисника."</string>
+    <string name="permlab_uninstall_shortcut">"деинсталирање пречица"</string>
+    <string name="permdesc_uninstall_shortcut">"Дозвољава апликацији да уклања пречице без интервенције корисника."</string>
+    <string name="permlab_read_settings">"читање подешавања и пречица на почетном екрану"</string>
+    <string name="permdesc_read_settings">"Дозвољава апликацији да чита подешавања и пречице на почетном екрану."</string>
+    <string name="permlab_write_settings">"уписивање подешавања и пречица на почетном екрану"</string>
+    <string name="permdesc_write_settings">"Дозвољава апликацији да мења подешавања и пречице на почетном екрану."</string>
+    <string name="gadget_error_text">"Проблем при учитавању виџета"</string>
+    <string name="uninstall_system_app_text">"Ово је системска апликација и не може да се деинсталира."</string>
+    <string name="folder_hint_text">"Неименовани директоријум"</string>
+    <string name="first_run_cling_title">"Добро дошли!"</string>
+    <string name="first_run_cling_description">"Осећајте се као код куће."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Направите још екрана за апликације и директоријуме"</string>
+    <string name="workspace_cling_title">"Организујте простор"</string>
+    <string name="workspace_cling_move_item">"Додирните позадину и задржите да бисте управљали позадином, виџетима и подешавањима."</string>
+    <string name="folder_cling_title">"Ево једног директоријума"</string>
+    <string name="folder_cling_create_folder">"Да бисте направили директоријум попут овога, додирните и задржите апликацију, па је превуците преко друге."</string>
+    <string name="cling_dismiss">"Потврди"</string>
+    <string name="overview_panel_button_widgets_string">"Виџети"</string>
+    <string name="overview_panel_button_system_settings_string">"Подешавања"</string>
+    <string name="all_apps_search_bar_hint">"Претражите апликације"</string>
+    <string name="all_apps_loading_message">"Апликације се учитавају..."</string>
+    <string name="all_apps_no_search_results">"Није пронађена ниједна апликација за „<xliff:g id="QUERY">%1$s</xliff:g>“"</string>
+    <string name="all_apps_search_market_message">"Иди на апликацију <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

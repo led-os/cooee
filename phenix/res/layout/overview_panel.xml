@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑模式下底边栏 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- //编辑模式是否显示提示信息（提示信息内容为“拖动页面可改变页面位置”）。true为显示；false为不显示。默认false。【c_0004055】	//cheyingkun add start -->
+    <!-- 上方提示信息 -->
+
+    <TextView
+        android:id="@+id/overview_panel_text_hint_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/overview_panel_text_hint_padding"
+        android:singleLine="true"
+        android:text="@string/overview_panel_text_hint_string"
+        android:textColor="@color/overview_panel_button_text_color"
+        android:textSize="12sp"
+        android:visibility="gone" />
+    <!-- //编辑模式是否显示提示信息（提示信息内容为“拖动页面可改变页面位置”）。true为显示；false为不显示。默认false。【c_0004055】	//cheyingkun add end -->
+
+
+    <!-- 下面四个选项 美化中心 小部件 设置 桌面设置 -->
+
+    <LinearLayout
+        android:id="@+id/overview_panel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/overview_panel_bottom_padding"
+        android:layout_marginLeft="@dimen/edit_mode_overview_panel_button_margin_horizon"
+        android:layout_marginRight="@dimen/edit_mode_overview_panel_button_margin_horizon"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <!-- 编辑模式点击进入美化中心，添加tag参数用来指定进入美化中心哪个tab页 ：tagTheme为主题tab页，tagWallpaper为壁纸页，tagLock为锁屏页 ,默认为主题页 -->
+        <com.cooee.phenix.LocalDrawableTextView
+            android:id="@id/overview_panel_button_beauty_center_id"
+            style="@style/OverviewPanelButtonStyle"
+            android:drawableTop="@drawable/overview_panel_button_theme_selector"
+            android:onClick="enterBeautyCenterTabTheme"
+            android:text="@string/overview_panel_button_beauty_center_string" />
+
+        <com.cooee.phenix.LocalDrawableTextView
+            style="@style/OverviewPanelButtonStyle"
+            android:drawableTop="@drawable/overview_panel_button_wallpaper_selector"
+            android:onClick="enterBeautyCenterTabWallpaper"
+            android:text="@string/overview_panel_button_wallpaper_string" />
+
+        <com.cooee.phenix.LocalDrawableTextView
+            android:id="@id/overview_panel_button_widgets_id"
+            style="@style/OverviewPanelButtonStyle"
+            android:drawableTop="@drawable/overview_panel_button_widgets_selector"
+            android:onClick="enterWidgets"
+            android:text="@string/overview_panel_button_widgets_string" />
+
+        <com.cooee.phenix.LocalDrawableTextView
+            style="@style/OverviewPanelButtonStyle"
+            android:drawableTop="@drawable/overview_panel_button_launcher_settings_selector"
+            android:onClick="enterLauncherSettings"
+            android:tag="-1;0"
+            android:text="@string/overview_panel_button_launcher_settings_string" />
+    </LinearLayout>
+
+</RelativeLayout>

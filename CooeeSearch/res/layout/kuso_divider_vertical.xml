@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kuso_divider"
+    android:layout_width="@dimen/kuso_divider_width"
+    android:layout_height="fill_parent"
+    android:background="@color/kuso_divider_color" />

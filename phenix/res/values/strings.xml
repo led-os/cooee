@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <skip />
+    <!-- Default folder name -->
+    <string name="folder_name">Folder</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none] -->
+    <string name="activity_not_found">App isn\'t installed.</string>
+    <!-- Labels for the tabs in the customize drawer -->
+    <string name="widgets_tab_label">Widgets</string>
+    <string name="toggle_weight_watcher">Show Mem</string>
+
+    <!-- AppsCustomize pane -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">Touch &amp; hold to pick up a widget.</string>
+    <!-- The format string for the dimensions of a widget in the drawer -->
+    <!-- There is a special version of this format string for Farsi -->
+    <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
+
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">Apps</string>
+    <!-- Error message when user has filled a home screen -->
+    <string name="out_of_space">No more room on this Home screen.</string>
+    <!-- Error message when user has filled the hotseat -->
+    <string name="hotseat_out_of_space">No more room on the hotseat.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">Choose app</string>
+
+    <!-- All applications label -->
+    <string name="hotseat_all_apps_button_string">Apps</string>
+
+    <!-- Label for trash icon on workspace. Meant to communicate the idea of removing the -->
+    <!-- icon/widget from the home screen, but not permanently. [CHAR_LIMIT=30] -->
+    <string name="delete_zone_label_workspace">Remove</string>
+
+    <!-- Label for delete drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_remove_label">Remove</string>
+    <!-- Label for uninstall drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_uninstall_label">Uninstall</string>
+    <!-- Label for the info icon. [CHAR_LIMIT=30] -->
+    <string name="info_target_label">App info</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">Install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an app to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">Uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows the app to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">Read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows the app to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">Write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows the app to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!-- Text to inform the user that they can't uninstall a system application -->
+    <string name="uninstall_system_app_text">This is a system app and can\'t be uninstalled.</string>
+
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+
+    <!-- Clings -->
+    <!-- The title text for the workspace cling [CHAR_LIMIT=60] -->
+    <string name="first_run_cling_title">Welcome!</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <string name="first_run_cling_description">Make yourself at home.</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <string name="first_run_cling_search_bar_hint"></string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <string name="first_run_cling_create_screens_hint">Create more screens for apps and folders</string>
+    <!-- The title text for the workspace cling [CHAR_LIMIT=60] -->
+    <string name="workspace_cling_title">Organize your space</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=160] -->
+    <string name="workspace_cling_move_item">Touch &amp; hold background to manage wallpaper, widgets and settings.</string>
+    <!-- The title text for the Folder cling [CHAR_LIMIT=60] -->
+    <string name="folder_cling_title">Here\'s a folder</string>
+    <!-- The description of how to create a folder [CHAR_LIMIT=160] -->
+    <string name="folder_cling_create_folder">To create one like this, touch &amp; hold an app, then move it over another.</string>
+    <!-- The text on the button to dismiss a cling [CHAR_LIMIT=30] -->
+    <string name="cling_dismiss">OK</string>
+
+    <!-- Debug-only activity name. [DO NOT TRANSLATE] -->
+    <string name="debug_memory_activity">* HPROF</string>
+
+    <!-- Strings for the customization mode -->
+    <!-- Text for widget add button -->
+    <string name="overview_panel_button_widgets_string">Widgets</string>
+    <!-- Text for settings button -->
+    <string name="overview_panel_button_system_settings_string">Settings</string>
+    <!-- com.cooee.download , start -->
+    <string name="msg_insert_SD">Please insert the SD card,then try again!</string>
+    <string name="notify_downloading">Downloading </string>
+    <string name="notify_download_finish"> Download finish!</string>
+    <string name="notify_download_fail"> Download fail!</string>
+    <string name="internet_err">The network connection is not available, please check your network settings</string>
+    <string name="downloading_toast">" Is downloang"</string>
+    <string name="to_download_content">Not yet installed on your phone, click OK to download and install!</string>
+    <string name="to_download_ok">OK</string>
+    <string name="to_download_cancel">Cancel</string>
+    <!-- com.cooee.download , end -->
+    <string name="app_name">Phenix</string>
+    <!-- desktop setting start -->
+    <string name="overview_panel_button_launcher_settings_string">Preference</string>
+    <string name="select_launcher_style">Launcher style</string>
+    <string name="intelligent_classification">Intelligent classification</string>
+    <string name="desktop_slide">Desktop slide</string>
+    <string name="confirm_change_launcher_style">Confirm change launcher style?</string>
+    <string name="change_style_will_restar">Changed will restar launcher</string>
+    <!-- WangLei add start	//桌面和主菜单特效的分离 -->
+    <string name="workspace_effect">Workspace effect</string>
+    <string name="applist_effect">Applist effect</string>
+    <!-- WangLei add end -->
+    <!-- desktop setting end -->
+    <!-- Dialog start -->
+    <string name="title">Title</string>
+    <string name="positive">OK</string>
+    <string name="negative">Cancel</string>
+    <!-- Dialog end -->
+    <string name="overview_panel_button_beauty_center_string">Beauty center</string>
+    <string name="unknow_error">Unknow error</string>
+    <!-- cheyingkun add start //解决“在其他桌面安装应用，phenix几率性异常停止运行”的问题。【i_0010424】 -->
+    <!-- 智能分类提示信息 start -->
+    <string name="category_no_network">No network</string>
+    <string name="category_is_running">Classifying</string>
+    <string name="category_fail">Classification is failed</string>
+    <string name="category_download_fail">Download failed,pleaes cheak your TCard</string>
+    <string name="category_running">Classifying</string>
+    <!-- WangLei add start  //桌面成功进行智能分类后选择恢复布局，桌面提示语仍然是"智能分类中..." 【i_0010742】 -->
+    <string name="category_stop_running">Recovering last layout</string>
+    <!-- WangLei add end -->
+    <!-- 智能分类提示信息 end -->
+    <!-- cheyingkun add end -->
+    <!-- zhujieping add begin -->
+    <string name="hava_not_category">Have not category</string>
+    <string name="last_category_time">"Last category time：<xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <!-- zhujieping add end -->
+    <string name="category_more_apps">MoreApps</string>
+    <!-- cheyingkun add	//智能分类文件夹更多应用适配中英繁 -->
+
+
+    <!-- //xiatian add start	//fix bug：解决“第一次进入双层模式时，桌面没有加载默认配置（默认桌面配置和默认底边栏配置）”的问题。 -->
+    <string name="is_first_in_drawer_launcher_style">Is_first_in_drawer_launcher_style</string>
+    <!-- //xiatian add end -->
+
+
+    <!-- luomingjun add start //桌面时钟插件日期 -->
+    <string name="widget_time_title"> Timer</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <!-- luomingjun add end -->
+
+
+    <!-- cheyingkun add start	//加载主菜单提示信息【c_0003106】 -->
+    <string name="allApp_load_hint">Loading…</string>
+    <!-- cheyingkun add end -->
+
+
+    <!-- cheyingkun add start	//免责声明布局 -->
+    <string name="disclaimer_dialog_info">\u3000\u3000Welcome to Phenix launcher,  Which is provided completely for free. In order to better serve users， Phenix may gather information from  your music player，message, contact list and call records. 
+    \n\u3000\u3000In addition, some functions require to network, which will incur fees. For details, please consult local operators. Do you agree the operation?
+</string>
+    <string name="no_remind_next_time">Agree and no longer prompt!</string>
+    <string name="use_continue">Use Continue</string>
+    <string name="warn">Warn</string>
+    <string name="dialog_button_negative">Cancle</string>
+    <string name="dialog_button_positive">Confirm</string>
+    <!-- cheyingkun add end -->
+    <string name="ok">OK</string>
+    <string name="widget_download_content">Not yet installed on your phone, click OK to download and install!</string>
+
+    <!-- cheyingkun add start	桌面启动页样式（详见“BaseDefaultConfig”中说明） -->
+    <string name="loading_text">Complex in simple</string>
+    <string name="loading_launcher_name">Phenix</string>
+    <string name="loading_launcher_progress_text">launcher loading&#8230;</string>
+    <!-- cheyingkun add end -->
+    <string name="default_folder">Phenix Tools</string>
+
+    <!-- category folder name start -->
+    <string name="category_folder800">Daily life</string>
+    <string name="category_folder801">News</string>
+    <string name="category_folder802">Communicate</string>
+    <string name="category_folder803">Audio and video</string>
+    <string name="category_folder804">Read</string>
+    <string name="category_folder805">Tools</string>
+    <string name="category_folder806">Beautify</string>
+    <string name="category_folder807">Finance</string>
+    <string name="category_folder808">Game</string>
+    <string name="category_folder_system">System</string>
+    <string name="category_folder_moreapp">More App</string>
+    <!-- category folder name end -->
+
+
+    <!-- //xiatian add start	//德盛伟业需求：添加uni3上的壁纸选择界面，并在系统的壁纸设置界面中显示。 -->
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <string name="pick_wallpaper">Pick Wallpaper</string>
+    <!-- //xiatian add end -->
+
+    <string name="app_icon_size">app icon size</string>
+
+    <!-- //编辑模式是否显示提示信息（提示信息内容为“拖动页面可改变页面位置”）。true为显示；false为不显示。默认false。【c_0004055】	//cheyingkun add start -->
+    <string name="overview_panel_text_hint_string">Drag the page to change the page location</string>
+    <!-- //编辑模式是否显示提示信息（提示信息内容为“拖动页面可改变页面位置”）。true为显示；false为不显示。默认false。【c_0004055】	//cheyingkun add end -->
+    <string name="launcher_update_activity_name">Launcher Update</string>
+    <!-- //文件夹推荐应用	//cheyingkun add start -->
+    <string name="native_adver_title">Recommended application</string>
+    <string name="native_adver_place_id">20160106100141441</string>
+    <!-- //文件夹推荐应用	//cheyingkun add end -->
+    <!-- All Apps -->
+    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_bar_hint">Search Apps</string>
+    <!-- Loading apps text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_loading_message">Loading Apps&#8230;</string>
+    <!-- No-search-results text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_no_search_results">No Apps found matching \"<xliff:g id="query" example="Android">%1$s</xliff:g>\"</string>
+    <!-- Search market text.  This is a format string where the first argument is the name of the activity -->
+    <!-- handling the search.  The format string does not need to handle both of these arguments. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_market_message">Go to <xliff:g id="query" example="Play Store">%1$s</xliff:g></string>
+
+    <!-- //xiatian add start	//设置默认桌面引导 -->
+    <string name="launcher_setting_default_launcher_item_title">Set As Default Desktop</string>
+    <string name="default_launcher_guide_dialog_title">HOME Key Setting</string>
+    <string name="default_launcher_guide_dialog_content">\u3000\u3000For you to have a better experience, set it to press Home to start the phenix desktop.\n\n\u3000\u3000PS：You can change  in your settings.</string>
+    <string name="default_launcher_guide_dialog_ok">Set</string>
+    <string name="default_launcher_guide_dialog_cancel">Cancel</string>
+    <string name="default_launcher_tips_dialog_step1">step 1 first, chiose</string>
+    <string name="default_launcher_tips_dialog_step2">step 2  second ,click always</string>
+    <!-- //xiatian add end -->
+    <!-- //zhujieping add start //主菜单仿S5的menu功能 -->
+    <string name="app_menu_sort_app_name">Sort by app name</string>
+    <string name="app_menu_sort_app_install_time">Sort by install time</string>
+    <string name="app_menu_sort_app_use_frequency">Sort by frequency of use</string>
+    <string name="app_menu_sort_dialog_title">Sort Icons</string>
+    <string name="app_menu_sort_app_init">Sort by factory data</string>
+    <string name="app_menu_appbar_tab_view_as">View as</string>
+    <string name="app_menu_appbar_tab_edit">Edit</string>
+    <string name="app_menu_appbar_tab_hide">Hide apps</string>
+    <string name="app_menu_appbar_tab_search">Search</string>
+    <string name="app_menu_appbar_tab_a_z">A-Z</string>
+    <!-- //xiatian add end -->
+
+
+    <!-- //gaominghui add start -->
+    <string name="uiupdate_privacy_statement_link_url"><a href="http://uifolder.coolauncher.com.cn/policy/PrivacyPolicy.html">Privacy statement</a> and <a href="http://uifolder.coolauncher.com.cn/policy/TermsOfService.html">terms of service</a></string>
+    <!-- //gaominghui add end -->
+
+
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add start -->
+    <string name="workspace_menu_vertical_list_item_title_widget">Widget</string>
+    <string name="workspace_menu_vertical_list_item_title_wallpaper">Wallpaper</string>
+    <string name="workspace_menu_vertical_list_item_title_theme">Theme</string>
+    <string name="workspace_menu_vertical_list_item_title_edit_mode">Edit Mode</string>
+    <string name="workspace_menu_vertical_list_item_title_launcher_settings">Launcher Settings</string>
+    <string name="workspace_menu_vertical_list_item_title_system_settings">System Settings</string>
+    <string name="pick_widget_activity_title">pick widget</string>
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add end -->
+
+
+    <!-- //需求：拓展配置项“config_edit_mode_button_enter_wallpaper_style”，添加可配置项4。4为打开“系统的选择壁纸应用的界面”。	//xiatian add start -->
+    <string name="pick_wallpaper_activity_title">pick wallpaper</string>
+    <!-- //需求：拓展配置项“config_edit_mode_button_enter_wallpaper_style”，添加可配置项4。4为打开“系统的选择壁纸应用的界面”。	//xiatian add end -->
+
+
+    <!-- //优化桌面设置中切页特效的配置方式：1.去掉无用的配置项“workspace_effect_entries”和“applist_effect_entries” 2.去掉了配置项中“workspace_effect_configs_values”和“applist_effect_configs_values”的索引值 	//chenliang add start -->
+    <string name="effect_jerk">Jerk</string>
+    <string name="effect_classic">Classic</string>
+    <string name="effect_laminated">Laminated</string>
+    <string name="effect_inner_cube">Inner cube</string>
+    <string name="effect_cube">Cube</string>
+    <string name="effect_sector">Sector</string>
+    <string name="effect_rollover">Rollover</string>
+    <string name="effect_windmill">Windmill</string>
+    <string name="effect_wheel">Wheel</string>
+    <string name="effect_fold_unfold">Fold/unfold</string>
+    <string name="effect_snake">Snake</string>
+    <string name="effect_chord">Chord</string>
+    <string name="effect_random">Random</string>
+    <!-- //优化桌面设置中切页特效的配置方式：1.去掉无用的配置项“workspace_effect_entries”和“applist_effect_entries” 2.去掉了配置项中“workspace_effect_configs_values”和“applist_effect_configs_values”的索引值 	//chenliang add end -->
+    <string name="edit_theme_default_theme">Default theme</string>
+    <string name="edit_more">More</string>
+    <string name="overview_panel_button_theme_string">Theme</string>
+    <string name="overview_panel_button_wallpaper_string">Wallpaper</string>
+    <!-- //zhujieping add start	//换主题不重启 -->
+    <string name="message_theme_changing">The theme is being applied, please wait...</string>
+    <!-- //zhujieping add end -->
+    <!-- //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add start -->
+    <string name="applist_mode_done">Done</string>
+    <!-- //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add end -->
+    <!-- //添加配置项“switch_enable_customer_lm_set_lockwallpaper”，增加锁屏壁纸的功能（进入uni3桌面壁纸，点击设置，弹出“设置桌面”、“设置锁屏”和“同时设置”选项）。true为显示，false不显示。默认为false。备注：该功能需要系统底层支持。//chenliang add start -->
+    <string name="wallpaper_lm_locker_setting_list_item_set_desktop">Set desktop</string>
+    <string name="wallpaper_lm_locker_setting_list_item_set_lockscreen">Set lock screen</string>
+    <string name="wallpaper_lm_locker_setting_list_item_set_both">Set both</string>
+    <string name="wallpaper_lm_locker_setting_list_item_cancle">cancle</string>
+    <!-- //添加配置项“switch_enable_customer_lm_set_lockwallpaper”，增加锁屏壁纸的功能（进入uni3桌面壁纸，点击设置，弹出“设置桌面”、“设置锁屏”和“同时设置”选项）。true为显示，false不显示。默认为false。备注：该功能需要系统底层支持。//cheliang add end -->
+
+
+    <!-- //添加配置项“switch_enable_show_workspace_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“桌面滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string name="launcher_settings_workspace_scroll_type_title">Workspace Scroll Type</string>
+    <!-- //添加配置项“switch_enable_show_workspace_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“桌面滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+
+    <!-- //添加配置项“switch_enable_show_applist_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“主菜单滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string name="launcher_settings_applist_scroll_type_title">Applist Scroll Type</string>
+    <!-- //添加配置项“switch_enable_show_applist_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“主菜单滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+
+    <!-- //添加配置项“switch_enable_show_widget_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“小组件滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string name="launcher_settings_widget_scroll_type_title">Widget Scroll Type</string>
+    <!-- //添加配置项“switch_enable_show_widget_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“小组件滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+
+    <!-- //添加配置项“finish_activity_when_set_uni3_wallpaper_successfully”，当com.iLoong.launcher.desktop.WallpaperChooser配置enable为true时，true为关闭activity，false为不关闭activity，弹出设置成功的toast。	//zhujieping add start -->
+    <string name="set_wallpaper_success">Set wallpaper successfully</string>
+    <!-- //添加配置项“finish_activity_when_set_uni3_wallpaper_successfully”，当com.iLoong.launcher.desktop.WallpaperChooser配置enable为true时，true为关闭activity，false为不关闭activity，弹出设置成功的toast。	//zhujieping add end -->
+
+
+    <!-- //需求：添加“一键换主题”功能（1、虚图标；2、点击后，从已经安装的其他主题中，随机换一个）。	//xiatian add start -->
+    <string name="default_config_one_key_apply_theme_title">One Key Apply Theme</string>
+    <string name="one_key_apply_theme_error_tip">There is no theme,can not apply theme</string>
+    <!-- //需求：添加“一键换主题”功能（1、虚图标；2、点击后，从已经安装的其他主题中，随机换一个）。	//xiatian add end -->
+    
+    <!-- //添加配置项“config_empty_screen_id_in_drawer”，双层模式下，配置空白页id，如果该配置不为空，拖动图标等操作行成的空白页不删除，进入编辑模式，可添加、删除页面（仿s5）//zhujieping add start -->
+    <string name="can_not_delete_page">The minimum number of screens has reached</string>
+    <string name="delete_page_confirm_message">Page is not empty, sure to delete it?</string>
+    <string name="delete_page">Delete page</string>
+    <!-- //添加配置项“config_empty_screen_id_in_drawer”，双层模式下，配置空白页id，如果该配置不为空，拖动图标等操作行成的空白页不删除，进入编辑模式，可添加、删除页面（仿s5）//zhujieping add end -->
+    <!-- //添加配置项“config_empty_screen_id_in_core”，单层模式下，配置空白页id，如果该配置不为空，拖动图标等操作行成的空白页不删除，进入编辑模式，可添加、删除页面（仿s5）。//zhujieping add start -->
+    <string name="can_not_delete_not_empty_page">Page which is not empty can not be deleted.</string>
+    <!-- //添加配置项“config_empty_screen_id_in_core”，单层模式下，配置空白页id，如果该配置不为空，拖动图标等操作行成的空白页不删除，进入编辑模式，可添加、删除页面（仿s5）。//zhujieping add start -->
+	
+</resources>

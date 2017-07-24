@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 桌面设置 界面布局   切页特效设置界面选项 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/launcher_settings_item_bg_selector"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/LauncherSettingsNoSummaryListSelectItemIconStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/child_item"
+        style="@style/LauncherSettingsNoSummaryListSelectItemContentStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/item_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/launcher_setting_item_title_color"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/check_box"
+            style="@style/LauncherSettingsNoSummaryListSelectItemCheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:button="@drawable/launcher_settings_checkbox_button_selector"
+            android:checked="false"
+            android:clickable="false" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separator"
+        style="@style/LauncherSettingsNoSummaryListSelectItemSeparatorStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/launcher_setting_item_disable_text_color" />
+
+</RelativeLayout>

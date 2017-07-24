@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- CameraPage -->
+
+
+    <!-- 图片存储路径 -->
+    <!-- 图片路径由代码中自动获取 -->
+    <!-- <string name="photo_sava_path">/storage/sdcard0/DCIM/Photo space/</string> -->
+    <!-- 图片存储高度 -->
+    <interger name="camera_page_photo_sava_height" type="px" value="240" />
+    <!-- 图片存储宽度 -->
+    <interger name="camera_page_photo_sava_width" type="px" value="320" />
+
+    <!-- UI相关 , start -->
+    <!-- 预览区域与上边距的距离 -->
+    <interger name="camera_page_camera_view_magin_top" type="px" value="0" />
+    <!-- 日期字体大小 -->
+    <interger name="camera_page_date_font_size" type="dp" value="10" />
+    <!-- 日期字体颜色 -->
+    <string name="camera_page_date_font_color">0xffffff</string>
+    <!-- item字体大小 -->
+    <interger name="camera_page_item_font_size" type="dp" value="4" />
+    <!-- item字体颜色 -->
+    <string name="camera_page_item_font_color">0xffffff</string>
+    <!-- ListView高度 , 0 是默认 -->
+    <interger name="camera_page_list_view_height" type="px" value="0" />
+    <!-- 进入相册字体大小 -->
+    <interger name="camera_page_item_text_font_size" type="px" value="12" />
+    <!-- 进入相册字体颜色 -->
+    <string name="camera_page_item_text_font_color">0xffffff</string>
+    <!-- 相册包名类名 -->
+    <string name="camera_page_item_text_pac">com.android.gallery3d;com.android.gallery3d.app.GalleryActivity</string>
+
+    <!-- //添加配置项“camera_page_default_perview_item_num”，相机页默认预览图的个数。可配置为1或2。	//xiatain add start -->
+    <!-- //相机页，默认预览图（没有拍一张照时显示）的个数 -->
+    <interger name="camera_page_default_perview_item_num" type="px" value="2" />
+    <!-- //添加配置项“camera_page_default_perview_item_num”，相机页默认预览图的个数。可配置为1或2。	//xiatain add end -->
+    <!-- UI相关 , end -->
+
+
+    <!-- 底边栏配置 , start -->
+    <string-array name="camera_page_bottom_bar_pac" translatable="false">
+        <item>com.android.gallery3d;com.android.gallery3d.app.GalleryActivity</item>
+        <item>com.android.music;com.android.music.MusicBrowserActivity</item>
+        <item>com.android.email;com.android.email.activity.Welcome</item>
+        <item>com.android.contacts;com.android.contacts.activities.PeopleActivity</item>
+    </string-array>
+    <!-- 底边栏配置 , end -->
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- //gaominghui add start	//桌面时钟   320*480 -->
+    <dimen name="widget_widget_time_number_width">288dp</dimen>
+    <dimen name="widget_widget_time_number_height">72dp</dimen>
+    <dimen name="widget_time_left_width">5px</dimen>
+    <dimen name="widget_time_number_width">36.5px</dimen>
+    <dimen name="widget_time_number_height">65.5px</dimen>
+    <dimen name="widget_time_dian_width">18.5px</dimen>
+    <dimen name="widget_time_month_left_width">22px</dimen>
+    
+    <!-- //gaominghui add end -->
+    <!-- 自更新对话框 add start gaominghui  -->
+	<dimen name="uiupdate_dialog_logo_layout_width">134dp</dimen>
+	<dimen name="uiupdate_dialog_logo_image_width_height">107dp</dimen>
+	<!-- 自更新对话框 add end gaominghui  -->
+
+</resources>

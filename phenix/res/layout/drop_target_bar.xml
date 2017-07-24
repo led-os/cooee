@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 长按桌面图标 出现的 删除图标 和 图标信息选项 -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/DropTargetButtonContainer"
+        android:layout_weight="1" >
+
+        <!-- Delete target -->
+
+        <com.cooee.phenix.DeleteDropTarget
+            android:id="@+id/delete_target_text"
+            style="@style/DropTargetDelButtonStyle"
+            android:text="@string/delete_zone_label_workspace" />
+    </FrameLayout>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/DropTargetButtonContainer"
+        android:layout_weight="1" >
+
+        <!-- Info target -->
+
+        <com.cooee.phenix.InfoDropTarget
+            android:id="@+id/info_target_text"
+            style="@style/DropTargetInfoButtonStyle"
+            android:text="@string/info_target_label" />
+    </FrameLayout>
+
+</merge>

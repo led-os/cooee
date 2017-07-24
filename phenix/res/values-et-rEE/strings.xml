@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Rakendus pole installitud."</string>
+    <string name="widgets_tab_label">"Vidinad"</string>
+    <string name="toggle_weight_watcher">"Mälu kuvamine"</string>
+    <string name="long_press_widget_to_add">"Vidina valimiseks vajutage ja hoidke seda all."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Rakendused"</string>
+    <string name="out_of_space">"Sellel avaekraanil pole enam ruumi."</string>
+    <string name="hotseat_out_of_space">"Kohandataval dokialal pole rohkem ruumi."</string>
+    <string name="shortcut_uninstalled">"Otsetee „<xliff:g id="NAME">%s</xliff:g>” on eemaldatud."</string>
+    <string name="shortcut_duplicate">"Otsetee „<xliff:g id="NAME">%s</xliff:g>” on juba olemas."</string>
+    <string name="title_select_application">"Rakenduse valimine"</string>
+    <string name="hotseat_all_apps_button_string">"Rakendused"</string>
+    <string name="delete_zone_label_workspace">"Eemalda"</string>
+    <string name="delete_target_remove_label">"Eemalda"</string>
+    <string name="delete_target_uninstall_label">"Desinstalli"</string>
+    <string name="info_target_label">"Rakenduse teave"</string>
+    <string name="permlab_install_shortcut">"Installi otseteed"</string>
+    <string name="permdesc_install_shortcut">"Võimaldab rakendusel lisada otseteid kasutaja sekkumiseta."</string>
+    <string name="permlab_uninstall_shortcut">"Desinstalli otseteed"</string>
+    <string name="permdesc_uninstall_shortcut">"Võimaldab rakendusel eemaldada otseteid kasutaja sekkumiseta."</string>
+    <string name="permlab_read_settings">"Loe avaekraani seadeid ja otseteid"</string>
+    <string name="permdesc_read_settings">"Võimaldab rakendusel lugeda avaekraanil seadeid ja otseteid."</string>
+    <string name="permlab_write_settings">"Kirjuta avaekraani seaded ja otseteed"</string>
+    <string name="permdesc_write_settings">"Võimaldab rakendusel muuta avaekraanil seadeid ja otseteid."</string>
+    <string name="gadget_error_text">"Probleem vidina laadimisel"</string>
+    <string name="uninstall_system_app_text">"See on süsteemirakendus ja seda ei saa desinstallida."</string>
+    <string name="folder_hint_text">"Nimetu kaust"</string>
+    <string name="first_run_cling_title">"Tere tulemast!"</string>
+    <string name="first_run_cling_description">"Tundke end nagu kodus."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Looge rakenduste ja kaustade jaoks rohkem ekraanikuvasid"</string>
+    <string name="workspace_cling_title">"Korraldage oma ruumi"</string>
+    <string name="workspace_cling_move_item">"Taustapildi, vidinate ja seadete haldamiseks puudutage tausta ning hoidke seda all."</string>
+    <string name="folder_cling_title">"Siin on kaust"</string>
+    <string name="folder_cling_create_folder">"Sarnase loomiseks vajutage ja hoidke rakendust all, seejärel viige see teise peale."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Vidinad"</string>
+    <string name="overview_panel_button_system_settings_string">"Seaded"</string>
+    <string name="all_apps_search_bar_hint">"Otsige rakendustest"</string>
+    <string name="all_apps_loading_message">"Rakenduste laadimine ..."</string>
+    <string name="all_apps_no_search_results">"Päringule „<xliff:g id="QUERY">%1$s</xliff:g>” ei vastanud ükski rakendus"</string>
+    <string name="all_apps_search_market_message">"Mine: <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- //cheyingkun add whole file	//文件夹推荐应用 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/native_adver_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="bottom"
+     >
+
+    <RelativeLayout
+        android:id="@+id/native_adver_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/native_adver_title_layout_height" >
+
+        <ImageView
+            android:id="@+id/native_adver_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/native_adver_logo" />
+
+        <ImageView
+            android:id="@+id/native_adver_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/native_adver_refresh" />
+
+        <TextView
+            android:id="@+id/native_adver_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/native_adver_refresh"
+            android:layout_toRightOf="@+id/native_adver_logo"
+            android:paddingLeft="7dp"
+            android:text="@string/native_adver_title"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    
+
+    <RelativeLayout
+        android:id="@+id/native_adver_icon_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/native_adver_icon_layout_margin_top"
+        android:layout_marginBottom="@dimen/native_adver_icon_layout_margin_bottom"
+         >
+
+        <com.cooee.phenix.BubbleTextView
+            android:id="@+id/native_adver_icon_1"
+            style="@style/WorkspaceIcon"
+            android:text="BubbleTextView" />
+
+        <com.cooee.phenix.BubbleTextView
+            android:id="@+id/native_adver_icon_2"
+            style="@style/WorkspaceIcon"
+            android:layout_toRightOf="@+id/native_adver_icon_1"
+            android:text="BubbleTextView" />
+
+        <com.cooee.phenix.BubbleTextView
+            android:id="@+id/native_adver_icon_3"
+            style="@style/WorkspaceIcon"
+            android:layout_toRightOf="@+id/native_adver_icon_2"
+            android:text="BubbleTextView" />
+
+        <com.cooee.phenix.BubbleTextView
+            android:id="@+id/native_adver_icon_4"
+            style="@style/WorkspaceIcon"
+            android:layout_toRightOf="@+id/native_adver_icon_3"
+            android:text="BubbleTextView" />
+    </RelativeLayout>
+
+</LinearLayout>

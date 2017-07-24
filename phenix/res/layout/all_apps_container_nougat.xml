@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Both android:focusable and android:focusableInTouchMode are needed for -->
+<!-- the view to get focus change events. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <!-- DO NOT CHANGE THE ID -->
+	<com.cooee.phenix.AppList.Nougat.AllAppsNougatSections
+        android:id="@+id/qs_app_letter"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+       	style="@style/ApplistNougatSectionStyle"
+        android:background="#00000000" />
+	
+    <com.cooee.phenix.AppList.Marshmallow.AllAppsRecyclerView
+        android:id="@+id/apps_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+       	style="@style/ApplistNougatRecycleviewStyle"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:descendantFocusability="afterDescendants"
+        android:focusable="true"
+        android:theme="@style/Theme.Light.CustomOverscroll" />
+
+    
+
+</RelativeLayout>

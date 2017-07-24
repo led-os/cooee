@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="dynamic_download_app_paused">暂停下载</string>
+    <string name="download_app_continue">继续下载已啟動</string>
+    <string name="dlman_delete">删除</string>
+    <string name="dlman_install">安裝</string>
+    <string name="dlman_start">啟動</string>
+    <string name="dialog_click_install">點擊這裏安裝</string>
+    <string name="dialog_check_network">請檢查網絡</string>
+    <string name="dialog_install_success">安裝完成</string>
+    <string name="dialog_click_start">點擊啟動</string>
+    <string name="notification_silent_download_run_btn">馬上體驗</string>
+    <string name="notification_silent_download_suffix">等</string>
+    <string name="notification_silent_download_check_btn">點擊查看</string>
+	<string name="dynamic_download_now">立即下載</string>
+    <string name="dynamic_these_downloaded">這些已經下載好了！點擊安裝吧！</string>
+    <string name="dynamic_smart_download_desc">已利用WIFI空閒的時間爲您準備好了這些應用</string>
+	<string name="dynamic_other_download">其他用戶也下載了</string>
+	<string name="dynamic_next_size">大小:只有</string>
+	<string name="dynamic_your_dl">您下載的</string>
+    <string name="dynamic_not_dl">還沒安裝哦</string>
+    <string name="dynamic_many_days">已經來了很久哦</string>
+    <string name="dynamic_dl_warnning">手機中有未安裝的遊戲</string>
+    <string name="dynamic_dl_news">手機中有好多沒玩過的新玩意兒</string>
+    <string name="dynmaic_install_immediately">馬上安裝</string>
+    <string name="dynamic_try_on">去看看</string>
+    <string name="dynamic_wa_yao">Wa!當然要</string>
+    <string name="dynamic_dl_uninstall">下載完一直没安裝呢</string>
+    <string name="dynamic_dl_end">您已經下載了</string>
+	<string name="dynamic_disclaimer_title">桌面已準備好更新</string>
+    <string name="dynamic_disclaimer_desc">精美文件夾,爲你帶來最美的應用體驗</string>
+    <string name="classified_to">已分類至</string>
+    
+</resources>

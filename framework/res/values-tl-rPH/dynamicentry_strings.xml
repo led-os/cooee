@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><string name="dynamic_not_dl">Hindi pa naka-install</string>
+<string name="dynamic_update_success">Tagumpay na pag-upgrade</string>
+<string name="notification_silent_download_run_btn">Danasin ngayon</string>
+<string name="dynamic_many_days">Inabot kami ng mahabang panahon</string>
+<string name="dlman_delete">Burahin</string>
+<string name="dialog_check_network">Mangyaring i-check ang koneksyon sa network</string>
+<string name="classified_to">Nauri sa</string>
+<string name="dynamic_dl_warnning">May mga laro sa telepono na hindi pa naka-install</string>
+<string name="dynamic_try_on">Humayo at tingnan</string>
+<string name="dialog_install_success">Tapos na ang instalasyon</string>
+<string name="dynamic_download_app_paused">Pansamantalang tigil-download</string>
+<string name="dynamic_next_size">Sukat: lamang</string>
+<string name="dynamic_disclaimer_title">Handa na ang Launcher para sa update</string>
+<string name="dynamic_update_fail">Bigo ang update!</string>
+<string name="download_app_continue">ang pagpapatuloy ng pagda-download ay nag-umpisa na</string>
+<string name="notification_silent_download_suffix">Maghintay</string>
+<string name="dynamic_dl_news">Ang telepono ay maraming mga bagay na hindi pa nagagamit</string>
+<string name="notification_silent_download_check_btn">I-click upang makita</string>
+<string name="dynamic_smart_download_desc">Inihanda namin ang mga apps na ito samantalang nakapahinga ang WIFI</string>
+<string name="dynamic_wa_yao">Wa! Syempre</string>
+<string name="dynamic_dl_end">Nai-download mo na</string>
+<string name="dynamic_your_dl">Ang iyong nai-download</string>
+<string name="dialog_click_install">I-click dito para mai-install</string>
+<string name="dynamic_these_downloaded">Ang mga ito ay nai-download na! I-click upang mai-install!</string>
+<string name="dynamic_disclaimer_desc">Makukulay na polder ay magbibigay sa iyo ng pinakamagandang karanasan sa mga application.</string>
+<string name="dynamic_other_download">Ang ibang taga-gamit ay nagsipag-download din</string>
+<string name="dialog_click_start">I-click upang magsimula</string>
+<string name="dynamic_dl_uninstall">Hindi pa nai-install matapos i-download</string>
+<string name="dlman_install">Instalasyon</string>
+<string name="dlman_start">Simula</string>
+<string name="dynamic_download_now">Download agad agad</string>
+<string name="dynmaic_install_immediately">I-install ngayon</string>
+</resources>

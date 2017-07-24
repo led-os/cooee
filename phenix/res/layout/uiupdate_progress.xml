@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:saund="http://schemas.android.com/apk/res/com.cooee.phenix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        >
+
+    <com.cooee.update.view.TextProgressBar
+        android:id="@+id/updateProgressBar"
+        style="@style/Widget.ProgressBar.RegularProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"        
+        saund:textAlign="center"        
+        saund:textSize="16sp"
+        saund:textoffsetX="0dip"
+        saund:textoffsetY="0dip"
+        />
+
+</FrameLayout>

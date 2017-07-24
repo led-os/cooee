@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CategoryInstallSuccessInstallContentStyle">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="CategoryInstallSuccessDescContentStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="CategoryInstallSuccessToContentStyle">
+        <item name="android:layout_toStartOf">@id/category_desc</item>
+        <item name="android:layout_toEndOf">@id/category_install</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionContentStyle">
+        <item name="android:layout_toEndOf">@id/notificationImage</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionTitleStyle" parent="NotificationTitle">
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginStart">10dip</item>
+        <item name="android:layout_toStartOf">@+id/btn_check</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionBtnCheckStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">5dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionProcessStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:paddingStart">2dip</item>
+        <item name="android:paddingEnd">2dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionBtnRunStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignEnd">@id/notificationTitle</item>
+        <item name="android:layout_marginEnd">5dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionDownloadAppListContentStyle">
+        <item name="android:layout_alignStart">@id/notificationImage</item>
+        <item name="android:paddingStart">5dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionDownloadAppListIcon1Style">
+        <item name="android:layout_marginStart">5dip</item>
+        <item name="android:layout_marginEnd">5dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionDownloadAppListIcon2Style">
+        <item name="android:layout_marginEnd">5dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionDownloadAppListIcon3Style">
+        <item name="android:layout_marginEnd">5dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionDownloadAppListIcon4Style">
+        <item name="android:layout_marginEnd">5dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionDownloadAppListIcon5Style">
+        <item name="android:layout_marginEnd">5dip</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionSummaryStyle">
+        <item name="android:layout_toEndOf">@id/notificationImage</item>
+    </style>
+
+    <style name="OperateSaDownloadNotifactionRunStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">5dip</item>
+    </style>
+
+</resources>

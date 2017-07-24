@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- //需求：默认主题壁纸外置（使用包名为“config_custom_default_wallpaper_package_name”的res/drawable中的资源“config_custom_default_wallpaper_resource_name”），若“config_custom_default_wallpaper_package_name”和“config_custom_default_wallpaper_resource_name”其中有一个配置为空，则使用桌面默认主题的壁纸。	//xiatian add start -->
+    <string name="config_custom_default_wallpaper_package_name"></string>
+    <string name="config_custom_default_wallpaper_resource_name"></string>
+    <!-- //需求：默认主题壁纸外置（使用包名为“config_custom_default_wallpaper_package_name”的res/drawable中的资源“config_custom_default_wallpaper_resource_name”），若“config_custom_default_wallpaper_package_name”和“config_custom_default_wallpaper_resource_name”其中有一个配置为空，则使用桌面默认主题的壁纸。	//xiatian add end -->
+
+</resources>

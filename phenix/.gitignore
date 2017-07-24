@@ -1,0 +1,10 @@
+db_files
+.project
+bin
+gen
+.classpath
+proguard
+/.settings/org.eclipse.core.resources.prefs
+/.settings/org.eclipse.jdt.core.prefs
+/lint.xml
+/.settings

@@ -1,0 +1,8 @@
+
+
+6-看说明文档，熟悉一下即可
+
+phenix\doc\Phenix桌面“配置项”说明
+phenix\doc\Phenix桌面“修改配置”说明
+phenix\doc\Phenix桌面“模块配置项”说明
+phenix\doc\【“桌面菜单”功能】

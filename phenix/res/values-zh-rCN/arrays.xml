@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- launcher stytle start -->
+    <string-array name="launcher_stytle_entries">
+        <item>单层模式</item>
+        <item>双层模式</item>
+    </string-array>
+    <string-array name="launcher_stytle_sub_entries">
+        <item>所有应用平铺在桌面上</item>
+        <item>桌面上只放置快捷方式</item>
+    </string-array>
+    <!-- launcher stytle end -->
+
+
+    <!-- launcher classification start -->
+    <string-array name="launcher_classification_entries">
+        <item>智能分类</item>
+        <item>恢复布局</item>
+    </string-array>
+    <string-array name="launcher_classification_sub_entries">
+        <item>对所有应用重新分类</item>
+        <item>恢复为上一次分类前的布局</item>
+    </string-array>
+    <!-- launcher classification start -->
+
+
+    <!-- //和兴六部图标大小变化需求	//cheyingkun add start -->
+    <string-array name="launcher_app_icon_size">
+        <item>小图标模式</item>
+        <item>大图标模式</item>
+    </string-array>
+    <!-- //和兴六部图标大小变化需求	//cheyingkun add end -->
+
+
+    <!-- //添加配置项“switch_enable_show_workspace_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“桌面滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string-array name="workspace_scroll_type_entries">
+        <item>普通模式</item>
+        <item>循环模式</item>
+    </string-array>
+    <string-array name="workspace_scroll_type_sub_entries">
+        <item>首尾两页之间，不可以滑动</item>
+        <item>首尾两页之间，可以滑动</item>
+    </string-array>
+    <!-- //添加配置项“switch_enable_show_workspace_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“桌面滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+
+    <!-- //添加配置项“switch_enable_show_applist_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“主菜单滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string-array name="applist_scroll_type_entries">
+        <item>普通模式</item>
+        <item>循环模式</item>
+    </string-array>
+    <string-array name="applist_scroll_type_sub_entries">
+        <item>首尾两页之间，不可以滑动</item>
+        <item>首尾两页之间，可以滑动</item>
+    </string-array>
+    <!-- //添加配置项“switch_enable_show_applist_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“主菜单滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+    <!-- //添加配置项“switch_enable_show_widget_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“小组件滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string-array name="widget_scroll_type_entries">
+        <item>普通模式</item>
+        <item>循环模式</item>
+    </string-array>
+    <string-array name="widget_scroll_type_sub_entries">
+        <item>首尾两页之间，不可以滑动</item>
+        <item>首尾两页之间，可以滑动</item>
+    </string-array>
+    <!-- //添加配置项“switch_enable_show_widget_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“小组件滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+</resources>

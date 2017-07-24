@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="launcher_classification_sub_entries">
+        <item>Reclassificar todos os apps</item>
+        <item>Restaurar o traçado antes da última triagem</item>
+    </string-array>
+    <string-array name="launcher_stytle_entries">
+        <item>Modo de camada única</item>
+        <item>Modo de dupla camada</item>
+    </string-array>
+    <string-array name="launcher_classification_entries">
+        <item>Classificação inteligente</item>
+        <item>Restaurar o traçado</item>
+    </string-array>
+    <string-array name="launcher_stytle_sub_entries">
+        <item>Telha todos os apps no desktop</item>
+        <item>Coloque atalhos apenas no desktop</item>
+    </string-array>
+
+</resources>

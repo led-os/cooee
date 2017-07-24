@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/camera_page_delete_item_layout_bg" >
+
+    <!-- CameraPage -->
+
+    <ImageView
+        android:id="@+id/camera_page_delete_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/camera_page_delete_image_view_margin_top" />
+
+    <RelativeLayout
+        android:id="@+id/camera_page_delete_edit_layout"
+        style="@style/CameraPageDeleteItemEditContentStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/camera_page_delete_image_view"
+        android:layout_alignTop="@id/camera_page_delete_image_view"
+        android:background="#f0f0ee"
+        android:visibility="invisible" >
+
+        <EditText
+            android:id="@+id/camera_page_delete_edit_view"
+            style="@style/CameraPageDeleteItemEditViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:cursorVisible="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:hint="@string/camera_page_edit_mood_hint"
+            android:imeOptions="actionDone"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/camera_page_text_margin_bg_bottom"
+            android:singleLine="true"
+            android:textColor="#ff505050"
+            android:textColorHint="#7d7d7d"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/camera_page_picture_text_size" />
+
+        <TextView
+            android:id="@+id/camera_page_delete_edit_text_count"
+            style="@style/CameraPageDeleteItemEditTextCountStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="@dimen/camera_page_text_margin_bg_bottom"
+            android:text="0/25"
+            android:textColor="#ff505050"
+            android:textSize="@dimen/camera_page_picture_text_size" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/camera_page_delete_button"
+        android:layout_width="@dimen/camera_page_delete_button_width"
+        android:layout_height="@dimen/camera_page_delete_button_height"
+        android:layout_below="@id/camera_page_delete_image_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/camera_page_delete_button_margin_top"
+        android:background="@drawable/camera_page_edit_button"
+        android:text="@string/camera_page_delete"
+        android:textColor="#535353" />
+
+</RelativeLayout>

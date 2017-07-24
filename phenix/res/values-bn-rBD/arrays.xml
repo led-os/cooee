@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="launcher_classification_sub_entries">
+        <item>সব অ্যাপস রিক্লাসিফাই</item>
+        <item>সর্বশেষ শ্রেণীবিভাজন আগে বিন্যাস রিস্টোর করুন</item>
+    </string-array>
+    <string-array name="launcher_stytle_entries">
+        <item>সিঙ্গল-স্তর মোড</item>
+        <item>ডাবল-লেয়ার মোড</item>
+    </string-array>
+    <string-array name="launcher_classification_entries">
+        <item>বুদ্ধিমান শ্রেণীবদ্ধতা</item>
+        <item>বিন্যাস রিস্টোর</item>
+    </string-array>
+    <string-array name="launcher_stytle_sub_entries">
+        <item>লঞ্চারে সব অ্যাপস টাইল করুন</item>
+        <item>শুধুমাত্র লঞ্চারের উপর শর্টকাট প্লেস করুন</item>
+    </string-array>
+
+</resources>

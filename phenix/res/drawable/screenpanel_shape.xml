@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- //添加配置项“switch_enable_set_home_page_in_overview_mode”，是否支持编辑模式设置home页的功能。true为支持，false为不支持。默认为false。	//gaominghui add whole file -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="#34ffffff" />
+
+    <stroke
+        android:width="4.5dp"
+        android:color="@android:color/white" />
+
+    <corners android:radius="7dp" />
+
+</shape>

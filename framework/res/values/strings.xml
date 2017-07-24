@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- xiatian add start -->
+    <string name="notify_downloading">Downloading </string>
+    <string name="notify_download_finish"> Download completed</string>
+    <string name="notify_install_finish"> Install finish</string>
+    <string name="notify_download_fail"> Download failed</string>
+    <!-- xiatian add end -->
+
+    <string name="dynamic_wifi_re_download">Via WIFI</string>
+    <string name="dynamic_application"> Application</string>
+    <string name="op_ml_new_content">New Content</string>
+    <string name="settings_key_smart_download">smart_download</string>
+    <string name="notification_silent_download_title_mutiple"> apps can be installed</string>
+    <string name="notification_silent_download_title_single">Play app without download.</string>
+    <string name="notification_silent_download_content_single">install </string>
+    <string name="download_app_ing"> Downloading...</string>
+    <string name="dynamic_network_error">Network error, please try again later!</string>
+    <string name="notification_title_0">Need a cleaner desktop?</string>
+    <string name="notification_subtitle_0">Tap here to arrange icons</string>
+    <string name="notification_title_1">Oops...Too much icons in your phone</string>
+    <string name="notification_subtitle_1">Tap here to arrange</string>
+    <string name="notification_title_2">Too Much Icons!</string>
+    <string name="notification_subtitle_2">Tap here to arrange</string>
+    <string name="notification_title_3">You can arrange icons now!</string>
+    <string name="notification_subtitle_3">Start to arrange automatically</string>
+    <string name="notification_title_4">Icons arrangement is ready</string>
+    <string name="notification_subtitle_4">Tap to start</string>
+    <string name="scattered_icon">Messy icons found</string>
+    <string name="tap_icon">Tap to clear</string>
+
+    <!-- //com.cooee.download	//start -->
+    <string name="download_toast_tip_insert_SD">Please insert the SD card,then try again!</string>
+    <string name="download_toast_tip_internet_err">The network connection is not available, please check your network settings</string>
+    <string name="download_toast_tip_downloading">Downloading </string>
+    <string name="download_notification_tip_downloading">Downloading </string>
+    <string name="download_notification_tip_download_finish"> download finish!</string>
+    <string name="download_notification_tip_download_fail"> download fail!</string>
+    <!-- //com.cooee.download	//end -->
+
+</resources>

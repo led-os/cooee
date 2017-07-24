@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_news">新闻</string>
+    <string name="news_comments">评论</string>
+    <string name="news_title_null">无标题</string>
+    <string name="news_recommend">推广</string>
+    <string name="recommend_bus_title">公交</string>
+    <string name="recommend_cate_title">美食</string>
+    <string name="recommend_groupon_title">团购</string>
+    <string name="title_recommend">常用</string>
+    <string name="title_near">服务</string>
+    <string name="title_select_country">国家选项</string>
+    <string name="internet_err">网络连接不可用,请检查你的网络设置</string>
+    <string name="request_time_out">请求超时，请重新尝试或检查您的网络</string>
+    <string name="favorite_cling_button_text">开启</string>
+    <string name="recommend_atm_title">银行</string>
+    <string name="locating">定位中，请稍等。</string>
+    <string name="locate_failed">定位失败，请重试。</string>
+    <string name="no_update_news">没有更新新闻,请稍后再试。</string>
+    <string name="no_more_news">没有更多新闻，请稍后再试。</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="getcategory_failed">获取分类失败，请点击重试</string>
+    <string name="loading">正在加载...</string>
+	 <string name="font_size_setting">字体设置</string>
+    <string name="font_size_small">小</string>
+    <string name="font_size_middle">中</string>
+    <string name="font_size_large">大</string>
+    <string name="font_size_largest">特大</string>
+    <string name="adjust_font_size_affect_the_layout">*调整字体大小后，可能会影响页面布局</string>
+    <string name="change_country_ok">切换</string>
+    <string name="change_country_cancel">取消</string>
+    <string name="change_country_notify_message">您当前在（%s），需要切换到当地的新闻媒体吗？</string>
+	<string name="click_to_refresh">上次看到这里  点击刷新</string>
+    
+</resources>

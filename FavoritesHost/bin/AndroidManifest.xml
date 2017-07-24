@@ -1,0 +1,162 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cooee.favorites.host"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- kepush start -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.CREATE_SHORTCUT" />
+    <!-- kepush end -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_favorites"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- DL代理组件 start -->
+        <!-- <service -->
+        <!-- android:name="com.cooee.dynamicload.DLProxyService" -->
+        <!-- > -->
+        <!-- <intent-filter android:priority="1000" > -->
+        <!-- <action android:name="com.cooee.dynamicload.DLProxyService" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <activity android:name="com.cooee.dynamicload.DLProxyActivity" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.cooee.dynamicload.DLProxyActivity" />
+            </intent-filter>
+        </activity>
+        <!-- DL代理组件  end -->
+
+
+        <!-- android:process=":magic" -->
+        <!-- -广告 -->
+        <activity android:name="com.kmob.kmobsdk.InAppWebView" />
+        <activity
+            android:name="com.kmob.kmobsdk.AdActivity"
+            android:process=":magic"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 广告 -->
+        <!-- shell 注册组件开始 -->
+        <activity
+            android:name="com.cooee.shell.shell.SdkActivityHullV5"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:color/transparent" >
+        </activity>
+        <activity
+            android:name="com.cooee.shell.pay.PayActivityHullV5"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.cooee.shell.download.DownloaderActivityHullV5"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+
+        <service
+            android:name="com.cooee.shell.shell.SdkServiceHullV5"
+            android:process="com.platform.shell.sdk" >
+            <intent-filter android:priority="250" >
+                <action android:name="com.cooee.shell.action.SdkServiceV5" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.cooee.shell.pay.PayServiceHullV5"
+            android:process="com.platform.shell.pay" >
+            <intent-filter android:priority="250" >
+                <action android:name="com.cooee.shell.action.PayServiceV5" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.cooee.shell.shell.SdkReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+        <!-- shell 注册组件结束 -->
+        <!-- kepush start -->
+        <activity
+            android:name="com.kpsh.sdk.KpshActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:taskAffinity="com.kpsh.sdk.callScreen"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.kpsh.sdk.KpshService"
+            android:process="com.kpsh.kpshservice" >
+            <intent-filter android:priority="250" >
+                <action android:name="com.kpsh.sdk.action.KpshService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.kpsh.sdk.KpshReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.USER_CLEARNOTIFY" />
+                <action android:name="android.intent.action.SEND_TO_KPSH" />
+                <action android:name="android.intent.action.CHECK_RECEIVER" />
+            </intent-filter>
+        </receiver>
+        <!-- kepush end -->
+        <service
+            android:name="com.cooee.statistics.StatisticsServiceNew"
+            android:enabled="true"
+            android:exported="true"
+            android:process="com.cooee.statistics.floatview" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="569f354967e58e0eac002b00" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Cooee" />
+
+        <!-- -广告 -->
+        <activity android:name="com.kmob.kmobsdk.InAppWebView" />
+        <activity
+            android:name="com.kmob.kmobsdk.AdActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 广告 -->
+
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<resources>
+    <!-- fae可配置的新闻源，-1表示不配置，0是头条，1是hubii -->
+    <integer name="config_news_source">-1</integer>
+    <!-- 广告在-1屏新闻中的位置  -->
+    <string name="config_ad_place">5,15,22,29,36</string>
+    <drawable name="drakwhite">#26FFFFFF</drawable>
+    <integer name="favorite_clings_anim_dismiss_duration">1000</integer>
+    <!-- //修改酷生活S5引导页动画。	//cheyingkun add start -->
+    <integer name="favorites_view_anim_show_duration">1000</integer>
+    <integer name="favorites_view_anim_show_launcher_search_duration">500</integer>
+    <integer name="favorite_clings_dismiss_scale">50</integer>
+    <integer name="favorite_clings_dismiss_alpha">25</integer>
+    <integer name="favorite_clings_dismiss_scale_threshold_start_favoritesView_ainm">75</integer>
+    <integer name="favorites_view_anim_show_delay">50</integer>
+    <!-- //修改酷生活S5引导页动画。	//cheyingkun add end -->
+    <!-- 新闻二级界面、国家界面启动动画时长 -->
+    <integer name="favorite_start_activity_anim_duration">300</integer>
+    <!-- 新闻二级界面滑动超过25%时，出现广告 -->
+    <integer name="ad_show_postion_in_newsactivity">15</integer>
+    <!-- 新闻二级广告出来的动画时长 -->
+    <integer name="ad_show_or_hide_anim_duration">300</integer>
+    <!-- 常用应用动画时间  -->
+    <integer name="favorite_show_more_anim_duration">500</integer>
+    
+    <!-- //酷生活引导页动画。	//cheyingkun add start  -->
+    <!-- 引导页按钮半径  -->
+    <dimen name="favorite_clings_button_default_radius">40dp</dimen>
+    <!-- 引导页按钮大小  -->
+    <dimen name="favorite_clings_button_size">160dp</dimen>
+    <!-- 引导页按钮透明度(百分数) -->
+    <integer name="favorite_clings_button_default_alpha">20</integer>
+    <!-- 引导页按钮水波纹的动画时间 -->
+    <integer name="favorite_clings_button_anim_duration">2000</integer>
+    <!-- 引导页圆环1动画延迟 -->
+    <integer name="favorite_clings_ring1_delay">0</integer>
+    <!-- 引导页圆环2动画延迟 -->
+    <integer name="favorite_clings_ring2_delay">700</integer>
+    <!-- 引导页圆环3动画延迟 -->
+    <integer name="favorite_clings_ring3_delay">1500</integer>
+    <!-- 引导页圆环1缩放(百分数) -->
+    <integer name="favorite_clings_ring1_zoom">120</integer>
+    <!-- 引导页圆环2缩放(百分数) -->
+    <integer name="favorite_clings_ring2_zoom">150</integer>
+    <!-- 引导页圆环3缩放(百分数) -->
+    <integer name="favorite_clings_ring3_zoom">200</integer>
+    <!-- //酷生活引导页动画。	//cheyingkun add end  -->
+    <!-- 酷生活图标大小(小于0则使用桌面图标大小，大于0则使用配置值，默认48dp) -->
+    <dimen name="favorites_default_icon_size">48dp</dimen>
+    <!-- 酷生活附近定位等待时间 -->
+    <integer name="location_of_waiting_time">10</integer>
+    <!-- 定位不成功时，默认国家  -->
+    <string name="default_country">中国,cn</string>
+</resources>

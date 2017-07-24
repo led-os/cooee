@@ -1,0 +1,5 @@
+<resources>
+    <!-- 是否使用好搜 默认不使用 false -->
+	 <bool name="search_config_use_haosou">false</bool>
+
+</resources>

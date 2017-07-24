@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="launcher_classification_sub_entries">
+        <item>Reclassify all apps</item>
+        <item>Restore the layout before last sorting</item>
+    </string-array>
+    <string-array name="launcher_stytle_entries">
+        <item>Single-layer mode</item>
+        <item>Double-layer mode</item>
+    </string-array>
+    <string-array name="launcher_classification_entries">
+        <item>Intelligent classification</item>
+        <item>Restore layout</item>
+    </string-array>
+    <string-array name="launcher_stytle_sub_entries">
+        <item>Tile all apps on the Launcher</item>
+        <item>Place shortcuts only on the Launcher</item>
+    </string-array>
+
+</resources>

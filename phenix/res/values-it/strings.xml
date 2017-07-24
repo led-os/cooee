@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"App non installata."</string>
+    <string name="widgets_tab_label">"Widget"</string>
+    <string name="toggle_weight_watcher">"Mostra Mem"</string>
+    <string name="long_press_widget_to_add">"Tocca e tieni premuto per scegliere un widget."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"App"</string>
+    <string name="out_of_space">"Spazio nella schermata Home esaurito."</string>
+    <string name="hotseat_out_of_space">"Spazio nell\'area hotseat esaurito."</string>
+    <string name="shortcut_uninstalled">"La scorciatoia \"<xliff:g id="NAME">%s</xliff:g>\" è stata rimossa."</string>
+    <string name="shortcut_duplicate">"Scorciatoia \"<xliff:g id="NAME">%s</xliff:g>\" già presente."</string>
+    <string name="title_select_application">"Scegli app"</string>
+    <string name="hotseat_all_apps_button_string">"App"</string>
+    <string name="delete_zone_label_workspace">"Rimuovi"</string>
+    <string name="delete_target_remove_label">"Rimuovi"</string>
+    <string name="delete_target_uninstall_label">"Disinstalla"</string>
+    <string name="info_target_label">"Informazioni app"</string>
+    <string name="permlab_install_shortcut">"Aggiunta di scorciatoie"</string>
+    <string name="permdesc_install_shortcut">"Consente a un\'app di aggiungere scorciatoie automaticamente."</string>
+    <string name="permlab_uninstall_shortcut">"Eliminazione di scorciatoie"</string>
+    <string name="permdesc_uninstall_shortcut">"Consente all\'app di rimuovere scorciatoie automaticamente."</string>
+    <string name="permlab_read_settings">"Lettura di impostazioni e scorciatoie in Home"</string>
+    <string name="permdesc_read_settings">"Consente all\'app di leggere le impostazioni e le scorciatoie in Home."</string>
+    <string name="permlab_write_settings">"Creazione di impostazioni e scorciatoie in Home"</string>
+    <string name="permdesc_write_settings">"Consente all\'app di modificare le impostazioni e le scorciatoie in Home."</string>
+    <string name="gadget_error_text">"Errore durante il caricamento del widget"</string>
+    <string name="uninstall_system_app_text">"Questa è un\'app di sistema e non può essere disinstallata."</string>
+    <string name="folder_hint_text">"Cartella senza nome"</string>
+    <string name="first_run_cling_title">"Benvenuto!"</string>
+    <string name="first_run_cling_description">"Personalizza la schermata Home."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Creare più schermate per app e cartelle"</string>
+    <string name="workspace_cling_title">"Organizza il tuo spazio"</string>
+    <string name="workspace_cling_move_item">"Tocca e tieni premuto lo sfondo per gestire sfondi, widget e impostazioni."</string>
+    <string name="folder_cling_title">"Ecco una cartella"</string>
+    <string name="folder_cling_create_folder">"Per crearne una simile, tocca un\'app e tieni premuto, dopodiché spostala sopra un\'altra."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Widget"</string>
+    <string name="overview_panel_button_system_settings_string">"Impostazioni"</string>
+    <string name="all_apps_search_bar_hint">"Cerca app"</string>
+    <string name="all_apps_loading_message">"Caricamento di app…"</string>
+    <string name="all_apps_no_search_results">"Nessuna app trovata corrispondente a \"<xliff:g id="QUERY">%1$s</xliff:g>\""</string>
+    <string name="all_apps_search_market_message">"Vai a <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">WallpaperHost</string>
+	 <!-- 一键换壁纸需求。（剩余：动态图标、自定义事件统计）	//cheyingkun add start -->
+    <string name="default_change_wallpaper">Turnig +</string>
+    
+    <!-- 一键换壁纸需求。（剩余：动态图标、自定义事件统计）	//cheyingkun add end -->
+     <!-- //com.cooee.download	//start -->
+    <string name="download_toast_tip_insert_SD">Please insert the SD card,then try again!</string>
+    <string name="download_toast_tip_internet_err">The network connection is not available, please check your network settings</string>
+    <string name="download_toast_tip_downloading">Downloading </string>
+    <string name="download_notification_tip_downloading">Downloading </string>
+    <string name="download_notification_tip_download_finish"> download finish!</string>
+    <string name="download_notification_tip_download_fail"> download fail!</string>
+     <string name="to_download_content">Not yet installed on your phone, click OK to download and install!</string>
+    <string name="to_download_ok">OK</string>
+    <string name="to_download_cancel">Cancel</string>
+    <!-- //com.cooee.download	//end -->
+</resources>

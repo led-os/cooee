@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="KusoSearchMainContentStyle">
+        <item name="android:paddingStart">7dip</item>
+        <item name="android:paddingEnd">7dip</item>
+    </style>
+
+    <style name="KusoSearchMainEditStyle">
+        <item name="android:paddingStart">58dip</item>
+        <item name="android:paddingEnd">55dip</item>
+    </style>
+
+    <style name="KusoSearchMainOpenPopStyle">
+        <item name="android:layout_alignStart">@id/kuso_search_edit</item>
+    </style>
+
+    <style name="KusoSearchMainCurrentLogoStyle">
+        <item name="android:layout_marginStart">10dip</item>
+    </style>
+
+    <style name="KusoSearchMainLocalSerachCurrentLogoStyle">
+        <item name="android:layout_marginStart">14dip</item>
+    </style>
+
+    <style name="KusoSearchMainEngineTriangleStyle">
+        <item name="android:layout_toEndOf">@id/kuso_current_logo</item>
+    </style>
+
+    <style name="KusoSearchMainIconfontSousuoButtonContentStyle">
+        <item name="android:layout_alignEnd">@id/kuso_search_edit</item>
+    </style>
+
+    <style name="KusoSearchMainIconfontSousuoButtonLineStyle">
+        <item name="android:layout_marginEnd">6dip</item>
+    </style>
+
+    <style name="KusoSearchMainIconfontSousuoButtonStyle">
+        <item name="android:layout_marginEnd">22dip</item>
+    </style>
+
+    <style name="KusoSearchMainHistoryStyle">
+        <item name="android:layout_marginStart">13dip</item>
+    </style>
+
+    <style name="KusoSearchMainHistoryRecordClearContentStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">8dip</item>
+    </style>
+
+    <style name="KusoSearchMainHistoryRecordClearIconStyle">
+        <item name="android:layout_marginEnd">10dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CameraPageDeleteItemEditContentStyle">
+        <item name="android:layout_alignStart">@id/camera_page_delete_image_view</item>
+        <item name="android:layout_alignEnd">@id/camera_page_delete_image_view</item>
+    </style>
+
+    <style name="CameraPageDeleteItemEditViewStyle">
+        <item name="android:layout_marginStart">@dimen/camera_page_picture_margin_bg_left_and_right</item>
+    </style>
+
+    <style name="CameraPageDeleteItemEditTextCountStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">@dimen/camera_page_picture_margin_bg_left_and_right</item>
+    </style>
+    
+     <style name="CameraPageViewAdViewIndicatorStyle">
+        <item name="android:layout_marginLeft">@dimen/camera_page_ad_view_indicator_margin_left</item>
+    </style>
+    
+     <style name="CameraPageCameraContentLayoutStyle">
+        <item name="android:layout_marginStart">@dimen/camera_page_camera_content_layout_margin_left</item>
+     </style>
+	
+     <style name="CameraPageCircleAndDateLayoutStyle">
+        <item name="android:layout_marginStart">@dimen/camera_page_circle_and_date_layout_margin_left</item>
+     </style>
+	
+     <style name="CameraPageCircleBgImageViewStyle">
+        <item name="android:layout_marginStart">@dimen/camera_page_circle_bg_image_view_margin_left</item>
+     </style>
+	
+     <style name="CameraPageCircleDateTextViewStyle">
+        <item name="android:layout_marginStart">@dimen/camera_page_date_text_view_margin_left</item>
+     </style>
+	
+     <style name="CameraPagelistViewStyle">
+        <item name="android:layout_marginStart">@dimen/camera_page_list_view_margin_left</item>
+     </style>
+	
+     <style name="CameraPagelistViewToLineStyle">
+        <item name="android:layout_marginEnd">@dimen/camera_page_list_view_to_line_rtl_margin_right</item>
+     </style>
+	
+     <style name="CameraPageDotLineStyle">
+        <item name="android:layout_marginStart">@dimen/camera_page_dot_line_margin_left</item>
+        <item name="android:layout_alignParentStart">true</item>
+     </style>
+	
+     <style name="CameraPageSwitchFlashlightImageViewStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+     </style>
+	
+     <style name="CameraPageCameraPreviewLayoutStyle">
+        <item name="android:layout_alignEnd">@id/camera_page_camera_preview_layout</item>
+     </style>
+	
+     <style name="CameraPageCameraPictureItemStyle">
+        <item name="android:layout_marginEnd">@dimen/camera_page_picture_item_margin_right</item>
+     </style>
+	
+     <style name="CameraPagePictureStyle">
+        <item name="android:layout_alignEnd">@id/camera_page_picture_bg</item>
+        <item name="android:layout_marginEnd">@dimen/camera_page_picture_item_picture_margin_right</item>
+     </style>
+	
+     <style name="CameraPagePictureTimeStyle">
+        <item name="android:layout_alignStart">@id/camera_page_picture_bg</item>
+        <item name="android:layout_marginStart">@dimen/camera_page_picture_item_date_margin_left</item>
+     </style>
+     
+     <style name="CameraPageCloseCameraImageViewStyle">
+         <item name="android:layout_alignParentStart">true</item>
+     </style>
+     
+</resources>

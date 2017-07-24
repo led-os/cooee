@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- AppsCustomize -->
+    <style name="TabIndicator.AppsCustomize">
+        <item name="android:maxWidth">130dp</item>
+    </style>
+
+</resources>

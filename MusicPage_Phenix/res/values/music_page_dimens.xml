@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MusicPage , start , shlt , 20140825 -->
+    <!-- 唱盘图片宽/1.5 -->
+    <dimen name="music_page_album_bg_image_view_width_and_height">266dp</dimen>
+    <dimen name="music_page_album_image_button_width_and_height">66.66dp</dimen>
+    <dimen name="music_page_music_and_singer_name_text_view_width">266dp</dimen>
+    <dimen name="music_page_lyric_text_view_width">266dp</dimen>
+    <dimen name="music_page_progress_offset">-4dp</dimen>
+    <dimen name="music_page_progress_width">2dp</dimen>
+    <dimen name="music_page_bottom_bar_height">90dp</dimen>
+    <dimen name="music_page_music_view_line_width">194dp</dimen>
+    <dimen name="music_page_music_view_line_height">1dp</dimen>
+    <dimen name="music_page_music_view_line_margin">5dp</dimen>
+    <!-- 唱针宽度 -->
+    <dimen name="music_page_music_view_stylus_width">70dp</dimen>
+    <!-- 唱针高度 -->
+    <dimen name="music_page_music_view_stylus_height">254.67dp</dimen>
+    <dimen name="music_page_music_view__stylus_head_width_and_height">30.33dp</dimen>
+    <dimen name="music_page_stylus_padding_right">2dp</dimen>
+    <dimen name="music_page_stylus_padding_bottom">5dp</dimen>
+    <dimen name="music_page_stylus_margin_head_bottom">3dp</dimen>
+    <dimen name="music_page_stylus_anim_touch_layout_width_and_height">50dp</dimen>
+    <dimen name="music_page_stylus_margin_head_left">-3dp</dimen>
+    <dimen name="music_page_ad_text_view_padding">5dp</dimen>
+    <dimen name="music_page_lyric_margin_top">10dp</dimen>
+    <!-- 文字广告与歌手名的间距 -->
+    <dimen name="music_page_ad_text_view_to_singer_name_margin">30dp</dimen>
+
+</resources>

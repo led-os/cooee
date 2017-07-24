@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="notification_silent_download_title_single">ဂုဏ္ယူပါသည္၊သင္WIFIခ်က္ခ်င္းအင္စေတာခြင့္ရေသာေၾကာင့္ေဒါင္းလုပ္ရန္မလိုပါ။</string>
+    <string name="notification_subtitle_1">ႏွိပ္ျခင္းျဖင့္စမတ္ရွင္းလင္းျခင္းစတင္မည္၊စခရင္ခ်က္ခ်င္းသန္႕ရွင္းသြားမည္</string>
+    <string name="notification_subtitle_2">ဤေနရာကိုႏွိပ္ပါ၊ဒပ္စေတာ့အားသင့္အတြက္ေအာ္တိုရွင္းလင္းေစႏိုင္သည္</string>
+    <string name="notification_subtitle_0">ႏွိပ္တာနဲ႕ေအာ္တိုရွင္းလင္းၿပီးေအာ္တိုအမ်ဳိးစားခြဲႏိုင္သည္</string>
+    <string name="notify_downloading">ေဒါင္းလုပ္ေနသည္</string>
+    <string name="scattered_icon">ဒပ္စေတာ့ေပၚတြင္ကြဲျပားေနေသာအိုင္ကြန္ရိွသည္</string>
+    <string name="dynamic_application">ေအပီပီ</string>
+    <string name="dynamic_wifi_re_download">WIFIမွတစ္ဆင့္ဆက္လက္ေဒါင္းလုပ္ေနသည္</string>
+    <string name="notification_subtitle_3">ႏွိပ္တာနဲ႕ဖုန္းစမတ္ျဖင့္ရွင္းလင္းသြားမည္၊ဖုန္းခ်က္ခ်င္းေျပာင္းလဲသြားမည္</string>
+    <string name="notification_subtitle_4">ႏွိပ္ျခင္းျဖင့္သင္၏ဒပ္စေတာ့ေပၚရိွအိုင္ကြန္ကိုအမ်ဳိးစားခြဲမည္</string>
+    <string name="notification_title_4">ဒပ္စေတာ့စမတ္ရွင္းလင္းျခင္းအသင့္ျဖစ္</string>
+    <string name="notification_title_3">သင္၏ဖုန္းဒပ္စေတာ့အားပိုၿပီးသပ္ရပ္ေစခ်င္သလား?</string>
+    <string name="tap_icon">ခ်က္ခ်င္းႏိွပ္၍ရွင္းလင္းပါ</string>
+    <string name="notification_title_0">ဒပ္စေတာ့ေပၚရိွအိုင္ကြန္မ်ားလြန္း၍ရွင္းလင္းလိုပါသလား?</string>
+    <string name="notification_title_2">အိုင္ကြန္မ်ားလြန္း၍ရွင္းလင္းလိုသည္!</string>
+    <string name="notification_title_1">အိုင္ကြန္အရမ္းမ်ားေနတယ္၊ဘယ္လိုလုပ္မလဲ?</string>
+    <string name="download_app_ing">အပလီေကးရွင္းေဒါင္းလုပ္ေနသည္……</string>
+    <string name="notify_download_finish">ေဒါင္းလုပ္ၿပီးစီး</string>
+    <string name="op_ml_new_content">အေၾကာင္းရာသစ္</string>
+    <string name="notification_silent_download_title_mutiple">အပလီေကးရွင္းသည္WIFIေအာက္တြင္အဆင္သင့္ျဖစ္</string>
+    <string name="msg_insert_SD">SDကဒ္မရိွပါ၊သို႕မဟုတ္ေနရာမေလာက္ပါ!</string>
+    <string name="notify_install_finish">လုပ္ဒင္းၿပီး</string>
+    <string name="notify_download_fail">ေဒါင္းလုပ္က်ရှုံး</string>
+    <string name="notification_silent_download_content_single">စကၠန္႕ပိုင္းအင္စေတာျခင္း</string>
+    <string name="dynamic_network_error">အင္တာနက္ခ်ိတ္ဆက္က်႐ႈံး၊ေနာက္တစ္ေခါက္wifiအသံုးျပဳခ်ိန္တြင္စတင္ေဒါင္းလုပ္မည္</string>
+    <!-- //com.cooee.download	//start -->
+    <string name="download_toast_tip_insert_SD">SDကဒ္ထည့္ပါ!</string>
+    <string name="download_toast_tip_internet_err">အင္တာနက္အသံုးျပဳ၍မရပါ၊အင္တာနက္စက္တင္အားစစ္ေဆးပါ</string>
+    <string name="download_toast_tip_downloading">ေဒါင္းလုပ္ေနသည္</string>
+    <string name="download_notification_tip_downloading">ေဒါင္းလုပ္ေနသည္</string>
+    <string name="download_notification_tip_download_finish">ေဒါင္းလုပ္ၿပီးစီး</string>
+    <string name="download_notification_tip_download_fail">ေဒါင္းလုပ္က်ရှုံး</string>
+    <!-- //com.cooee.download	//end -->
+
+</resources>

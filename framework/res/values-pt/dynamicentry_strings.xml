@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><string name="dynamic_not_dl">Ainda não instalado</string>
+<string name="dynamic_update_success">Atualizar com sucesso</string>
+<string name="notification_silent_download_run_btn">Experiência agora</string>
+<string name="dynamic_many_days">Percorremos um longo tempo</string>
+<string name="dlman_delete">Apagar </string>
+<string name="dialog_check_network">Favor checar conexão de rede</string>
+<string name="classified_to">Classificadas para</string>
+<string name="dynamic_dl_warnning">Celular tem jogos ainda não instalada</string>
+<string name="dynamic_try_on">Vá e veja</string>
+<string name="dialog_install_success">Instalação feito</string>
+<string name="dynamic_download_app_paused">Pausa de baixar</string>
+<string name="dynamic_next_size">Tamanho: somente</string>
+<string name="dynamic_disclaimer_title">Desktop está pronto para atualizar</string>
+<string name="dynamic_update_fail">Atualização falhou!</string>
+<string name="download_app_continue">Continuar o baixar já começou</string>
+<string name="notification_silent_download_suffix">Aguarde</string>
+<string name="dynamic_dl_news">O celular tem um monte de coisas novas que não tenha sido jogado</string>
+<string name="notification_silent_download_check_btn">Clique para ver</string>
+<string name="dynamic_smart_download_desc">Nós preparamos esses apps quando WIFI está livre.</string>
+<string name="dynamic_wa_yao">Wa! Claro</string>
+<string name="dynamic_dl_end">Você ter baixado</string>
+<string name="dynamic_your_dl">Seu baixados</string>
+<string name="dialog_click_install">Clique aqui para instalar</string>
+<string name="dynamic_these_downloaded">Estes foram baixados! Clique para instalar!</string>
+<string name="dynamic_disclaimer_desc">Pastas fantasia trazer-lhe a experiência mais recente e mais bonita aplicação</string>
+<string name="dynamic_other_download">Outros usuários também têm baixado</string>
+<string name="dialog_click_start">Clique para iniciar</string>
+<string name="dynamic_dl_uninstall">Não tenha ainda instalado após baixando</string>
+<string name="dlman_install">Instalação</string>
+<string name="dlman_start">Iniciar</string>
+<string name="dynamic_download_now">Baixar imediatamente</string>
+<string name="dynmaic_install_immediately">Instalar agora</string>
+</resources>

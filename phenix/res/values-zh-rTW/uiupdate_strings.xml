@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Key Begin -->
+    <string name="key_launcherAbout">settings_key_launcherAbout</string>
+    <string name="key_launcherAbout_cate">key_launcherAbout_cate</string>
+    <!-- Key End -->
+
+
+    <!-- Titile Begin -->
+    <string name="title_launcherAbout">關於桌面</string>
+
+    <!-- Titile End -->
+    <string name="update_version_name">V3.0.40471</string>
+    <string name="updateButton">立即體驗</string>
+    <string name="updateButtonCancel">取消</string>
+    <string name="updateCopyRight">Copyright (C) 2008-2015 Cooee.cn All Rights Reserved</string>
+    <string name="updateNotifyTicker">版本更新</string>
+    <string name="updateNotifyTitle">發現新版本，點擊更新</string>
+    <string name="updateNotifyDownSuccess">下載成功，點擊安裝</string>
+    <string name="updateNotifyDownFail">下載失敗</string>
+    <string name="updateDialogMsg">取消下載？</string>
+    <string name="updateDialogYes">是</string>
+    <string name="updateDialogNo">否</string>
+    <string name="updateListTitle">新版特性</string>
+    <string name="updateDialogReady">全新Phenix襲來！</string>
+	<string name="updateDownFailInfo">連接失敗，請檢查網絡連接! </string>
+	<string name="updateGprsDlgText">當前處於流量2g\\3g\\4g網絡，是否繼續下載？ </string>
+	<string name="updateVersionChecking">版本檢測中......</string>
+	<string name="updateNoNewVersion">已經是最新版本</string>
+	<string name="updateUpdating">版本更新中</string>
+	<string name="updatePause">暫停更新</string>
+</resources>

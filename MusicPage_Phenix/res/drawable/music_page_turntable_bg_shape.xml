@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <solid android:color="#44bebebe" />
+    <!-- //【备注】由于直接画一个圆，放到view的bg之后，圆会比原来效果大一圈（暂时没找到原因）。故添加size（大小和view的一样）和stroke（一个透明的圆环），已达到原来的效果。	//start	-->
+    <size
+        android:height="@dimen/music_page_album_bg_image_view_width_and_height"
+        android:width="@dimen/music_page_album_bg_image_view_width_and_height" />
+
+    <stroke
+        android:width="6dp"
+        android:color="@android:color/transparent" />
+    <!-- //【备注】由于直接画一个圆，放到view的bg之后，圆会比原来效果大一圈（暂时没找到原因）。故添加size（大小和view的一样）和stroke（一个透明的圆环），已达到原来的效果。	//end	-->
+
+</shape>

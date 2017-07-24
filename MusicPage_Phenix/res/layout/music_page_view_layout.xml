@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <!-- MusicPage -->
+
+    <RelativeLayout
+        android:id="@+id/music_page_rv_music_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:longClickable="true"
+        android:splitMotionEvents="false" >
+
+        <RelativeLayout
+            android:id="@+id/music_page_album_anim_layout"
+            android:layout_width="@dimen/music_page_album_bg_image_view_width_and_height"
+            android:layout_height="@dimen/music_page_album_bg_image_view_width_and_height"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/music_page_turntable_bg_shape"
+            android:splitMotionEvents="false" >
+
+            <com.cooee.phenix.musicpage.CooeeImageView
+                android:id="@+id/music_page_buttom_alumb_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/music_page_album_up" />
+
+            <com.cooee.phenix.musicpage.CooeeImageView
+                android:id="@+id/music_page_top_album_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/music_page_buttom_alumb_image_view"
+                android:layout_alignTop="@+id/music_page_buttom_alumb_image_view"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/music_page_album_up" />
+        </RelativeLayout>
+
+        <!-- android:background="@android:color/darker_gray" -->
+
+        <RelativeLayout
+            android:id="@+id/music_page_stylus_layout"
+            android:layout_width="@dimen/music_page_music_view_stylus_width"
+            android:layout_height="@dimen/music_page_album_bg_image_view_width_and_height"
+            android:layout_alignBottom="@+id/music_page_album_anim_layout"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:longClickable="true"
+            android:splitMotionEvents="false" >
+
+            <ImageView
+                android:id="@+id/music_page_im_stylus"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/music_page_music_view_stylus_height"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/music_page_stylus_padding_bottom"
+                android:paddingRight="@dimen/music_page_stylus_padding_right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/music_page_stylus" />
+
+            <ImageView
+                android:id="@+id/music_page_im_stylus_head"
+                android:layout_width="@dimen/music_page_music_view__stylus_head_width_and_height"
+                android:layout_height="@dimen/music_page_music_view__stylus_head_width_and_height"
+                android:layout_alignBottom="@+id/music_page_im_stylus"
+                android:layout_alignLeft="@+id/music_page_im_stylus"
+                android:layout_marginBottom="@dimen/music_page_stylus_margin_head_bottom"
+                android:layout_marginLeft="@dimen/music_page_stylus_margin_head_left"
+                android:background="@drawable/music_page_stylus_head"
+                android:visibility="gone" />
+
+            <!-- 用于点击响应唱针区域的布局 -->
+
+            <LinearLayout
+                android:id="@+id/music_page_stylus_anim_touch_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/music_page_stylus_anim_touch_layout_width_and_height"
+                android:layout_alignBottom="@+id/music_page_im_stylus"
+                android:layout_alignLeft="@+id/music_page_im_stylus"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:longClickable="true"
+                android:orientation="horizontal"
+                android:splitMotionEvents="false" >
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- 歌手名、歌曲名 -->
+
+        <com.cooee.phenix.musicpage.CooeeTextView
+            android:id="@+id/music_page_music_name_text_view"
+            android:layout_width="@dimen/music_page_music_and_singer_name_text_view_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/music_page_album_anim_layout"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:singleLine="true" />
+
+        <com.cooee.phenix.musicpage.CooeeTextView
+            android:id="@+id/music_page_singer_name_text_view"
+            android:layout_width="@dimen/music_page_music_and_singer_name_text_view_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/music_page_music_name_text_view"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:paddingBottom="@dimen/music_page_lyric_margin_top"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <!-- 歌词 -->
+
+        <com.cooee.phenix.musicpage.CooeeLyricsTextView
+            android:id="@+id/music_page_lyric_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/music_page_singer_name_text_view"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+
+        <com.cooee.phenix.musicpage.AdTextView
+            android:id="@+id/music_page_ad_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/music_page_lyric_text_view"
+            android:layout_below="@+id/music_page_singer_name_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="@dimen/music_page_ad_text_view_padding"
+            android:paddingTop="@dimen/music_page_ad_text_view_padding"
+            android:visibility="invisible" />
+        <!-- </LinearLayout> -->
+    </RelativeLayout>
+
+</LinearLayout>

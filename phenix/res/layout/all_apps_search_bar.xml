@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/all_apps_search_bg" >
+
+    <LinearLayout
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_apps_search_bar_height"
+        android:layout_gravity="start|center_vertical"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/dismiss_search_button"
+            style="@style/AllAppsSearchBarDismissSearchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_icon" />
+
+        <FrameLayout 
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+	            
+	            <com.cooee.phenix.ExtendedEditText
+		            android:id="@+id/search_box_input"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:background="@drawable/search_box_input_bg"
+		            android:focusableInTouchMode="true"
+		            android:gravity="fill_horizontal|center_vertical"
+		            android:hint="@string/all_apps_search_bar_hint"
+		            android:imeOptions="actionSearch|flagNoExtractUi"
+		            android:inputType="text|textNoSuggestions|textCapWords"
+		            android:maxLines="1"
+		            android:paddingLeft="8dp"
+		            android:layout_marginTop="5dp"
+		            android:layout_marginBottom="5dp"
+		            android:scrollHorizontally="true"
+		            android:singleLine="true"
+            		    android:textColor="@color/search_text_color"
+		            android:textColorHint="#9c9c9c"
+		            android:textCursorDrawable="@null"
+		            android:textSize="16sp" />
+	            
+	            <ImageView android:id="@+id/search_box_input_clear"
+	                android:layout_width="20dp"
+	                android:layout_height="20dp"
+	                style="@style/AllAppsSearchBarInputClear"
+	                android:src="@drawable/search_box_input_clear"
+	                android:visibility="gone"/>
+        </FrameLayout>
+        
+    </LinearLayout>
+
+    <ImageView
+        style="@style/AllAppsSearchBarSearchButtonStyle"
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/all_apps_search_bar_height"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/ic_search_icon" />
+
+</FrameLayout>

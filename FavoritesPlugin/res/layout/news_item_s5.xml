@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/notify_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:drawableRight="@drawable/click_to_refresh"
+            android:drawablePadding="5dp"
+            android:text="@string/click_to_refresh"
+            android:textColor="#72ff00"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/news_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/item_bg_color_s5" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="96dp"
+            android:orientation="horizontal" >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/thumb"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="9dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="2"
+                android:scaleType="centerCrop" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="9dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textColor="@color/news_text_color_s5"
+                    android:textSize="16sp" />
+
+                <FrameLayout
+                    android:id="@+id/framelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title" >
+
+                    <com.android.volley.toolbox.NetworkImageView
+                        android:id="@+id/hqimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/news_hq_image_height"
+                        android:layout_below="@+id/title"
+                        android:layout_marginTop="9dp"
+                        android:scaleType="centerCrop" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/title"
+                        android:layout_marginTop="9dp"
+                        android:orientation="horizontal" >
+
+                        <com.android.volley.toolbox.NetworkImageView
+                            android:id="@+id/imglist1"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop" />
+
+                        <com.android.volley.toolbox.NetworkImageView
+                            android:id="@+id/imglist2"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop" />
+
+                        <com.android.volley.toolbox.NetworkImageView
+                            android:id="@+id/imglist3"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/site"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/framelayout"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_toLeftOf="@+id/showtime"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/news_site_thumb_color_s5"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/showtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/framelayout"
+                    android:layout_marginTop="9dp"
+                    android:textColor="@color/news_time_color_s5"
+                    android:textSize="14sp" />
+                <!-- 加下面这两个是因为布局时，显示左边缩略图时，下面两个textview始终不能与图片对齐，观察下来 android:layout_below和android:layout_alignParentBottom只能有一个有效 -->
+
+                <TextView
+                    android:id="@+id/site_thumb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/showtime_thumb"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/news_site_thumb_color_s5"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/showtime_thumb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/news_time_color_s5"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/list_item_selected_s5" />
+    </LinearLayout>
+
+</LinearLayout>

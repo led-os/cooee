@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SearchTargetBar和DropTargetBar -->
+<com.cooee.phenix.SearchDropTargetBar xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SearchDropTargetBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false" >
+
+    <!-- Drag specific targets container -->
+
+    <LinearLayout
+        android:id="@+id/drop_target_bar_id"
+        style="@style/SearchDropTargetBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+
+        <include layout="@layout/drop_target_bar" />
+    </LinearLayout>
+
+</com.cooee.phenix.SearchDropTargetBar>

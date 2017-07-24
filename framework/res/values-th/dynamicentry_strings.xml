@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><string name="dynamic_not_dl">ยังไม่ได้ติดตั้ง</string>
+<string name="dynamic_update_success">อัพเกรดสำเร็จ</string>
+<string name="notification_silent_download_run_btn">สัมผัสการใช้งานได้เลย</string>
+<string name="dynamic_many_days">เราพร้อมรออยู่นานแล้ว</string>
+<string name="dlman_delete">ลบ</string>
+<string name="dialog_check_network">กุรณาตรวจสอบการเชื่อมต่อเครือข่าย</string>
+<string name="classified_to">แยกประเภทเป็น</string>
+<string name="dynamic_dl_warnning">โทรศัพท์มีเกมส์ที่ยังไม่ได้ติดตั้งไว้</string>
+<string name="dynamic_try_on">เข้าไปและดู</string>
+<string name="dialog_install_success">การติดตั้งสำเร็จ</string>
+<string name="dynamic_download_app_paused">หยุดดาวน์โหลดชั่วขณะ</string>
+<string name="dynamic_next_size">ขนาด : เฉพาะ</string>
+<string name="dynamic_disclaimer_title">ลอนเชอร์พร้อมสำหรับอัพเดท</string>
+<string name="dynamic_update_fail">อัพเดทล้มเหลว!</string>
+<string name="download_app_continue">ดำเนินการดาวน์โหลดต่อเริ่มแล้ว</string>
+<string name="notification_silent_download_suffix">รอก่อน</string>
+<string name="dynamic_dl_news">โทรศัพท์มีรายการใหม่มากมายยังไม่ได้เล่น</string>
+<string name="notification_silent_download_check_btn">คลิกเพื่อดู</string>
+<string name="dynamic_smart_download_desc">เราได้จัดเตรียมแอพเหล่านี้เมื่อ WIFI ว่าง</string>
+<string name="dynamic_wa_yao">อ้า! แน่นอน</string>
+<string name="dynamic_dl_end">คุณได้ดาวน์โหลดแล้ว</string>
+<string name="dynamic_your_dl">การดาวน์โหลดของคุณ</string>
+<string name="dialog_click_install">คลิกที่นี่เพื่อติดตั้ง</string>
+<string name="dynamic_these_downloaded">ได้รับการดาวน์โหลดแล้ว! คลิกเพื่อติดตั้ง!</string>
+<string name="dynamic_disclaimer_desc">โฟลเดอร์แฟนซีนำพาคุณไปสัมผัสประสบการณ์แอพพลิเคชั่นล่าสุดและสวยงาม</string>
+<string name="dynamic_other_download">ยังมีผู้ใช้อื่นดาวน์โหลดด้วย</string>
+<string name="dialog_click_start">คลิกเพื่อเริ่มต้น</string>
+<string name="dynamic_dl_uninstall">ยังไม่ได้ติดตั้งหลังจากดาวน์โหลด</string>
+<string name="dlman_install">การติดตั้ง</string>
+<string name="dlman_start">เริ่มต้น</string>
+<string name="dynamic_download_now">ดาวน์โหลดทันที</string>
+<string name="dynmaic_install_immediately">ติดตั้งตอนนี้</string>
+</resources>

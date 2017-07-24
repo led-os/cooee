@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@id/overview_panel_text_hint_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/overview_panel_text_hint_padding"
+        android:singleLine="true"
+        android:text="@string/overview_panel_text_hint_string"
+        android:textColor="@color/overview_panel_button_text_color"
+        android:visibility="gone"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/overview_panel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/overview_panel_bottom_padding" >
+
+        <TextView 
+			android:textSize="12.0sp"
+			android:textColor="@color/overview_panel_button_text_color"
+			android:ellipsize="end"
+			android:gravity="center_horizontal"
+			android:id="@id/overview_panel_button_fallback_1_id"
+			android:clickable="true"
+			android:layout_width="0.0dip"
+			android:layout_height="wrap_content"
+			android:text="@string/overview_panel_button_fallback_1_text"
+			android:singleLine="true"
+			android:drawableTop="@drawable/overview_panel_button_fallback_1_selector"
+			android:drawablePadding="4.0dip"
+			android:layout_weight="1.0"
+			android:onClick="enterOverviewPanelButtonFallback_1"
+			android:fontFamily="sans-serif-condensed"
+			android:focusable="true" />
+		
+        <TextView
+            android:id="@id/overview_panel_button_widgets_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/overview_panel_button_widgets_selector"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal"
+            android:onClick="enterWidgets"
+            android:singleLine="true"
+            android:text="@string/overview_panel_button_widgets_string"
+            android:textColor="@color/overview_panel_button_text_color"
+            android:textSize="12sp"
+            android:focusable="true" /> 
+		
+		<TextView
+            android:id="@id/overview_panel_button_beauty_center_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/overview_panel_button_beauty_center_selector"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal"
+            android:onClick="enterBeautyCenter"
+            android:singleLine="true"
+            android:text="@string/overview_panel_button_beauty_center_string"
+            android:textColor="@color/overview_panel_button_text_color"
+            android:textSize="12sp"
+            android:focusable="true" />
+		
+		<TextView
+			android:textSize="12.0sp"
+			android:textColor="@color/overview_panel_button_text_color"
+			android:ellipsize="end"
+			android:gravity="center_horizontal"
+			android:id="@id/overview_panel_button_fallback_2_id"
+			android:clickable="true"
+			android:layout_width="0.0dip"
+			android:layout_height="wrap_content"
+			android:text="@string/overview_panel_button_fallback_2_text"
+			android:singleLine="true"
+			android:drawableTop="@drawable/overview_panel_button_fallback_2_selector"
+			android:drawablePadding="4.0dip"
+			android:layout_weight="1.0"
+			android:onClick="enterOverviewPanelButtonFallback_2"
+			android:fontFamily="sans-serif-condensed"
+			android:focusable="true" />
+    </LinearLayout>
+
+</RelativeLayout>

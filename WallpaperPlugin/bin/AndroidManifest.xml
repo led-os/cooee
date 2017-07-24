@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cooee.wallpaper"
+    android:versionCode="44168"
+    android:versionName="V1.0.44168.20170711" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/default_change_wallpaper" >
+         
+    </application>
+
+</manifest>

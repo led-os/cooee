@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="kuso_search_edit_hint">請輸入您要搜索的內容...</string>
+    <string name="kuso_history_record">歷史記錄</string>
+    <string name="kuso_search_setting">搜索設置</string>
+    <string name="kuso_choose_search_engine">請選擇搜索引擎</string>
+    <string name="kuso_hot">大家都在搜:</string>
+    <string name="kuso_sync_failure">同步失敗，請稍後再試</string>
+    <string name="kuso_activity_not_found">未找到匹配的程式</string>
+    <string name="kuso_not_allowed_to_start_activity">未經授權啟動該程式</string>    
+
+</resources>

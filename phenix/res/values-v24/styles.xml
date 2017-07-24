@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- chenliang add start //解决“7.0手机，打开‘桌面设置’下的‘关于桌面’界面后，再退出该界面，这时屏幕会黑一段时间”的问题。【i_0014945】 -->
+    <style name="NoTitleBarAndNoOpenExitAnimation" parent="android:style/Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/ActivityOpenExitAnimation</item>
+    </style>
+
+    <style name="ActivityOpenExitAnimation">
+        <item name="android:activityOpenExitAnimation">@null</item>
+    </style>
+    <!-- chenliang add end -->
+    
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cooee.phenix.Cling xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.cooee.phenix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    launcher:drawIdentifier="first_run_portrait" >
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/bubble_content"
+            style="@style/FirstRunClingBubbleContentStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/ClingAltTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/first_run_cling_title"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                style="@style/ClingAltTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/first_run_cling_description"
+                android:textColor="#80000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/search_bar_hint"
+            style="@style/FirstRunClingSearchBarHintStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="65dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/cling_arrow_up"
+            android:gravity="center_horizontal"
+            android:maxWidth="160dp"
+            android:text="@string/first_run_cling_search_bar_hint"
+            android:visibility="gone" />
+
+        <TextView
+            style="@style/FirstRunClingCreateScreensHintStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="85dp"
+            android:drawablePadding="5dp"
+            android:maxWidth="180dp"
+            android:text="@string/first_run_cling_create_screens_hint" />
+    </FrameLayout>
+
+    <Button
+        style="@style/FirstRunClingDismissButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="15dp"
+        android:onClick="dismissFirstRunCling" />
+
+</com.cooee.phenix.Cling>

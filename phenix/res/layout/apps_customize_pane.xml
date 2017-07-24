@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主菜单布局，launcher2原来是由一个TAbHOST控制插件和应用界面的，现在这两个界面分开了  很多launcher3用不到的已经 gone -->
+<com.cooee.phenix.AppList.KitKat.AppsCustomizeTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.cooee.phenix"
+    android:background="#80FFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/apps_customize_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <!--
+             The layout_width of the tab bar gets overriden to align the content
+             with the text in the tabs in AppsCustomizeTabHost.        -->
+
+        <FrameLayout
+            android:id="@+id/apps_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:id="@+id/tabs_container"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/apps_customize_tab_bar_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/apps_customize_tab_bar_margin_top"
+                android:visibility="gone" >
+
+                <com.cooee.phenix.FocusOnlyTabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/tab_unselected_holo"
+                    android:divider="@null"
+                    android:gravity="start"
+                    android:tabStripEnabled="false" />
+
+                <include
+                    android:id="@+id/market_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    layout="@layout/market_button" />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:id="@+id/app_menu_group"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/app_menu_appslist_bar_height"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:id="@+id/state_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#33ffffff"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/applist_bar_state_title"
+                        style="@style/ApplistBarStateTitleStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" >
+                    </TextView>
+                    <!-- //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add start -->
+                    <TextView
+                        android:id="@+id/applist_bar_state_done"
+                        style="@style/ApplistBarStateDoneStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/applist_mode_done"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp">
+                    </TextView>
+                    <!-- //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add end -->
+                </RelativeLayout>
+                
+                <LinearLayout android:id="@+id/menu_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/ApplistMenuStyle"
+                    android:orientation="horizontal"
+                    android:layout_alignParentTop="true">
+	                    <ImageView
+		                    android:id="@+id/applist_menu"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="match_parent"
+		                    android:src="@drawable/app_menu_button" >
+	               		</ImageView>
+                </LinearLayout>
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/apps_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/appslist_textview_height"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/group_applications"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" >
+                </TextView>
+                <!--
+                   上面是居中显示，若要位置可控，可用下方的布局，上面的去掉，调整android:layout_marginLeft和android:layout_marginTop的距离
+			       <TextView
+			            android:id="@+id/textview_title"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="#ffffff"
+			            android:textSize="18sp"
+			            android:layout_alignParentLeft="true"
+			            android:layout_alignParentTop="true"
+			            android:layout_marginLeft="10dp"
+			            android:layout_marginTop="10dp"
+			            android:text="@string/group_applications"
+			            android:gravity="center">
+			       </TextView>                -->
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.cooee.phenix.AppList.KitKat.AppsCustomizePagedView
+                android:id="@+id/apps_customize_pane_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/apps_customize_page_indicator_offset_widgets"
+                launcher:clingFocusedX="@integer/apps_customize_cling_focused_x"
+                launcher:clingFocusedY="@integer/apps_customize_cling_focused_y"
+                launcher:maxGap="@dimen/workspace_max_gap"
+                launcher:pageIndicator="@+id/page_indicator"
+                launcher:widgetCountX="@integer/apps_customize_widget_cell_count_x"
+                launcher:widgetCountY="@integer/apps_customize_widget_cell_count_y" />
+
+            <FrameLayout
+                android:id="@+id/animation_buffer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF000000"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/page_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="@dimen/apps_customize_page_indicator_margin_widgets"
+                layout="@layout/page_indicator" />
+        </FrameLayout>
+    </LinearLayout>
+
+</com.cooee.phenix.AppList.KitKat.AppsCustomizeTabHost>

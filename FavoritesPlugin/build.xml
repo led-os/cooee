@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    name="Favorites"
+    default="help" >
+
+    <!--
+         The local.properties file is created and updated by the 'android' tool.
+         It contains the path to the SDK. It should *NOT* be checked into
+         Version Control Systems.
+    -->
+
+    <property file="local.properties" />
+
+    <!--
+         The ant.properties file can be created by you. It is only edited by the
+         'android' tool to add properties to it.
+         This is the place to change some Ant specific build properties.
+         Here are some properties you may want to change/update:
+
+         source.dir
+             The name of the source directory. Default is 'src'.
+         out.dir
+             The name of the output directory. Default is 'bin'.
+
+         For other overridable properties, look at the beginning of the rules
+         files in the SDK, at tools/ant/build.xml
+
+         Properties related to the SDK location or the project target should
+         be updated using the 'android' tool with the 'update' action.
+
+         This file is an integral part of the build system for your
+         application and should be checked into Version Control Systems.
+    -->
+
+    <property file="ant.properties" />
+
+    <!-- add by liuhailin start -->
+
+    <target name="gitversion" >
+
+        <!-- 解析当前项目的AndroidManifest.xml文件 -->
+
+        <xmlproperty
+            collapseAttributes="true"
+            file="AndroidManifest.xml" />
+        <!-- 读取服务器版本号的配置文件内容获取版本号,获取版本号后将版本号递增1,再写入版本号配置文件auto_gitversion.prop里 -->
+
+        <tstamp />
+
+        <property file="/home/eason/gitversion/auto_gitversion.prop" />
+
+        <script language="javascript" >
+
+<![CDATA[
+                property = project.getProperty("auto_gitversion.final.versionCode");
+				property = project.setProperty("auto_gitversion.final.versionCode",Math.floor(property)+1)
+            ]]>
+        </script>
+
+        <propertyfile file="/home/eason/gitversion/auto_gitversion.prop" >
+
+            <entry
+                key="auto_gitversion.final.versionCode"
+                value="${auto_gitversion.final.versionCode}" />
+        </propertyfile>
+
+        <!--
+             将获取的版本号写入本地项目的版本号配置文件里
+             auto.final.versionName的格式可以修改,根据不同项目来设置
+             例如：UNI3.0项目版本名格式为V3.0.${auto_gitversion.final.versionCode}.${DSTAMP}
+  			 则写入的值则是V3.0.40000.20141105
+        -->
+
+        <propertyfile file="auto.prop" >
+
+            <entry
+                key="auto.final.versionCode"
+                value="${auto_gitversion.final.versionCode}" />
+
+            <entry
+                key="auto.final.versionName"
+                value="V1.0.${auto_gitversion.final.versionCode}.${DSTAMP}" />
+        </propertyfile>
+
+        <echo message="auto_gitversion.final.versionCode: ${property}" />
+
+        <!-- 调用修改版本号的target -->
+
+        <antcall target="-change-version" >
+        </antcall>
+
+        <property file="auto.prop" />
+
+        <echo message="versionCode: ${auto.final.versionCode}" />
+
+        <echo message="versionName: ${auto.final.versionName}" />
+    </target>
+
+    <!-- 修改版本号的target -->
+
+    <target name="-change-version" >
+
+        <!-- 获取本地的版本号和版本名的内容 -->
+
+        <property file="auto.prop" />
+
+        <script language="javascript" >
+
+<![CDATA[
+                property = project.getProperty("auto.final.versionCode");
+				property = project.getProperty("auto.final.versionName");
+            ]]>
+        </script>
+
+        <echo message="versionCode: ${auto.final.versionCode}" />
+
+        <echo message="versionName: ${auto.final.versionName}" />
+        <!-- 将本地的版本号和版本名内容写入项目的AndroidManifest.xml文件里 -->
+
+        <replaceregexp
+            file="AndroidManifest.xml"
+            match="android:versionCode=&quot;(\d+)&quot;"
+            replace="android:versionCode=&quot;${auto.final.versionCode}&quot;" />
+
+        <replaceregexp
+            file="AndroidManifest.xml"
+            match="android:versionName=&quot;([a-zA-Z0-9\.]+)&quot;"
+            replace="android:versionName=&quot;${auto.final.versionName}&quot;" />
+    </target>
+    <!-- add by liuhailin end -->
+
+
+    <!--
+         if sdk.dir was not set from one of the property file, then
+         get it from the ANDROID_HOME env var.
+         This must be done before we load project.properties since
+         the proguard config can use sdk.dir
+    -->
+
+    <property environment="env" />
+
+    <condition
+        property="sdk.dir"
+        value="${env.ANDROID_HOME}" >
+
+        <isset property="env.ANDROID_HOME" />
+    </condition>
+
+    <!--
+         The project.properties file is created and updated by the 'android'
+         tool, as well as ADT.
+
+         This contains project specific properties such as project target, and library
+         dependencies. Lower level build properties are stored in ant.properties
+         (or in .classpath for Eclipse projects).
+
+         This file is an integral part of the build system for your
+         application and should be checked into Version Control Systems.
+    -->
+
+    <loadproperties srcFile="project.properties" />
+    <!-- quick check on sdk.dir -->
+
+    <fail
+        message="sdk.dir is missing. Make sure to generate local.properties using &apos;android update project&apos; or to inject it through the ANDROID_HOME environment variable."
+        unless="sdk.dir" />
+
+    <!--
+        Import per project custom build rules if present at the root of the project.
+        This is the place to put custom intermediary targets such as:
+            -pre-build
+            -pre-compile
+            -post-compile (This is typically used for code obfuscation.
+                           Compiled code location: ${out.classes.absolute.dir}
+                           If this is not done in place, override ${out.dex.input.absolute.dir})
+            -post-package
+            -post-build
+            -pre-clean
+    -->
+
+    <import
+        file="custom_rules.xml"
+        optional="true" />
+
+    <!--
+         Import the actual build file.
+
+         To customize existing targets, there are two options:
+         - Customize only one target:
+             - copy/paste the target into this file, *before* the
+               <import> task.
+             - customize it to your needs.
+         - Customize the whole content of build.xml
+             - copy/paste the content of the rules files (minus the top node)
+               into this file, replacing the <import> task.
+             - customize to your needs.
+
+         ***********************
+         ****** IMPORTANT ******
+         ***********************
+         In all cases you must update the value of version-tag below to read 'custom' instead of an integer,
+         in order to avoid having your file be overridden by tools such as "android update project"
+    -->
+    <!-- version-tag: 1 -->
+
+    <import file="${sdk.dir}/tools/ant/build_launcher3.xml" />
+    <!-- zhangjin start -->
+
+    <path id="project.custom.classpath" >
+
+        <fileset dir="/home/eason/svn/build/jars" >
+
+            <include name="dl_38694.jar" />
+
+            <include name="favorites.jar" />
+
+            <include name="SearchManager.jar" />
+
+            <include name="volley.jar" />
+            
+            <include name="CooeeShellSdk*.jar" />
+
+            <include name="kmob*.jar" />
+
+            <include name="statistics*.jar" />
+
+        </fileset>
+    </path>
+    <!-- zhangjin end -->
+
+</project>

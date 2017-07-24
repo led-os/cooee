@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <include
+        android:id="@+id/title_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/news_action_bar" />
+
+    <RelativeLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_action_bar"
+        android:background="#ffffffff"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/progressView"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:padding="10dip"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/changeSizeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_action_bar"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/changesize_bg"
+        android:visibility="gone" >
+
+        <TextView android:id="@+id/changesize_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="@string/font_size_setting"
+            android:textColor="#ff171717"
+            android:textSize="20sp"/>
+		 
+		
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/changesize_title"
+            android:id="@+id/size_seekbar"
+            android:layout_marginTop="16dp" 
+            android:layout_marginBottom="16dp">
+
+            <com.cooee.favorites.news.SeekBarWithMark
+                android:id="@+id/seekBarWithMark"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:max="80"
+                    android:maxHeight="10dp"
+                    android:minHeight="10dp"
+                    android:progressDrawable="@drawable/slider_bg"
+                    android:thumb="@drawable/thumb" />
+            </com.cooee.favorites.news.SeekBarWithMark>
+
+             <ImageView
+                 android:id="@+id/size_smaller"
+                 android:layout_width="24dp"
+                 android:layout_height="21dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginTop="10dp"
+                 android:src="@drawable/size_smaller"/>
+
+            <ImageView
+                android:id="@+id/size_larger"
+                android:layout_width="24dp"
+                android:layout_height="21dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/size_larger" />
+        </RelativeLayout>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/size_seekbar"
+            android:layout_marginBottom="8dp"
+            android:textColor="#ff8c8c8c"
+            android:textSize="12sp"
+            android:text="@string/adjust_font_size_affect_the_layout"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/news_adview_height"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/banner_cancle"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:src="@drawable/banner_cancle" />
+    </FrameLayout>
+
+</RelativeLayout>

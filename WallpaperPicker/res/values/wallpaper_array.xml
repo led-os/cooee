@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="partner_wallpapers">
+        <!-- <item >wallpaper00</item> -->
+        <!-- <item >wallpaper01</item> -->
+        <!-- <item >wallpaper02</item> -->
+        <!-- <item >wallpaper03</item> -->
+        <!-- <item >wallpaper04</item> -->
+    </string-array>
+
+</resources>

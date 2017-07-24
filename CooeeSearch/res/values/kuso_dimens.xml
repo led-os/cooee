@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kuso_search_result_top_edit_height">50.0dip</dimen>
+      <dimen name="kuso_divider_width">1.0px</dimen>
+</resources>

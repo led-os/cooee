@@ -1,0 +1,235 @@
+-keep class com.cooee.phenix.Launcher {
+  public void previousScreen(android.view.View);
+  public void nextScreen(android.view.View);
+  public void launchHotSeat(android.view.View);
+  public void onClickSearchButton(android.view.View);
+  public void onClickVoiceButton(android.view.View);
+  public void onClickConfigureButton(android.view.View);
+  public void onClickAllAppsButton(android.view.View);
+  public void onClickAppMarketButton(android.view.View);
+  public void dismissFirstRunCling(android.view.View);
+  public void dismissWorkspaceCling(android.view.View);
+  public void dismissAllAppsCling(android.view.View);
+ 
+ #//需求：编辑模式底边栏配置打开特定界面。预留两个可配置的button，这两个button配置intent即可打开特定界面（详见“BaseDefaultConfig”中说明）。	//xiatian add start
+	public void enterOverviewPanelButtonFallback_1(android.view.View);
+	public void enterOverviewPanelButtonFallback_2(android.view.View);
+ #//需求：编辑模式底边栏配置打开特定界面。预留两个可配置的button，这两个button配置intent即可打开特定界面（详见“BaseDefaultConfig”中说明）。	//xiatian add end
+ 
+ #//编辑模式底边栏按钮配置为壁纸时，打开不同的壁纸选择界面。0为美化中心的壁纸tab；1为launcher3的壁纸选择界面；2为uni3的壁纸选择界面；3为客户自定义的壁纸选择界面；4为系统的选择壁纸应用的界面。默认为0。	//xiatian add start
+ 	public void enterBeautyCenterTabLock(android.view.View);
+ #//编辑模式底边栏按钮配置为壁纸时，打开不同的壁纸选择界面。0为美化中心的壁纸tab；1为launcher3的壁纸选择界面；2为uni3的壁纸选择界面；3为客户自定义的壁纸选择界面；4为系统的选择壁纸应用的界面。默认为0。	//xiatian add end
+ 
+   	public void enterSystemSettings(android.view.View);
+}
+
+-keep class com.cooee.phenix.CellLayout {
+  public float getBackgroundAlpha();
+  public void setBackgroundAlpha(float);
+}
+
+-keep class com.cooee.phenix.DragLayer$LayoutParams {
+  public void setWidth(int);
+  public int getWidth();
+  public void setHeight(int);
+  public int getHeight();
+  public void setX(int);
+  public int getX();
+  public void setY(int);
+  public int getY();
+}
+
+-keep class com.cooee.phenix.CellLayout$LayoutParams {
+  public void setWidth(int);
+  public int getWidth();
+  public void setHeight(int);
+  public int getHeight();
+  public void setX(int);
+  public int getX();
+  public void setY(int);
+  public int getY();
+}
+
+-keep class com.cooee.phenix.Workspace {
+  public float getBackgroundAlpha();
+  public void setBackgroundAlpha(float);
+  public float getChildrenOutlineAlpha();
+  public void setChildrenOutlineAlpha(float);
+}
+
+-keep class com.cooee.phenix.MemoryDumpActivity {
+  *;
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+#不混淆cooeeblur.jar , change by shlt@2014/12/19 ADD START
+-keep public class com.cooee.utils.NDK_CooeeBlur{
+	 public protected <methods>; 
+     public protected *;
+}
+#不混淆cooeeblur.jar , change by shlt@2014/12/19 ADD END
+
+
+#ME_RTFSC  START
+-keepattributes *Annotation*
+
+-keep public class com.iLoong.launcher.MList.JSClass
+{
+    public <fields>;
+    public <methods>;
+}
+-keep public class com.iLoong.launcher.MList.MEExternalInteface
+
+-keep public class com.iLoong.launcher.MList.MyR
+-keep public class com.iLoong.launcher.MList.MyR$*
+-keep public class com.iLoong.launcher.MList.MyR$*{
+    public <fields>;
+    public <methods>;
+}
+#ME_RTFSC  END
+
+-keep public class com.iLoong.launcher.desktop.Disclaimer{
+	public protected <methods>; 
+	public protected *;
+}
+-dontwarn dalvik.system.**
+-keep class dalvik.system.** { *;}
+
+-keep class com.cooee.phenix.iconhouse.provider.*{ *; }
+#//start	//solo
+-keep class com.solo.search.** { *; }
+-dontwarn com.solo.search.**
+-keep class com.yahoo.mobile.client.share.search.** { *; }
+-keep interface com.yahoo.mobile.client.share.search.** { *; }
+-keep class * implements com.yahoo.mobile.client.share.search.interfaces.IFactory
+-dontwarn com.yahoo.mobile.client.share.search.**
+-dontwarn com.yahoo.data.**
+ #//end
+ 
+ 
+
+-dontwarn com.cooee.statistics.StatisticsUtil
+-dontwarn com.cooee.download.StatisticsUtil
+-keep class android.webkit.** { *; }
+-dontwarn android.webkit.**
+
+#cheyinkgun add start	//更新酷生活新闻app_id
+#cooee cheyingkun add start 2016-3-14 14:46:57
+-dontwarn com.cooee.dynamicload.**
+-keep class com.cooee.dynamicload.** {*; }
+-dontwarn com.cooee.favorites.host.**
+-keep class com.cooee.favorites.host.** {*; }
+-dontwarn com.cooee.uniex.wrap.**
+-keep class com.cooee.uniex.wrap.** {*; }
+-keep interface com.cooee.uniex.wrap.** {*; }
+-dontwarn cool.sdk.**
+-keep class cool.sdk.** {*; }
+-dontwarn com.cooee.shell.**
+-keep public class com.cooee.shell.sdk.CooeeSdk{
+	 public protected <methods>; 
+	 public protected *;
+}
+#cooee cheyingkun add end 2016-3-14 14:46:57
+-keep class com.umeng.analytics.** {*;}
+-keep class com.cooee.statistics.** {*;}
+-keep class com.kmob.kmobsdk.** {*;}
+-dontwarn com.android.volley.**
+-keep class com.android.volley.** {*; }
+-keep class * extends com.android.volley.** {*; }
+-dontwarn com.tencent.**
+-keep class com.tencent.** {*; }
+-dontwarn    com.excelliance.*
+-keep class  com.excelliance.** { *;}
+#cheyingkun add end	//更新酷生活新闻app_id
+#cheyingkun add start	//配置酷生活加载自己的搜索，点击搜索后桌面重启。【c_0004145】
+-keep class com.search.kuso.KuSoSearch {*;}
+-keep class u.aly.** {*;}
+#cheyingkun add end
+
+#android support start
+-dontwarn android.support.v4.** 
+-keep class android.support.v4.** { *; } 
+-dontwarn android.support.v7.** 
+-keep class android.support.v7.** { *; } 
+-keep public class * extends android.support.v4.app.Fragment
+#android support end
+
+# 要检查的类名不要混淆
+-keepclasseswithmembers class com.kpsh.sdk.KpshSdk
+-keepclasseswithmembers class com.iLoong.launcher.MList.MainActivity	#//xiatian add	//CheckIntegrity（添加：检查“微入口模块”完整性）
+#
+
+#一键换壁纸  start
+-dontwarn com.cooee.wallpaper.host.**
+-keep class com.cooee.wallpaper.host.** {*; }
+-dontwarn com.cooee.wallpaper.wrap.**
+-keep class com.cooee.wallpaper.wrap.** {*; }
+-keep interface com.cooee.wallpaper.wrap.** {*; }
+-keep class com.cooee.wallpaperManager.WallpaperManagerBase {*; }
+-keep class com.uuid.** {*; }
+#一键换壁纸  end
+
+
+#功能页
+-keep class com.alibaba.** {*;}
+-dontwarn com.alibaba.**
+
+#lib目录jar包加密方案
+-dontwarn com.kpsh.sdk.KpshSdk
+-dontwarn com.kpsh.sdk.KpshMsg
+-dontwarn com.uuid.control.UuidControl
+-dontwarn com.cooee.statistics.**
+
+-keep class com.iLoong.launcher.SetupMenu.cut {*; }
+-dontwarn com.cooee.framework.function.NotifyLauncherSnapPage.NotifyLauncherSnapPageManagerByBroadcastXH
+-dontwarn com.cooee.framework.function.NotifyLauncherSnapPage.NotifyLauncherSnapPageManagerCustomerSingleTrackXH
+
+
+-keep class com.cooee.framework.utils.StringUtils {*; }
+
+#编辑界面二级菜单，用到反射，不能混淆
+-keep public class com.cooee.phenix.editmode.provider.EditThemeProvider
+-keep public class com.cooee.phenix.editmode.provider.EditWallpaperProvider
+-keep public class com.cooee.phenix.editmode.provider.EditModelProviderBase
+#运营分离，不能混淆
+-libraryjars  ../framework/libs/com.dynamic.load.lib.jar
+-dontwarn com.dynamic.load.lib.**
+-dontwarn com.separation.**
+-keep class com.dynamic.** {*;}
+-keep class com.separation.** {*;}
+-dontwarn  com.ha.hb.**
+-dontwarn com.cooee.download.**
+-keep class com.ha.hb.**{*;}
+-keep class com.cooee.download.**{*;}
+
+-keep class com.kpsh.sdk.** { *;}
+-keep class com.cooee.shell.**{*;}
+-keep class com.uuid.**{*;}
+
+
+
+#主菜单7.0动画
+-keep class com.cooee.phenix.AppList.Marshmallow.AllAppsTransitionController {*; }
+-keep class com.cooee.phenix.AppList.Marshmallow.CaretDrawable {*; }
+
+
+#//xiatian add start	//通知桌面切页：“锐益”定制功能（光感切页）。详见“NotifyLauncherSnapPageManagerCustomerRY.java”中的备注。
+-dontwarn com.cooee.framework.function.NotifyLauncherSnapPage.NotifyLauncherSnapPageManagerCustomerRY
+#//xiatian add end
+
+#//zhujieping add start	//保留原文件名及行号
+-keepattributes SourceFile,LineNumberTable
+#//zhujieping add end	
+
+#//zhujieping add start	//需求：编辑模式底边栏的图标，支持本地化（配置config_custom_theme_path，在该路径的theme文件夹下，放置图片）。
+-dontwarn com.cooee.phenix.LocalDrawableTextView
+#//zhujieping add end
+
+#//xiatian add start	//添加配置项“config_change_custom_default_config_action”，客户“凌星通”定制的“发广播切换本地化配置文件的文件夹”功能，配置为客户发送的广播的action。默认为空。
+-dontwarn com.cooee.phenix.config.defaultConfig.LauncherDefaultConfig
+-dontwarn com.cooee.phenix.LauncherModel
+#//xiatian add end

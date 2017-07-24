@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 页面指示器布局 -->
+<com.cooee.phenix.pageIndicators.PageIndicatorMarker xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.cooee.phenix"
+    style="@style/PageIndicatorMarkerStyle"
+    android:layout_width="@dimen/dynamic_grid_page_indicator_height"
+    android:layout_height="@dimen/dynamic_grid_page_indicator_height"
+    android:layout_gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/inactive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_pageindicator_normal_page_default" />
+
+    <ImageView
+        android:id="@+id/active"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:scaleType="centerInside"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:src="@drawable/ic_pageindicator_normal_page_current" />
+
+</com.cooee.phenix.pageIndicators.PageIndicatorMarker>

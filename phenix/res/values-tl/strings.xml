@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Hindi naka-install ang app."</string>
+    <string name="widgets_tab_label">"Mga Widget"</string>
+    <string name="toggle_weight_watcher">"Ipakita ang Mem"</string>
+    <string name="long_press_widget_to_add">"Pindutin nang matagal upang kumuha ng widget."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Apps"</string>
+    <string name="out_of_space">"Wala nang lugar sa Home screen na ito."</string>
+    <string name="hotseat_out_of_space">"Wala nang lugar sa hotseat."</string>
+    <string name="shortcut_uninstalled">"Inalis ang shortcut na \"<xliff:g id="NAME">%s</xliff:g>.\""</string>
+    <string name="shortcut_duplicate">"Umiiral na ang shortcut na \"<xliff:g id="NAME">%s</xliff:g>.\""</string>
+    <string name="title_select_application">"Pumili ng app"</string>
+    <string name="hotseat_all_apps_button_string">"Apps"</string>
+    <string name="delete_zone_label_workspace">"Alisin"</string>
+    <string name="delete_target_remove_label">"Alisin"</string>
+    <string name="delete_target_uninstall_label">"I-uninstall"</string>
+    <string name="info_target_label">"Impormasyon ng app"</string>
+    <string name="permlab_install_shortcut">"i-install ang mga shortcut"</string>
+    <string name="permdesc_install_shortcut">"Pinapayagan ang isang app na magdagdag ng mga shortcut nang walang panghihimasok ng user."</string>
+    <string name="permlab_uninstall_shortcut">"i-uninstall ang mga shortcut"</string>
+    <string name="permdesc_uninstall_shortcut">"Pinapayagan ang app na mag-alis ng mga shortcut nang walang panghihimasok ng user."</string>
+    <string name="permlab_read_settings">"basahin ang mga setting at shortcut ng Home"</string>
+    <string name="permdesc_read_settings">"Pinapayagan ang app na basahin ang mga setting at shortcut sa Home."</string>
+    <string name="permlab_write_settings">"Magsulat ng mga setting at shortcut ng Home"</string>
+    <string name="permdesc_write_settings">"Pinapayagan ang app na baguhin ang mga setting at shortcut sa Home."</string>
+    <string name="gadget_error_text">"Problema sa pag-load ng widget"</string>
+    <string name="uninstall_system_app_text">"Isa itong app ng system at hindi maaaring i-uninstall."</string>
+    <string name="folder_hint_text">"Walang Pangalang Folder"</string>
+    <string name="first_run_cling_title">"Maligayang pagdating!"</string>
+    <string name="first_run_cling_description">"Gawing kumportable ang iyong sarili."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Gumawa ng higit pang mga screen para sa apps at mga folder"</string>
+    <string name="workspace_cling_title">"Ayusin ang iyong espasyo"</string>
+    <string name="workspace_cling_move_item">"Pindutin nang matagal ang background upang pamahalaan ang wallpaper, mga widget at setting"</string>
+    <string name="folder_cling_title">"Narito ang isang folder"</string>
+    <string name="folder_cling_create_folder">"Upang gumawa ng katulad nito, pindutin nang matagal ang isang app, pagkatapos ay ilipat ito sa isa pang folder."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Mga Widget"</string>
+    <string name="overview_panel_button_system_settings_string">"Mga Setting"</string>
+    <string name="all_apps_search_bar_hint">"Mga App sa Paghahanap"</string>
+    <string name="all_apps_loading_message">"Nilo-load ang Mga App…"</string>
+    <string name="all_apps_no_search_results">"Walang nakitang Mga App na tumutugma sa \"<xliff:g id="QUERY">%1$s</xliff:g>\""</string>
+    <string name="all_apps_search_market_message">"Pumunta sa <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

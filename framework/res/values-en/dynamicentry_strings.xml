@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><string name="dynamic_not_dl">Not installed yet</string>
+<string name="dynamic_update_success">Upgrade successfully</string>
+<string name="notification_silent_download_run_btn">Experience now</string>
+<string name="dynamic_many_days">We have come a long time</string>
+<string name="dlman_delete">Delete</string>
+<string name="dialog_check_network">Please check the network connection</string>
+<string name="classified_to">Classified to</string>
+<string name="dynamic_dl_warnning">Phone has games not installed yet</string>
+<string name="dynamic_try_on">Go and see</string>
+<string name="dialog_install_success">Installation done</string>
+<string name="dynamic_download_app_paused">Pause download</string>
+<string name="dynamic_next_size">Size: only</string>
+<string name="dynamic_disclaimer_title">Launcher is ready to update</string>
+<string name="dynamic_update_fail">Update failed!</string>
+<string name="download_app_continue">Continue downloading has started</string>
+<string name="notification_silent_download_suffix">Wait</string>
+<string name="dynamic_dl_news">The phone has a lot of new stuff that hasn’t been played</string>
+<string name="notification_silent_download_check_btn">Click to view</string>
+<string name="dynamic_smart_download_desc">We have prepared these apps when WIFI is idle</string>
+<string name="dynamic_wa_yao">Wa! Of course</string>
+<string name="dynamic_dl_end">You have downloaded</string>
+<string name="dynamic_your_dl">Your downloaded</string>
+<string name="dialog_click_install">Click here to install</string>
+<string name="dynamic_these_downloaded">These have been downloaded! Click to install!</string>
+<string name="dynamic_disclaimer_desc">Fancy folders bring you the latest and most beautiful application experience</string>
+<string name="dynamic_other_download">Other users also have downloaded</string>
+<string name="dialog_click_start">Click to start</string>
+<string name="dynamic_dl_uninstall">Hasn’t installed yet after downloading</string>
+<string name="dlman_install">Installation</string>
+<string name="dlman_start">Start</string>
+<string name="dynamic_download_now">Download immediately</string>
+<string name="dynmaic_install_immediately">Install now</string>
+</resources>

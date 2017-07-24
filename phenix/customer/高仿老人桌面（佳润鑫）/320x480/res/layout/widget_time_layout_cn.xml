@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- //luomingjun add whole file	//桌面时钟 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:layout_marginStart="@dimen/widget_time_left_width"        
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"               
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/hour_ten"
+            android:layout_width="@dimen/widget_time_number_width"
+            android:layout_height="@dimen/widget_time_number_height"
+            android:src="@drawable/widget_time_t0" />
+
+        <ImageView
+            android:id="@+id/hour_one"
+            android:layout_width="@dimen/widget_time_number_width"
+            android:layout_height="@dimen/widget_time_number_height"
+            android:src="@drawable/widget_time_t0" />
+
+        <ImageView
+            android:id="@+id/hour_dian"
+            android:layout_width="@dimen/widget_time_dian_width"
+            android:layout_height="@dimen/widget_time_number_height"
+            android:src="@drawable/widget_time_dian" />
+
+        <ImageView
+            android:id="@+id/minute_ten"
+            android:layout_width="@dimen/widget_time_number_width"
+            android:layout_height="@dimen/widget_time_number_height"
+            android:src="@drawable/widget_time_t0" />
+
+        <ImageView
+            android:id="@+id/minute_one"
+            android:layout_width="@dimen/widget_time_number_width"
+            android:layout_height="@dimen/widget_time_number_height"
+            android:src="@drawable/widget_time_t0" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/minute_am"
+            android:layout_width="@dimen/widget_time_number_width"
+            android:layout_height="@dimen/widget_time_number_height"
+            android:src="@drawable/widget_time_am" />
+    </LinearLayout>
+
+    <LinearLayout        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="@dimen/widget_time_month_left_width"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/widget_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04月03日 "
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

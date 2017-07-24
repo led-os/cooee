@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" 
+    android:background="@drawable/white_shape_bg">
+
+    <TextView
+        android:id="@+id/tvDiaglogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="15dp"
+		android:gravity="center_vertical"
+        android:text="@string/app_menu_sort_dialog_title"
+        android:textColor="#ff33b5e5"
+        android:textSize="25sp" />
+	
+	<View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ff33b5e5" />
+	
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+		
+		<RadioButton
+            android:id="@+id/RadioName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:paddingLeft="25dp"
+            android:saveEnabled="false"
+            android:text="@string/app_menu_sort_app_name"
+            android:gravity="center_vertical"
+            android:textColor="#ff000000"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffdddddd" />
+ 
+        
+		<RadioButton
+            android:id="@+id/RadioFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:paddingLeft="25dp"
+            android:saveEnabled="false"
+            android:text="@string/app_menu_sort_app_use_frequency"
+           android:gravity="center_vertical"
+            android:textColor="#ff000000"
+            android:textSize="20sp" />
+		
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffdddddd" />
+		
+		<RadioButton
+            android:id="@+id/RadioInstall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:paddingLeft="25dp"
+            android:saveEnabled="false"
+            android:text="@string/app_menu_sort_app_install_time"
+           	android:gravity="center_vertical"
+            android:textColor="#ff000000"
+            android:textSize="20sp" />
+		
+		<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"
+            android:background="#ffdddddd" />
+		
+        <RadioButton
+            android:id="@+id/RadioFactory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:paddingLeft="25dp"
+            android:saveEnabled="false"
+            android:text="@string/app_menu_sort_app_init"
+           android:gravity="center_vertical"
+            android:textColor="#ff000000"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        
+    </RadioGroup>
+	<Button
+        android:id="@+id/btnDialogCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:text="@string/dialog_button_negative"
+        android:textColor="#ff000000"
+        android:textSize="@dimen/app_menu_sort_dialog_cancelbutton_textSize" />
+   
+
+</LinearLayout>

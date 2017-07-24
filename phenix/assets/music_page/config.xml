@@ -1,0 +1,125 @@
+<resources>
+ <!-- MusicPage -->
+
+
+    <!-- UI相关 , start -->
+    <!-- 光盘距离屏幕上边距 -->
+    <interger name="music_page_album_layout_magin_top" type="px" value="40" />
+    <!-- 歌手歌曲名距离光盘距离 -->
+    <interger name="music_page_album_layout_to_music_name_text_magin" type="px" value="5" />
+    <!-- 歌手名距离歌曲名距离 -->
+    <interger name="music_page_music_name_to_singer_name_text_magin" type="px" value="5" />
+    <!-- 歌词距离歌手名距离 -->
+    <interger name="music_page_music_and_singer_name_text_to_lyric_magin" type="px" value="0" />
+    <!-- 歌曲名字体大小 -->
+    <interger name="music_page_music_name_font_size" type="px" value="18" />
+    <!-- 歌曲名字体颜色 -->
+    <string name="music_page_music_name_font_color">0xffffff</string>
+    <!-- 歌手名字体大小 -->
+    <interger name="music_page_singer_name_font_size" type="px" value="16" />
+    <!-- 歌手名字体颜色 -->
+    <string name="music_page_singer_name_font_color">0xffffff</string>
+
+    <!-- 光盘向上拖动加速比例 -->
+    <interger name="music_page_album_move_up_scale" type="px" value="1" />
+    <!-- 光盘快速滑动切歌时间（毫秒） -->
+    <interger name="music_page_view_quick_touch_cut_song_time" type="px" value="200" />
+
+    <!-- UI相关 , end -->
+
+
+    <!-- 歌词相关 , start -->
+    <!-- 显示歌词，需底层广播支持  , 歌词进度都不需要请关闭下面的user_aidl_get_position -->
+    <boolean name="music_page_show_lyrics">true</boolean>
+    <!-- 是否使用虾米下载歌词 -->
+    <boolean name="music_page_enable_xiami_find_lyrics">true</boolean>
+    <!-- 正在播放歌词字体大小 -->
+    <interger name="music_page_cur_lyric_font_size" type="px" value="17" />
+    <!-- 其他歌词字体大小 -->
+    <interger name="music_page_other_lyric_font_size" type="px" value="16" />
+    <!-- 长按歌词后拖动可以快进快退，需底层广播支持 -->
+    <boolean name="music_page_enable_lyrics_fast_locate">true</boolean>
+    <!-- 歌词拖动比例 ， 一像素对应多少毫秒 -->
+    <interger name="music_page_drag_scale" type="px" value="100" />
+    <!-- 歌词滚动之前的等待时间 , 毫秒 -->
+    <interger name="music_page_scroll_wait_time" type="px" value="200" />
+    <!-- 歌词之间行间距 -->
+    <interger name="music_page_lyric_line_height" type="px" value="5" />
+    <!-- 歌词动画速度 ， 必须大于1 -->
+    <interger name="music_page_lyric_move_set" type="px" value="2" />
+    <!-- 播放过后的歌词颜色 -->
+    <string name="music_page_lyrics_last_color">0x888888</string>
+    <!-- 当前在播放的歌词颜色 -->
+    <string name="music_page_lyrics_current_color">0x00ff00</string>
+    <!-- 将要播放的歌词颜色 -->
+    <string name="music_page_lyrics_next_color">0xffffff</string>
+    <!-- 歌词所在文件夹 , 必须配置一个默认的而且路径正确！！！ -->
+    <string-array name="music_page_lyrics_directory" translatable="false">
+        <item>/storage/sdcard0/imusic/</item>
+        <!-- <item>/mnt/sdcard/imusic/</item> -->
+    </string-array>
+    <!-- 歌词相关 , end -->
+
+
+    <!-- 播放相关 , start -->
+    <!-- 适配播放器类型 ， 0 ， 系统 ， 1 ， 移云 ， 2 ， 多米，3，vivo -->
+    <interger name="music_page_switch_music" value="0" />
+    <!-- 绑定音乐服务 -->
+    <boolean name="music_page_bind_service">true</boolean>
+    <!-- 通过aidl获取进度支持 , 歌词进度都不需要请关闭上面开关 -->
+    <boolean name="music_page_user_aidl_get_position">true</boolean>
+    <!-- 不管音乐服务是否已经启动，总是启动服务 -->
+    <boolean name="music_page_start_service_whenever_started">true</boolean>
+
+    <!-- 系统播放相关 , start -->
+    <string-array name="music_page_music_services" translatable="false">
+ <!-- 后台服务 -->
+        <item>com.android.music;com.android.music.player.service.CorePlayerService</item>
+ <!-- GS2 -->
+        <item>com.sec.android.app.music;com.sec.android.app.music.CorePlayerService</item>
+ <!-- GS3 GS4 -->
+        <item>com.android.music;com.android.music.MediaPlaybackService</item>
+ <!-- 凡卓 -->
+        <item>com.miui.player;com.miui.player.service.MediaPlaybackService</item>
+ <!-- 红米 -->
+        <item>com.oppo.music;com.oppo.music.service.MediaPlaybackService</item>
+ <!-- OPPO -->
+    </string-array>
+    <string-array name="music_page_music_back_activity" translatable="false">
+ <!-- 单曲播放界面 -->
+        <item>com.android.music;com.android.music.player.activity.MusicPlayer</item>
+ <!-- GS2 -->
+        <item>com.sec.android.app.music;com.sec.android.app.music.MusicPlayerActivity</item>
+ <!-- GS3 GS4 -->
+        <item>com.android.music;com.android.music.MediaPlaybackActivity</item>
+ <!-- 凡卓 朗易通 -->
+        <item>com.miui.player;com.miui.player.ui.MediaPlaybackActivity</item>
+ <!-- 红米 -->
+    </string-array>
+    <string-array name="music_page_music_activity" translatable="false">
+ <!-- 播放列表界面 -->
+        <item>com.android.music;com.android.music.list.activity.MpMainTabActivity</item>
+ <!-- GS2 -->
+        <item>com.sec.android.app.music;com.sec.android.app.music.MusicActionTabActivity</item>
+ <!-- GS3 GS4 -->
+        <item>com.android.music;com.android.music.MusicBrowserActivity</item>
+ <!-- 凡卓 -->
+        <item>com.miui.player;com.miui.player.ui.MusicBrowserActivity</item>
+ <!-- 红米 -->
+        <item>com.android.music;com.android.music.MusicBrowserOppoActivity</item>
+ <!-- 朗易通 -->
+    </string-array>
+    <!-- 系统播放相关 , end -->
+    <!-- 播放相关 , end -->
+
+
+    <!-- 底边栏配置 , start -->
+    <string-array name="music_page_bottom_bar_pac" translatable="false">
+        <item>com.android.gallery3d;com.android.gallery3d.app.GalleryActivity</item>
+        <item>com.android.music;com.android.music.MusicBrowserActivity</item>
+        <item>com.android.email;com.android.email.activity.Welcome</item>
+        <item>com.android.contacts;com.android.contacts.activities.PeopleActivity</item>
+    </string-array>
+    <!-- 底边栏配置 , end -->
+
+</resources>

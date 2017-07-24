@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- //gaominghui add start	//桌面时钟  800*480 -->
+    <dimen name="widget_widget_time_number_width">288dp</dimen>
+    <dimen name="widget_widget_time_number_height">82dp</dimen>
+    <dimen name="widget_time_left_width">7px</dimen>
+    <dimen name="widget_time_number_width">49px</dimen>
+    <dimen name="widget_time_number_height">89px</dimen>
+    <dimen name="widget_time_dian_width">25px</dimen>
+    <dimen name="widget_time_month_left_width">16px</dimen>
+
+    <!-- //gaominghui add end -->
+    <dimen name="dynamic_grid_search_bar_height">27dp</dimen>
+    <dimen name="dynamic_grid_search_bar_max_width">320dp</dimen>
+    <dimen name="dynamic_grid_search_bar_x_padding">10.6dp</dimen>
+    <dimen name="dynamic_grid_search_bar_top_padding">7dp</dimen>
+     <dimen name="dynamic_grid_search_bar_bottom_padding">0dp</dimen>
+    <dimen name="dynamic_grid_hotseat_x_padding">21dp</dimen>
+    <dimen name="dynamic_grid_hotseat_top_padding">4dp</dimen>
+    <dimen name="dynamic_grid_hotseat_bottom_padding">18dp</dimen>
+    <dimen name="dynamic_grid_page_indicator_height">20dp</dimen>
+    <dimen name="dynamic_grid_page_indicator_y_padding">5dp</dimen>
+    <dimen name="dynamic_grid_workspace_celllayout_x_padding">18dp</dimen>
+    <dimen name="dynamic_grid_workspace_padding_top">17dp</dimen>
+    <dimen name="dynamic_grid_workspace_padding_bottom">14dp</dimen>
+    <dimen name="config_default_gap_between_icon_and_text">4.5dp</dimen>
+    <dimen name="app_icon_size">40dp</dimen>
+    <dimen name="dynamic_grid_icon_x_padding">5dp</dimen>
+    <dimen name="dynamic_grid_icon_top_padding">5dp</dimen>
+    <dimen name="dynamic_grid_icon_bottom_padding">0dp</dimen>
+
+    <string name="config_icon_text_size">12.0</string>
+
+    <integer name="config_applist_rows">4</integer>
+    <integer name="config_applist_columns">5</integer>
+
+    <dimen name="apps_customize_page_indicator_margin_apps">14dp</dimen>
+    <dimen name="apps_customize_page_indicator_offset_bottom_apps">40dp</dimen>
+    <dimen name="apps_customize_page_indicator_offset_top_apps">0dp</dimen>
+    <dimen name="dynamic_grid_apps_customize_celllayout_x_padding">17dp</dimen>
+    <dimen name="dynamic_grid_apps_edge_margin">5.4dp</dimen>
+    <dimen name="icon_tip_unread_bg_size">20dip</dimen>
+    <dimen name="icon_and_folder_icon_tip_hot_bg_size">20dip</dimen>
+    <dimen name="dynamic_grid_hotseat_icon_top_padding">5dp</dimen>
+    <dimen name="dynamic_grid_hotseat_icon_bottom_padding">0dp</dimen>
+    <!-- 自更新对话框 add start gaominghui  -->
+	<dimen name="uiupdate_dialog_logo_layout_width">134dp</dimen>
+	<dimen name="uiupdate_dialog_logo_image_width_height">108dp</dimen>
+	<!-- 自更新对话框 add end gaominghui  -->
+</resources>

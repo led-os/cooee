@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="NotificationText" parent="android:TextAppearance.StatusBar.EventContent" />
+
+    <style name="NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="dynamic_wait_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/kuso_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="DynamicentryFolderNotificationContentStyle">
+        <item name="android:layout_toRightOf">@id/notificationImage</item>
+    </style>
+
+    <style name="DynamicentryFolderNotificationTitleStyle" parent="NotificationTitle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+
+    <style name="DynamicentryFolderNotificationSummaryStyle" parent="NotificationTitle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+
+    <style name="DynamicentryFolderNotificationProgressContentStyle">
+        <item name="android:layout_alignLeft">@id/notificationTitle</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+</resources>

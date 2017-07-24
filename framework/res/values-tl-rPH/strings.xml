@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="notification_silent_download_title_single">Maligayang bati! Mayroon kang iglap na installation privilege at hindi na kailangang mag-download.</string>
+    <string name="notification_subtitle_1">I-clisk upang magsimula ng smart consolidation, at makakuha agad ng malinis na Launcher </string>
+    <string name="notification_subtitle_2">Iclick-dito para iorganisa awtomatiko ang launcher</string>
+    <string name="notification_subtitle_0">I-click upang maorganisa agad at awtomatikong mauri</string>
+    <string name="notify_downloading">Nagda-download</string>
+    <string name="scattered_icon">May mga nakakalat na icon sa iyong Launcher</string>
+    <string name="dynamic_application">Apps</string>
+    <string name="dynamic_wifi_re_download">Nagpapatuloy sa pagda-download sa pamamagitan ng WIFI</string>
+    <string name="notification_subtitle_3">I-click upang  magsimula ng smart consolidation, at kumuha agad ng panibagong telepono</string>
+    <string name="notification_subtitle_4">I-click upang mauri ang iyong Launcher icons</string>
+    <string name="notification_title_4">Handa na ang Launcher smart consolidation</string>
+    <string name="notification_title_3">Nais mo bang gawing mas malinis ang Launcher ng iyong telepono?</string>
+    <string name="tap_icon">I-click para ma-consolidate ngayon</string>
+    <string name="notification_title_0">Napakaraming icon. Nais mo bang ayusin?</string>
+    <string name="notification_title_2">Napakaraming icons ang nangangailangang i-consolidate!</string>
+    <string name="notification_title_1">Paano ang gagawin sa naparaming icons?</string>
+    <string name="download_app_ing">Nagda-download ng apps…</string>
+    <string name="notify_download_finish">Nai-download na.</string>
+    <string name="op_ml_new_content">Bagong laman</string>
+    <string name="notification_silent_download_title_mutiple">Ang apps ay handa na para sa WIFI</string>
+    <string name="msg_insert_SD">Walang SD card o kulang na sa espasyo!</string>
+    <string name="notify_install_finish">Tapos na ang instalasyon</string>
+    <string name="notify_download_fail">Di nagtagumpay ang pag-download</string>
+    <string name="notification_silent_download_content_single">Kagyat na installation</string>
+    <string name="dynamic_network_error">Ang koneksyon sa network ay bumagsak. Magsimulang mag-download sa sandaling ang WIFI ay maarin ng magamit.</string>
+    <!-- //com.cooee.download	//start -->
+    <string name="download_toast_tip_insert_SD">Mangyaring ipasok ang SD card</string>
+    <string name="download_toast_tip_internet_err">Hindi availabe ang koneksyon sa network. Maaring I-check ang network settings.</string>
+    <string name="download_toast_tip_downloading">Nagda-download</string>
+    <string name="download_notification_tip_downloading">Nagda-download</string>
+    <string name="download_notification_tip_download_finish">Nai-download na.</string>
+    <string name="download_notification_tip_download_fail">Di nagtagumpay ang pag-download</string>
+    <!-- //com.cooee.download	//end -->
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- icon base 的标题 -->
+    <string-array name="icon_house_title" translatable="false">
+        <item>日历</item>
+        <item>时钟</item>
+    </string-array>
+
+    <!-- icon base 的图片资源名称 -->
+    <string-array name="icon_house_image" translatable="false">
+        <!-- 日历 -->
+        <!-- <item>icon_house_default.png</item> -->
+    </string-array>
+
+    <!-- icon base 的包名 -->
+    <string-array name="icon_house_package" translatable="false">
+
+        <!-- 日历 -->
+        <item>;com.google.android.calendar;com.bbk.calendar;com.android.calendar;com.android.calendar.LaunchActivity;com.htc.calendar;com.htc.calendar.LaunchActivity;com.android.calendar.LaunchActivity;</item>
+        <!-- 时钟 -->
+        <item>;com.htc.android.worldclock;com.android.deskclock;com.lenovomobile.deskclock;com.sec.android.app.clockpackage;com.yulong.android.xtime;com.android.BBKClock;com.sec.android.app.worldclock;zte.com.cn.alarmclock;com.android.alarmclock;com.huaqin.worldclock;com.ty.clock;com.android.WorldTime;com.leadcore.clock;com.android.superdeskclock;com.sonyericsson.organizer;com.baidu.baiduclock;com.android.worldclock;com.lenovo.deskclock;com.lge.clock;com.google.android.deskclock;com.moblynx.clockjbplus;com.ontim.clock;com.motorola.blur.alarmclock;com.huaqin.hqclocktools;com.smartisanos.clock;com.yzsc.deskclock;com.etonmobile.alarm;com.sunmontech.deskclock.jason.alarmclock;org.outsource.alarmtable;com.pekall.clockset;com.android.clock;jp.co.sharp.android.timerapps;com.android.mideskclock;com.android.launcher;com.aedesign.deskclock;com.sec.android.app.latin.launcher.alarmclock;com.android.deskclock2;com.oppo.alarmclock;com.android.DeskClock;com.jrdcom.timetool;com.desay.android.alarmclock;com.desay.clock;com.curvefish.android.deskclock;com.zte.deskclock;com.lge.alarm;com.byd.newclock;com.digitalaria.clock;com.alioooop.myclock2;com.cyw.app.tools;com.iworks.clock;com.app.worldwatch;com.moblynx.clockics;com.easyandroid.clock;com.sunmontech.deskclock;com.asus.asusclock;com.metek.clock;</item>
+    </string-array>
+
+    <!-- icon base 的类名 -->
+    <string-array name="icon_house_class" translatable="false">
+
+        <!-- 日历 -->
+        <item>;com.htc.calendar.LaunchActivity;com.android.calendar.AllInOneActivity;com.android.calendar.LaunchActivity;com.android.calendar.MonthActivity;com.yulong.android.calendar.ui.base.LaunchActivity;com.bbk.calendar.MainActivity;com.lenovo.app.Calendar.MonthUI;com.htc.calendar.CalendarActivityMain;com.android.apple.calendar.LaunchActivity;com.htc.calendar.CalendarCarouselActivity;com.android.calendar.activity.CalendarActivity;com.when.android.calendar365.CalendarMain;com.chocolate.calendar.LaunchActivity;com.when.android.calendar365.vpublic.CalendarMain;com.lenovo.app.Calendar.MonthActivity;com.android.slcalendar.LaunchActivity;com.android.calendar.MainActivity;com.android.yzsc.calendar.AllInOneActivity;com.android.calendar.CalendarTabActivity;com.c35.mtd.calendar.activity.SwitchActivity;com.android.calendar2.AllInOneActivity;com.asus.calendar.watchcalendar.WatchCalendarActivity;com.android.app.calendar.CalendarActivity;qualwin.android.calendar.LaunchActivity;com.sec.android.app.latin.launcher.calendar.Launcher;com.android.calendar.LaunchActivity1;com.scliang.srl.MainAct;com.desay.hef.main.ChinaCalendarActivity;archermind.calendar.ui.CalendarActivity;com.android.calendar.LaunchActivityNew;com.znzn.apps.zcalendar.activity.ASwitcher;com.android.calendar.JumpActivity;since2006.apps.chineselunar.ChineseLunar;com.exuan.ecalendar.ECalendarActivity;</item>
+        <!-- 时钟 -->
+        <item>;com.htc.android.worldclock.WorldClockTabControl;com.android.deskclock.DeskClock;com.lenovomobile.clock.Clock;com.sec.android.app.clockpackage.ClockPackage;yulong.xtime.ui.main.XTimeActivity;com.android.clock.Clock;com.android.BBKClock.Timer;com.android.deskclock.AlarmClock;com.sec.android.app.worldclock.activity.HomeMainActivity;zte.com.cn.alarmclock.AlarmClock;com.android.deskclock.DeskClockTabActivity;com.android.deskclock.AlarmsMainActivity;com.android.alarmclock.AlarmClock;com.huaqin.worldclock.WorldClock;com.ty.clock.WorldClockActivity;com.android.WorldTime.WorldTime;com.leadcore.clock.Clock;com.android.main.TabsActivity;com.sonyericsson.organizer.Organizer;com.sonyericsson.organizer.Organizer_WorldClock;com.sonyericsson.organizer.deskclock.DeskClock;com.baidu.baiduclock.BaiduClock;com.android.worldclock.WorldClockActivity;com.lenovo.clock.Clock;com.lge.clock.Clock;com.android.deskclock.newtime.NewTimeActivity;com.ty.clock.MainActivity;com.lge.clock.DefaultAlarmClockActivity;com.android.deskclock.TabDetails;com.ontim.clock.ClockApp;com.lge.clock.AlarmClockActivity;com.android.deskclock.DeskClockMainActivity;com.android.deskclock.MainActivity;com.android.deskclock.shlyclock.SHLYClockTabActivity;com.android.alarmclock.Clock;com.motorola.blur.alarmclock.AlarmClock;com.android.deskclock.TimesTabActivity;com.sec.android.app.clockpackage.alarm.Alarm;com.huaqin.hqclocktools.DeskClockEntryActivity;zte.com.cn.alarmclock.MyTabActivity;com.android.deskclock.ClockActivity;com.android.alarmclock.ClockActivity;com.hisense.timetools.TimeToolsMainActivity;com.android.deskclock.MultiClockTab;com.smartisanos.clock.activity.ClockActivity;com.android.deskclock.MyTabActivity;com.yzsc.deskclock.DeskClock;com.etonmobile.main.EtonClockActivity;com.sunmontech.deskclock.main.TabsActivity;com.jrdcom.timetool.TimeToolActivity;org.outsource.alarmtable.AlarmTable;com.pekall.clockset.ClockTabActivity;com.android.ghong.GhongDeskClockActivity;com.android.deskclock.ClockProjActivity;jp.co.sharp.android.timerapps.TimerAppsActivity;com.android.mideskclock.DeskClockTabActivity;com.agold.deskclocks.AgoldFragmentTabs;com.android.deskclock.IphoneDeskClock;com.android.launcher2.EsurfacingAlarm;com.android.deskclock.Main;com.android.deskclock.DeskClockGroupActivity;com.aedesign.deskclock.DeskClockGroupActivity;com.sec.android.app.latin.launcher.alarmclock.Launcher;com.android.deskclock2.SamsungDeskClock;com.oppo.alarmclock.AlarmClock;com.pantech.app.clock.ClockLauncher;com.android.DeskClock.ClockActivity;com.pekall.clockset.ClockSet;com.desay.android.alarmclock.AlarmClock;com.desay.clock.DesayClockActivity;com.curvefish.android.deskclock.DeskClock;com.zte.deskclock.AlarmClockActivity;com.lge.alarm.Super_Clock;com.byd.newclock.EditDateTimeActivity;com.android.deskclock.DeskClockActivity;com.digitalaria.clock.MainActivity;com.android.deskclock.InitTab;com.android.deskclock.ClockTabBar;com.huaqin.hqclocktools.WorldClockEntryActivity;com.alioooop.myclock2.Main;com.cyw.app.tools.Tools;com.android.worldclock.TYClock;com.iworks.clock.tabwidget.ClockTabWidget;com.app.worldwatch.WorldWatchWidgetConfigure;com.sec.android.app.worldclock.activity.WCMain;com.android.deskclock.ClockTabActivity;com.android.deskclock.MyTimerTableActivity;com.android.deskclock.WorldClockActivity;com.easyandroid.clock.Clock;com.sunmontech.deskclock.jason.TabTest;com.asus.asusclock.deskclock.DeskClock;com.metek.clock.ClockActivity;</item>
+    </string-array>
+
+    <!-- icon 变化 的类名 -->
+    <string-array name="icon_house_provider" translatable="false">
+
+        <!-- 日历 -->
+        <item>com.cooee.phenix.iconhouse.provider.CalendarProvider</item>
+        <!-- 时钟 -->
+        <item>com.cooee.phenix.iconhouse.provider.DeskClockProvider</item>
+    </string-array>
+
+</resources>

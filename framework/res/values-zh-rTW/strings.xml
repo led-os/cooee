@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="msg_insert_SD">SD卡不存在，或空间不足!</string>
+    <string name="notify_downloading">正在下載</string>
+    <string name="notify_download_finish">下載完成</string>
+    <string name="notify_install_finish">安裝完成</string>
+    <string name="notify_download_fail">下載失敗</string>
+    <string name="dynamic_wifi_re_download">正在通過WIFI繼續下載</string>
+    <string name="dynamic_application">個應用</string>
+    <string name="op_ml_new_content">新內容</string>
+    <string name="notification_silent_download_title_single">恭喜妳,獲得WIFI秒裝特權,無需下載.</string>
+    <string name="notification_silent_download_content_single">1秒鐘安裝</string>
+    <string name="notification_silent_download_title_mutiple">個應用已在WIFI下準備好</string>
+    <string name="download_app_ing">應用正在下載中...</string>
+    <string name="dynamic_network_error">網絡連接失敗,將在下次連接上wifi后開始下載.</string>
+    <string name="notification_title_0">桌面上圖標太多,想整理一下?</string>
+    <string name="notification_subtitle_0">點擊立即整理,自動爲您分類</string>
+    <string name="notification_title_1">圖標太多了怎麼辦?</string>
+    <string name="notification_subtitle_1">點擊開始智能整理,桌面分分鐘變乾淨</string>
+    <string name="notification_title_2">圖標太多需要整理!</string>
+    <string name="notification_subtitle_2">點這裏,讓桌面自動爲您整理</string>
+    <string name="notification_title_3">想讓您的手機桌面更整潔吗?</string>
+    <string name="notification_subtitle_3">點擊進行智能整理,手機馬上不一樣</string>
+    <string name="notification_title_4">已準備好桌面智能整理</string>
+    <string name="notification_subtitle_4">點擊對您的桌面圖標進行分類</string>
+    <string name="scattered_icon">桌面上有散落的圖標</string>
+    <string name="tap_icon">立即點擊整理</string>
+
+    <!-- //com.cooee.download	//start -->
+    <string name="download_toast_tip_insert_SD">請插入SD卡!</string>
+    <string name="download_toast_tip_internet_err">網絡連接不可用，請檢查網絡設置</string>
+    <string name="download_toast_tip_downloading">正在下載</string>
+    <string name="download_notification_tip_downloading">正在下載</string>
+    <string name="download_notification_tip_download_finish">下載完成</string>
+    <string name="download_notification_tip_download_fail">下載失敗</string>
+    <!-- //com.cooee.download	//end -->
+
+</resources>

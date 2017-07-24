@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 用于桌面设置界面的基础布局类 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/launcher_setting_background" >
+
+    <RelativeLayout
+        android:id="@+id/list_fragment_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/launcher_setting_title_bar_background" >
+
+        <ImageView
+            android:id="@+id/list_fragment_back"
+            style="@style/LauncherSettingsListfragmentTitleBarBackStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/launcher_settings_l2r_back" />
+
+        <TextView
+            android:id="@+id/list_fragment_title"
+            style="@style/LauncherSettingsListfragmentTitleBarTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/overview_panel_button_launcher_settings_string"
+            android:textColor="@color/launcher_setting_title_bar_text_color"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="正在加载..."
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/list_fragment_titlebar"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent" />
+
+</RelativeLayout>

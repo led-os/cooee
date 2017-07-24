@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- //luomingjun add start	//桌面时钟  max4  分辨率  1920*1152 -->
+    <dimen name="widget_widget_time_number_width">288dp</dimen>
+    <dimen name="widget_widget_time_number_height">144dp</dimen>
+    <dimen name="widget_time_left_width">15px</dimen>
+    <dimen name="widget_time_number_width">117px</dimen>
+    <dimen name="widget_time_number_height">212px</dimen>
+    <dimen name="widget_time_dian_width">59px</dimen>
+    <dimen name="widget_time_month_left_width">39px</dimen>
+    
+    <!-- //luomingjun add end -->
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"መተግበሪያ አልተጫነም።"</string>
+    <string name="widgets_tab_label">"ፍርግሞች"</string>
+    <string name="toggle_weight_watcher">"ማህደረ ማስታወሻ አሳይ"</string>
+    <string name="long_press_widget_to_add">"ፍርግም ለማንሳት ይንኩ እና ይያዙት"</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"መተግበሪያዎች"</string>
+    <string name="out_of_space">"በዚህ መነሻ ማያ ገጽ ላይ ምንም ቦታ የለም።"</string>
+    <string name="hotseat_out_of_space">"በመትከያ ቦታው ላይ ተጨማሪ ቦታ የለም።"</string>
+    <string name="shortcut_uninstalled">"አቋራጭ «<xliff:g id="NAME">%s</xliff:g>» ተወግዶ ነበር።"</string>
+    <string name="shortcut_duplicate">"አቋራጭ «<xliff:g id="NAME">%s</xliff:g>» አስቀድሞ አለ።"</string>
+    <string name="title_select_application">"መተግበሪያ ይምረጡ"</string>
+    <string name="hotseat_all_apps_button_string">"መተግበሪያዎች"</string>
+    <string name="delete_zone_label_workspace">"አስወግድ"</string>
+    <string name="delete_target_remove_label">"አስወግድ"</string>
+    <string name="delete_target_uninstall_label">"አራግፍ"</string>
+    <string name="info_target_label">"የመተግበሪያ መረጃ"</string>
+    <string name="permlab_install_shortcut">"አቋራጮችን ይጭናል"</string>
+    <string name="permdesc_install_shortcut">"መተግበሪያው ያለተጠቃሚ ጣልቃ ገብነት አቋራጭ እንዲያክል ያስችለዋል።"</string>
+    <string name="permlab_uninstall_shortcut">"አቋራጮችን ያራግፋል"</string>
+    <string name="permdesc_uninstall_shortcut">"መተግበሪያው አቋራጮችን ያለተጠቃሚ ጣልቃ ገብነት እንዲያስወግድ ያስችለዋል።"</string>
+    <string name="permlab_read_settings">"የመነሻ ቅንብሮች እና አቋራጮችን ያነባል"</string>
+    <string name="permdesc_read_settings">"መተግበሪያው በመነሻ ውስጥ ያሉ ቅንብሮችን እና አቋራጮችን እንዲያነብ ያስችለዋል።"</string>
+    <string name="permlab_write_settings">"የመነሻ ቅንብሮችን እና አቋራጮችን ይጽፋል"</string>
+    <string name="permdesc_write_settings">"መተግብሪያው ቅንብሮችን እና አቋራጮችን በመነሻ ውስጥ እንዲቀይራቸው ያስችለዋል።"</string>
+    <string name="gadget_error_text">"ፍርግም የመጫን ችግር"</string>
+    <string name="uninstall_system_app_text">"ይህ የስርዓት መተግበሪያ ነው እና ማራገፍ አይቻልም።"</string>
+    <string name="folder_hint_text">"ስም-አልባ አቃፊ"</string>
+    <string name="first_run_cling_title">"እንኳን ደህና መጡ!"</string>
+    <string name="first_run_cling_description">"ልክ እቤትዎ እንዳሉ ሆነው ዘና ይበሉ።"</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"ለመተግበሪያዎች እና አቃፊዎች ተጨማሪ ማያ ገጾችን ይፍጠሩ"</string>
+    <string name="workspace_cling_title">"ቦታዎን ያደራጁ"</string>
+    <string name="workspace_cling_move_item">"የግድግዳ ወረቀት፣ ምግብሮችን እና ቅንብሮችን ለማቀናበር ጀርባውን ይንኩ እና ይያዙት።"</string>
+    <string name="folder_cling_title">"አንድ አቃፊ እነሆ"</string>
+    <string name="folder_cling_create_folder">"አንድ እንደዚህ አይነት ለመፍጠር መተግበሪያውን ነክተው ይያዙት እና ወደ ሌላ ያንቀሳቅሱት።"</string>
+    <string name="cling_dismiss">"እሺ"</string>
+    <string name="overview_panel_button_widgets_string">"ፍርግሞች"</string>
+    <string name="overview_panel_button_system_settings_string">"ቅንብሮች"</string>
+    <string name="all_apps_search_bar_hint">"መተግበሪያዎችን ይፈልጉ"</string>
+    <string name="all_apps_loading_message">"መተግበሪያዎችን በመጫን ላይ..."</string>
+    <string name="all_apps_no_search_results">"ከ«<xliff:g id="QUERY">%1$s</xliff:g>» ጋር የሚዛመዱ ምንም መተግበሪያዎች አልተገኙም"</string>
+    <string name="all_apps_search_market_message">"ወደ <xliff:g id="QUERY">%1$s</xliff:g> ሂድ"</string>
+
+</resources>

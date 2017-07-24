@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hotseat布局文件 -->
+<com.cooee.phenix.Hotseat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.cooee.phenix"
+    android:background="@color/hotseat_bg_color" >
+
+    <com.cooee.phenix.CellLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+</com.cooee.phenix.Hotseat>

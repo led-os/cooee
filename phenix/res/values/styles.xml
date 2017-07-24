@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ClingButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:text">@string/cling_dismiss</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/cling_button_bg_selector</item>
+    </style>
+
+    <style name="ClingTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ClingAltTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#49C0EC</item>
+    </style>
+
+    <style name="ClingText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#80000000</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="ClingHintText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+
+    <!-- Android 5.0之后如果要实现图标标题过长最后一个文字渐隐的效果就要将该属性 <item name="android:ellipsize">marquee</item>设为none -->
+    <style name="WorkspaceIcon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lines">@integer/config_icon_text_lines</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">@color/workspace_icon_text_color</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowColor">#B0000000</item>
+        <item name="android:paddingLeft">@dimen/config_icon_title_and_foldericon_title_padding_left</item>
+        <item name="android:paddingRight">@dimen/config_icon_title_and_foldericon_title_padding_right</item>
+    </style>
+
+    <style name="WorkspaceIcon.Portrait"></style>
+
+    <style name="WorkspaceIcon.Landscape"></style>
+
+    <style name="WorkspaceIcon.AppsCustomize">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/apps_customize_icon_text_color</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:shadowRadius">4.0</item>
+        <item name="android:shadowColor">#FF000000</item>
+    </style>
+
+    <style name="SearchDropTargetBarStyle">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="SearchDropTargetBar"></style>
+
+    <style name="SearchButton"></style>
+
+    <style name="DropTargetButtonContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="DropTargetButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">7.5dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+
+    <style name="TabIndicator">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:background">@drawable/tab_widget_indicator_selector</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TabIndicator.AppsCustomize">
+        <!-- Overridden in values-land -->
+    </style>
+
+    <style name="MarketButton">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColor">@color/workspace_all_apps_and_delete_zone_text_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">@color/workspace_all_apps_and_delete_zone_text_shadow_color</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+
+    <!-- Overridden in device overlays -->
+    <style name="CustomClingTitleText"></style>
+
+    <style name="CustomClingText"></style>
+
+    <style name="base_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+
+        <!-- <item name="android:windowAnimationStyle">@style/FeelyouWindowAnimTheme</item> -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- cheyingkun add start //解决“在其他桌面安装应用，phenix几率性异常停止运行”的问题。【i_0010424】 -->
+    <!-- 智能分类进度条对话框样式 start -->
+    <style name="CategoryCustomDialog" parent="@android:style/Theme.Holo.Dialog">
+
+        <!-- 边框 start -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 end -->
+        <!-- 是否浮现在activity之上 start -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 end -->
+        <!-- 控制灰度的值，当为1时，界面除了我们的dialog内容是高亮显示的，dialog以外的区域是黑色的，完全看不到其他内容，系统的默认值是0.5，而已根据自己的需要调整 start -->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!-- 控制灰度的值，当为1时，界面除了我们的dialog内容是高亮显示的，dialog以外的区域是黑色的，完全看不到其他内容，系统的默认值是0.5，而已根据自己的需要调整 end -->
+    </style>
+
+    <style name="CategoryCustomProgressDialog" parent="@style/CategoryCustomDialog">
+
+        <!-- 无标题 start -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 end -->
+        <!-- 设置自定义布局的背景透明 start -->
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 设置自定义布局的背景透明 end -->
+        <!-- 设置window背景透明 start -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置window背景透明 end -->
+    </style>
+    <!-- 智能分类进度条对话框 end -->
+    <!-- cheyingkun add end -->
+
+    <style name="Category_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- cheyingkun add start -->
+    <!-- 免责声明布局 -->
+    <style name="Disclaimer_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <!-- cheyingkun add end -->
+
+    <style name="Theme.buttom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Widget"></style>
+
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="Widget.ProgressBar.RegularProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/uiupdate_progressbar</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">30dip</item>
+    </style>
+
+    <!-- 自更新弹出对话框 -->
+    <style name="uiupdate_notify_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Icon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">@color/workspace_icon_text_color</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowColor">#B0000000</item>
+    </style>
+
+    <style name="Icon.AllApps">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/quantum_panel_text_color</item>
+        <item name="android:drawablePadding">@dimen/dynamic_grid_icon_drawable_padding</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="customShadows">false</item>
+    </style>
+
+    <style name="Theme.Light.CustomOverscroll" parent="@android:style/Theme.DeviceDefault"></style>
+
+    <!-- <style name="Theme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar"> -->
+    <!-- <item name="android:windowIsTranslucent">true</item> -->
+    <!-- </style> -->
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <style name="BaseTheme" parent="android:Theme.Wallpaper"></style>
+
+    <style name="Theme" parent="BaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/transparent_background</item>
+    </style>
+
+    <style name="OverviewPanelButtonStyle">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">@dimen/edit_mode_overview_panel_button_drawable_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/overview_panel_button_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FirstRunClingBubbleContentStyle">
+        <item name="android:layout_marginLeft">100dip</item>
+        <item name="android:layout_marginRight">100dip</item>
+    </style>
+
+    <style name="FirstRunClingSearchBarHintStyle" parent="ClingHintText">
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+    <style name="FirstRunClingCreateScreensHintStyle" parent="ClingHintText">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:drawableRight">@drawable/cling_arrow_end</item>
+    </style>
+
+    <style name="FirstRunClingDismissButtonStyle" parent="ClingButton">
+        <item name="android:layout_marginRight">20dip</item>
+    </style>
+
+    <style name="FolderClingStyle">
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+    </style>
+
+    <style name="FolderClingDismissButtonStyle" parent="ClingButton">
+        <item name="android:layout_marginRight">20dip</item>
+    </style>
+
+    <style name="SearchBarSearchContainerStyle" parent="SearchButton">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_toLeftOf">@+id/voice_button_container</item>
+        <item name="android:paddingLeft">8dip</item>
+    </style>
+
+    <style name="SearchBarVoiceContainerStyle" parent="SearchButton">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingRight">8dip</item>
+    </style>
+
+    <style name="WorkspaceClingContentMarginStyle">
+        <item name="android:layout_marginLeft">25dip</item>
+        <item name="android:layout_marginRight">25dip</item>
+    </style>
+
+    <style name="WorkspaceClingContentPaddingStyle">
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+
+    <style name="WorkspaceClingFocusedHotseatAppBubbleStyle">
+        <item name="android:layout_marginLeft">25dip</item>
+    </style>
+
+    <style name="WorkspaceClingFocusedHotseatAppBubbleContentStyle">
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+
+    <style name="WorkspaceClingArrowDownStyle">
+        <item name="android:layout_marginLeft">78dip</item>
+    </style>
+
+    <style name="WorkspaceClingDismissButtonStyle" parent="ClingButton">
+        <item name="android:layout_marginRight">20dip</item>
+    </style>
+
+    <style name="AllAppsSearchBarDismissSearchButtonStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+
+    <style name="AllAppsSearchBarSearchButtonStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+
+    <style name="AppMenuListItemStyle">
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:paddingRight">?android:attr/listPreferredItemPaddingRight</item>
+    </style>
+
+    <style name="ApplistBarStateTitleStyle">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:drawableLeft">@drawable/app_menu_navigation_back</item>
+        <item name="android:paddingLeft">15dip</item>
+    </style>
+
+    <style name="ApplistMenuStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+    </style>
+
+    <style name="AppsCustomizeWidgetPreviewIconStyle">
+        <item name="android:paddingLeft">@dimen/app_widget_preview_padding_left</item>
+        <item name="android:paddingRight">@dimen/app_widget_preview_padding_right</item>
+    </style>
+
+    <style name="AppsCustomizeWidgetPreviewTextStyle">
+        <item name="android:layout_marginLeft">@dimen/app_widget_preview_label_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/app_widget_preview_label_margin_right</item>
+    </style>
+
+    <style name="AppsCustomizeWidgetPreviewTextDimsStyle">
+        <item name="android:layout_marginLeft">5dip</item>
+    </style>
+
+    <style name="AppWidgetErrorStyle">
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+
+    <style name="DisclaimerDialogWarnStyle">
+        <item name="android:layout_marginLeft">8dip</item>
+    </style>
+
+    <style name="DisclaimerDialogExitStyle">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="DisclaimerDialogDelInfoStyle">
+        <item name="android:layout_marginLeft">26dip</item>
+        <item name="android:layout_marginRight">26dip</item>
+    </style>
+
+    <style name="DisclaimerDialogButtonNegativeStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="DisclaimerDialogButtonPositiveStyle">
+        <item name="android:layout_marginLeft">6dip</item>
+        <item name="android:layout_toRightOf">@+id/dialog_button_negative</item>
+    </style>
+
+    <style name="DropTargetDelButtonStyle" parent="DropTargetButton">
+        <item name="android:drawableLeft">@drawable/remove_target_selector</item>
+    </style>
+
+    <style name="DropTargetInfoButtonStyle" parent="DropTargetButton">
+        <item name="android:drawableLeft">@drawable/info_target_selector</item>
+    </style>
+
+    <style name="DynamicDisclaimerDialogWarnStyle">
+        <item name="android:layout_marginLeft">8dip</item>
+        <item name="android:layout_toLeftOf">@+id/exit</item>
+    </style>
+
+    <style name="DynamicDisclaimerDialogExitStyle">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="DynamicDisclaimerDialogDownloadTipStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+    </style>
+
+    <style name="DynamicDownloadDialogWarnStyle">
+        <item name="android:layout_marginLeft">8dip</item>
+    </style>
+
+    <style name="DynamicDownloadDialogExitStyle">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="DynamicDownloadDialogIconTextStyle">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">30dip</item>
+    </style>
+
+    <style name="DynamicDownloadDialogLineStyle">
+        <item name="android:layout_toRightOf">@+id/download_icontext</item>
+        <item name="android:layout_marginLeft">15dip</item>
+    </style>
+
+    <style name="DynamicDownloadDialogTipStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginRight">30dip</item>
+        <item name="android:layout_toRightOf">@+id/line</item>
+    </style>
+
+    <style name="DynamicSmartDownloadDialogTitleStyle">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_toLeftOf">@+id/dialog_cancel</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+
+    <style name="DynamicSmartDownloadDialogCancelStyle">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="DynamicSmartDownloadDialogLineStyle">
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+    </style>
+
+    <style name="DynamicSmartDownloadDialogNextIconStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginRight">16dip</item>
+    </style>
+
+    <style name="DynamicSmartDownloadDialogNextButtonStyle">
+        <item name="android:layout_marginRight">16dip</item>
+    </style>
+
+    <style name="LauncherDefaultDialogWarnStyle">
+        <item name="android:layout_marginLeft">8dip</item>
+        <item name="android:layout_marginRight">41dip</item>
+    </style>
+
+    <style name="LauncherDefaultDialogExitStyle">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="LauncherDefaultDialogContentStyle">
+        <item name="android:layout_marginLeft">26dip</item>
+        <item name="android:layout_marginRight">26dip</item>
+    </style>
+
+    <style name="LauncherDefaultDialogButtonContentStyle">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="LauncherDefaultDialogButtonNegativeStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+
+    <style name="LauncherDefaultDialogButtonPositiveStyle">
+        <item name="android:layout_marginLeft">6dip</item>
+    </style>
+
+    <style name="LauncherSettingsCategoryTitleStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+
+    <style name="LauncherSettingsHeaderItemIconContentStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+
+    <style name="LauncherSettingsHeaderItemTextContentStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_toLeftOf">@+id/indicator</item>
+        <item name="android:layout_toRightOf">@id/icon_content</item>
+    </style>
+
+    <style name="LauncherSettingsHeaderItemIndicatorStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">16dip</item>
+    </style>
+
+    <style name="LauncherSettingsHeaderItemSeparatorStyle">
+        <item name="android:layout_alignLeft">@id/text_content</item>
+    </style>
+
+    <style name="LauncherSettingLayoutTitlebarIconStyle">
+        <item name="android:layout_marginLeft">12dip</item>
+    </style>
+
+    <style name="LauncherSettingLayoutTitlebarTitleStyle">
+        <item name="android:layout_marginLeft">72dip</item>
+    </style>
+
+    <style name="LauncherSettingsListSelectItemIconStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+
+    <style name="LauncherSettingsListSelectItemContentStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_toRightOf">@id/icon</item>
+    </style>
+
+    <style name="LauncherSettingsListSelectItemCheckBoxStyle">
+        <item name="android:layout_marginRight">16dip</item>
+    </style>
+
+    <style name="LauncherSettingsListSelectItemSeparatorStyle">
+        <item name="android:layout_alignLeft">@id/child_item</item>
+    </style>
+
+    <style name="LauncherSettingsListfragmentTitleBarBackStyle">
+        <item name="android:layout_marginLeft">12dip</item>
+    </style>
+
+    <style name="LauncherSettingsListfragmentTitleBarTitleStyle">
+        <item name="android:layout_marginLeft">72dip</item>
+    </style>
+
+    <style name="LauncherSettingsNoSummaryListSelectItemIconStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+
+    <style name="LauncherSettingsNoSummaryListSelectItemContentStyle">
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_toRightOf">@id/icon</item>
+    </style>
+
+    <style name="LauncherSettingsNoSummaryListSelectItemCheckBoxStyle">
+        <item name="android:layout_marginRight">16dip</item>
+    </style>
+
+    <style name="LauncherSettingsNoSummaryListSelectItemSeparatorStyle">
+        <item name="android:layout_alignLeft">@id/child_item</item>
+    </style>
+
+    <style name="NotificationTitleStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_toRightOf">@id/notificationImage</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+
+    <style name="PageIndicatorMarkerStyle">
+        <item name="android:layout_marginLeft">@dimen/config_pageIndicatorMarker_marginStart</item>
+        <item name="android:layout_marginRight">@dimen/config_pageIndicatorMarker_marginEnd</item>
+    </style>
+
+    <style name="WidgetTimeContentStyle">
+        <item name="android:layout_marginLeft">@dimen/widget_time_left_width</item>
+    </style>
+
+    <style name="WidgetTimehHourStyle">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="WidgetTimehAmPmStyle">
+        <item name="android:layout_toRightOf">@+id/tv_hour</item>
+    </style>
+
+    <style name="WidgetTimeDateContentStyle">
+        <item name="android:layout_marginLeft">@dimen/widget_time_month_left_width</item>
+    </style>
+
+    <style name="WidgetTimeCNContentStyle">
+        <item name="android:layout_marginLeft">@dimen/widget_time_left_width</item>
+    </style>
+
+    <style name="WidgetTimeCNDateContentStyle">
+        <item name="android:layout_marginLeft">@dimen/widget_time_month_left_width</item>
+    </style>
+
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add start -->
+    <style name="workspace_menu_vertical_list_content_margin_style">
+        <item name="android:layout_marginLeft">@dimen/workspace_menu_vertical_list_content_margin_x</item>
+        <item name="android:layout_marginRight">@dimen/workspace_menu_vertical_list_content_margin_x</item>
+    </style>
+
+    <style name="workspace_menu_vertical_list_item_icon_margin_style">
+        <item name="android:layout_marginLeft">@dimen/workspace_menu_vertical_list_item_icon_margin_left</item>
+    </style>
+
+    <style name="workspace_menu_vertical_list_item_title_padding_style">
+        <item name="android:paddingLeft">@dimen/workspace_menu_vertical_list_item_title_padding_left</item>
+        <item name="android:paddingRight">@dimen/workspace_menu_vertical_list_item_title_padding_right</item>
+    </style>
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add end -->
+
+    <style name="NoTitleBarAndNoOpenExitAnimation" parent="android:style/Theme.NoTitleBar"></style>
+
+    <!-- //拓展配置项“config_applistbar_style”，添加可配置项4。4在主菜单上显示搜素栏。 zhujieping add start -->
+    <style name="ApplistSearchBarSearchButtonStyle">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+    <!-- //拓展配置项“config_applistbar_style”，添加可配置项4。4在主菜单上显示搜素栏。 zhujieping add end -->
+
+
+    <!-- //拓展配置项“config_applist_style”，添加可配置项2。2是7.0的主菜单样式。	 //zhujieping add start -->
+    <style name="ApplistNougatSectionStyle">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="ApplistNougatRecycleviewStyle">
+        <item name="android:layout_toLeftOf">@+id/qs_app_letter</item>
+    </style>
+    <!-- //拓展配置项“config_applist_style”，添加可配置项2。2是7.0的主菜单样式。	//zhujieping add end -->
+
+	<!--   //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add  end-->
+	<style name="ApplistBarStateDoneStyle">
+        <item name="android:layout_alignParentRight">true</item>
+         <item name="android:paddingRight">15dip</item>
+    </style>
+    <style name="ApplistIconCheckboxStyle">
+        <item name="android:layout_gravity">top|right</item>
+         <item name="android:layout_marginRight">0dip</item>
+         <item name="android:layout_marginTop">0dip</item>
+    </style>
+    <style name="ApplistIconUninstallStyle">
+        <item name="android:layout_gravity">top|right</item>
+         <item name="android:layout_marginRight">0dip</item>
+         <item name="android:layout_marginTop">0dip</item>
+    </style>
+	<!--   //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add  end-->
+	<!-- //android6.0、7.0主菜单搜索（非酷搜）中增加显示“x”//zhujieping add start -->
+	<style name="AllAppsSearchBarInputClear">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+    </style>
+    <!-- //android6.0、7.0主菜单搜索（非酷搜）中增加显示“x”//zhujieping add end -->
+
+    <!-- //添加配置项“switch_enable_customer_lm_set_lockwallpaper”，增加锁屏壁纸的功能（进入uni3桌面壁纸，点击设置，弹出“设置桌面”、“设置锁屏”和“同时设置”选项）。true为显示，false不显示。默认为false。备注：该功能需要系统底层支持。//chenliang add start-->
+    <!-- 自定义底部Dialog的样式 -->
+    <style name="WallpaperSettingDialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 背景色 -->
+        <item name="android:windowBackground">@color/alertdialog_bg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景不变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/WallpaperLMLockerSettingDialogAnimation</item>
+    </style>
+
+    <!-- Dialog进入及退出动画 -->
+    <style name="WallpaperLMLockerSettingDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/wallpaper_lm_locker_setting_list_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/wallpaper_lm_locker_setting_list_anim_out</item>
+    </style>
+    <!-- //添加配置项“switch_enable_customer_lm_set_lockwallpaper”，增加锁屏壁纸的功能（进入uni3桌面壁纸，点击设置，弹出“设置桌面”、“设置锁屏”和“同时设置”选项）。true为显示，false不显示。默认为false。备注：该功能需要系统底层支持。//chenliang add end-->
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="launcher_classification_sub_entries">
+        <item>จำแนกประเภทแอพอีกครั้ง</item>
+        <item>คืนค่าเค้าโครงก่อนการจัดเรียงล่าสุด</item>
+    </string-array>
+    <string-array name="launcher_stytle_entries">
+        <item>โหมดชั้นเดียว</item>
+        <item>โหมดสองชั้น</item>
+    </string-array>
+    <string-array name="launcher_classification_entries">
+        <item>การแยกประเภทแบบอัจฉริยะ</item>
+        <item>คืนค่าเค้าโครง</item>
+    </string-array>
+    <string-array name="launcher_stytle_sub_entries">
+        <item>จัดเรียงไทล์แอพทั้งหมดบนลอนเชอร์</item>
+        <item>วางปุ่มลัดบนลอนเชอร์เท่านั้น</item>
+    </string-array>
+
+</resources>

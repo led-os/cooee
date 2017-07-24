@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The top and bottom paddings are defined in this container, but since we want -->
+<!-- the list view to span the full width (for touch interception purposes), we -->
+<!-- will bake the left/right padding into that view's background itself. -->
+<com.cooee.phenix.AppList.Marshmallow.AllAppsContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/apps_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Both android:focusable and android:focusableInTouchMode are needed for -->
+    <!-- the view to get focus change events. -->
+
+    <FrameLayout
+        android:id="@+id/search_box_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <FrameLayout
+            android:id="@+id/all_apps_reveal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/all_apps_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            layout="@layout/all_apps_container"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</com.cooee.phenix.AppList.Marshmallow.AllAppsContainerView>

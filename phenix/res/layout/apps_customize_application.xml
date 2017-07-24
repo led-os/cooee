@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主菜单图标 -->
+<com.cooee.phenix.PagedView.PagedViewIcon xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.cooee.phenix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/application_icon"
+        style="@style/WorkspaceIcon.AppsCustomize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/focusable_view_bg_selector"
+        android:focusable="true" />
+
+    <CheckBox
+        android:id="@+id/icon_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ApplistIconCheckboxStyle"
+        android:background="@null"
+        android:button="@drawable/app_menu_checkbox_button"
+        android:clickable="false"
+        android:visibility="gone" />
+	<!-- //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add start -->
+	<ImageView
+        android:id="@+id/icon_uninstall"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+      	style="@style/ApplistIconUninstallStyle"
+        android:src="@drawable/app_menu_uninstall"
+        android:visibility="gone" />
+	<!-- //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add end -->
+</com.cooee.phenix.PagedView.PagedViewIcon>

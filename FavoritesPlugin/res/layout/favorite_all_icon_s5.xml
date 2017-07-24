@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cooee.favorites.recommended.FavoriteSuggestView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/title_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/title_padding_bottom"
+            android:paddingLeft="@dimen/title_padding_lift_right"
+            android:paddingRight="@dimen/title_padding_lift_right"
+            android:paddingTop="@dimen/title_padding_top"
+            android:text="@string/title_recommend"
+            android:textColor="@color/favorites_text_color_s5" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/suggersviewapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/item_bg_color_s5"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:visibility="gone" >
+
+        <com.cooee.favorites.recommended.FavoriteIconView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/icon_padding_top"
+            android:paddingTop="@dimen/icon_padding_top"
+            android:text="TextView" />
+
+        <com.cooee.favorites.recommended.FavoriteIconView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/icon_padding_top"
+            android:paddingTop="@dimen/icon_padding_top"
+            android:text="TextView" />
+
+        <com.cooee.favorites.recommended.FavoriteIconView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/icon_padding_top"
+            android:paddingTop="@dimen/icon_padding_top"
+            android:text="TextView" />
+
+        <com.cooee.favorites.recommended.FavoriteIconView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/icon_padding_top"
+            android:paddingTop="@dimen/icon_padding_top"
+            android:text="TextView" />
+    </LinearLayout>
+
+</com.cooee.favorites.recommended.FavoriteSuggestView>

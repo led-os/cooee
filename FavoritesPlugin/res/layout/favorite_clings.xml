@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/favorite_clings_bg" >
+    
+    <ImageView 
+        android:id="@+id/favorites_clings_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/favorite_clings_logo_zh"/>
+
+    <com.cooee.favorites.clings.FavoriteClingsButton
+        android:id="@+id/favorites_cling_button"
+        android:layout_width="@dimen/favorite_clings_button_size"
+        android:layout_height="@dimen/favorite_clings_button_size"
+        android:gravity="center"
+        android:text="@string/favorite_cling_button_text"
+        android:textColor="@drawable/favorite_clings_button_text_color"
+        android:layout_marginTop="113dp"
+        android:textSize="18dp"
+         >
+    </com.cooee.favorites.clings.FavoriteClingsButton>
+    
+</LinearLayout>

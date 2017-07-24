@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="DynamicentryFolderNotificationContentStyle">
+        <item name="android:layout_toEndOf">@id/notificationImage</item>
+    </style>
+
+    <style name="DynamicentryFolderNotificationTitleStyle" parent="NotificationTitle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginStart">10dip</item>
+    </style>
+
+    <style name="DynamicentryFolderNotificationSummaryStyle" parent="NotificationTitle">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginStart">10dip</item>
+    </style>
+
+    <style name="DynamicentryFolderNotificationProgressContentStyle">
+        <item name="android:layout_alignStart">@id/notificationTitle</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+</resources>

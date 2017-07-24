@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Apl tidak dipasang."</string>
+    <string name="widgets_tab_label">"Widget"</string>
+    <string name="toggle_weight_watcher">"Papar Mem"</string>
+    <string name="long_press_widget_to_add">"Sentuh &amp; tahan untuk mengambil widget."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Apl"</string>
+    <string name="out_of_space">"Tiada lagi ruang pada skrin Laman Utama ini."</string>
+    <string name="hotseat_out_of_space">"Tiada lagi ruang pada kerusi panas."</string>
+    <string name="shortcut_uninstalled">"Pintasan \"<xliff:g id="NAME">%s</xliff:g>\" telah dialih keluar."</string>
+    <string name="shortcut_duplicate">"Pintasan \"<xliff:g id="NAME">%s</xliff:g>\" sudah wujud."</string>
+    <string name="title_select_application">"Pilih apl"</string>
+    <string name="hotseat_all_apps_button_string">"Apl"</string>
+    <string name="delete_zone_label_workspace">"Alih keluar"</string>
+    <string name="delete_target_remove_label">"Alih keluar"</string>
+    <string name="delete_target_uninstall_label">"Nyahpasang"</string>
+    <string name="info_target_label">"Maklumat apl"</string>
+    <string name="permlab_install_shortcut">"pasang pintasan"</string>
+    <string name="permdesc_install_shortcut">"Membenarkan apl menambah pintasan tanpa campur tangan pengguna."</string>
+    <string name="permlab_uninstall_shortcut">"Nyahpasang pintasan"</string>
+    <string name="permdesc_uninstall_shortcut">"Membenarkan apl mengalih keluar pintasan tanpa campur tangan pengguna."</string>
+    <string name="permlab_read_settings">"Baca tetapan dan pintasan Laman Utama"</string>
+    <string name="permdesc_read_settings">"Membenarkan apl membaca tetapan dan pintasan di Laman Utama."</string>
+    <string name="permlab_write_settings">"Tulis tetapan dan pintasan Laman Utama"</string>
+    <string name="permdesc_write_settings">"Membenarkan apl menukar tetapan dan pintasan di Laman Utama."</string>
+    <string name="gadget_error_text">"Masalah memuatkan widget"</string>
+    <string name="uninstall_system_app_text">"Ini ialah apl sistem dan tidak boleh dinyahpasang."</string>
+    <string name="folder_hint_text">"Folder Tanpa Nama"</string>
+    <string name="first_run_cling_title">"Selamat datang!"</string>
+    <string name="first_run_cling_description">"Buat seperti berada di rumah sendiri."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Buat lebih banyak skrin untuk apl dan folder"</string>
+    <string name="workspace_cling_title">"Susun ruang anda"</string>
+    <string name="workspace_cling_move_item">"Sentuh &amp; tahan latar belakang untuk mengurus kertas dinding, widget dan tetapan."</string>
+    <string name="folder_cling_title">"Ini ada folder"</string>
+    <string name="folder_cling_create_folder">"Untuk membuat satu folder seperti ini, sentuh &amp; tahan apl, kemudian alihkan ke atas folder lain."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Widget"</string>
+    <string name="overview_panel_button_system_settings_string">"Tetapan"</string>
+    <string name="all_apps_search_bar_hint">"Cari Apl"</string>
+    <string name="all_apps_loading_message">"Memuatkan Apl…"</string>
+    <string name="all_apps_no_search_results">"Tiada Apl yang ditemui sepadan dengan \"<xliff:g id="QUERY">%1$s</xliff:g>\""</string>
+    <string name="all_apps_search_market_message">"Pergi ke <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

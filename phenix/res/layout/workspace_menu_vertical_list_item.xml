@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add whole file -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/workspace_menu_vertical_list_item_id"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/workspace_menu_vertical_list_item_height"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/workspace_menu_vertical_list_item_icon_id"
+        style="@style/workspace_menu_vertical_list_item_icon_margin_style"
+        android:layout_width="@dimen/workspace_menu_vertical_list_item_icon_size"
+        android:layout_height="@dimen/workspace_menu_vertical_list_item_icon_size"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/workspace_menu_vertical_list_item_title_id"
+        style="@style/workspace_menu_vertical_list_item_title_padding_style"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:textColor="@drawable/workspace_menu_vertical_list_item_title_text_selector"
+        android:textSize="@dimen/workspace_menu_vertical_list_item_title_text_size" />
+
+</LinearLayout>

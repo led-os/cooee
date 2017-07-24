@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Programa neįdiegta."</string>
+    <string name="widgets_tab_label">"Valdikliai"</string>
+    <string name="toggle_weight_watcher">"Rodyti atmintinę"</string>
+    <string name="long_press_widget_to_add">"Palieskite ir laikykite, kad pasirinkt. valdiklį."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Programos"</string>
+    <string name="out_of_space">"Šiame pagrindiniame ekrane vietos nebėra."</string>
+    <string name="hotseat_out_of_space">"Įtvirtintojoje srityje nebėra vietos."</string>
+    <string name="shortcut_uninstalled">"Spartusis klavišas „<xliff:g id="NAME">%s</xliff:g>“ pašalintas."</string>
+    <string name="shortcut_duplicate">"Spartusis klavišas „<xliff:g id="NAME">%s</xliff:g>“ jau yra."</string>
+    <string name="title_select_application">"Pasirinkite programą"</string>
+    <string name="hotseat_all_apps_button_string">"Programos"</string>
+    <string name="delete_zone_label_workspace">"Pašalinti"</string>
+    <string name="delete_target_remove_label">"Pašalinti"</string>
+    <string name="delete_target_uninstall_label">"Pašalinti"</string>
+    <string name="info_target_label">"Programos informacija"</string>
+    <string name="permlab_install_shortcut">"įdiegti sparčiuosius klavišus"</string>
+    <string name="permdesc_install_shortcut">"Programai leidžiama pridėti sparčiuosius klavišus be naudotojo įsikišimo."</string>
+    <string name="permlab_uninstall_shortcut">"pašalinti sparčiuosius klavišus"</string>
+    <string name="permdesc_uninstall_shortcut">"Programai leidžiama pašalinti sparčiuosius klavišus be naudotojo įsikišimo."</string>
+    <string name="permlab_read_settings">"Skaityti pagrindinio puslapio nustatymus ir sparčiuosius klavišus"</string>
+    <string name="permdesc_read_settings">"Programai leidžiama skaityti pagrindinio puslapio nustatymus ir sparčiuosius klavišus."</string>
+    <string name="permlab_write_settings">"Rašyti pagrindinio puslapio nustatymus ir sparčiuosius klavišus"</string>
+    <string name="permdesc_write_settings">"Programai leidžiama keisti pagrindinio puslapio nustatymus ir sparčiuosius klavišus."</string>
+    <string name="gadget_error_text">"Problema įkeliant valdiklį"</string>
+    <string name="uninstall_system_app_text">"Tai sistemos programa ir jos negalima pašalinti."</string>
+    <string name="folder_hint_text">"Aplankas be pavadinimo"</string>
+    <string name="first_run_cling_title">"Sveiki!"</string>
+    <string name="first_run_cling_description">"Jauskitės kaip namie."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Sukurkite daugiau programų ir aplankų ekrano kopijų"</string>
+    <string name="workspace_cling_title">"Tvarkykite savo vietą"</string>
+    <string name="workspace_cling_move_item">"Palieskite ir laikykite foną, jei norite tvarkyti ekrano foną, valdiklius ir nustatymus."</string>
+    <string name="folder_cling_title">"Štai aplankas"</string>
+    <string name="folder_cling_create_folder">"Kad sukurtumėte tokį patį, palieskite ir laikykite programą, tada perkelkite ją virš kitos programos."</string>
+    <string name="cling_dismiss">"Gerai"</string>
+    <string name="overview_panel_button_widgets_string">"Valdikliai"</string>
+    <string name="overview_panel_button_system_settings_string">"Nustatymai"</string>
+    <string name="all_apps_search_bar_hint">"Ieškoti programų"</string>
+    <string name="all_apps_loading_message">"Įkeliamos programos..."</string>
+    <string name="all_apps_no_search_results">"Nerasta jokių užklausą „<xliff:g id="QUERY">%1$s</xliff:g>“ atitinkančių programų"</string>
+    <string name="all_apps_search_market_message">"Eiti į <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

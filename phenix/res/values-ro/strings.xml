@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Aplicația nu este instalată."</string>
+    <string name="widgets_tab_label">"Widgeturi"</string>
+    <string name="toggle_weight_watcher">"Afișați memoria"</string>
+    <string name="long_press_widget_to_add">"Atingeți lung un widget pentru a-l alege."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Aplicații"</string>
+    <string name="out_of_space">"Nu mai este loc pe acest Ecran de pornire."</string>
+    <string name="hotseat_out_of_space">"Nu mai este loc în bara de lansare rapidă."</string>
+    <string name="shortcut_uninstalled">"Comanda rapidă „<xliff:g id="NAME">%s</xliff:g>” a fost eliminată."</string>
+    <string name="shortcut_duplicate">"Comanda rapidă „<xliff:g id="NAME">%s</xliff:g>” există deja."</string>
+    <string name="title_select_application">"Alegeți aplicația"</string>
+    <string name="hotseat_all_apps_button_string">"Aplicații"</string>
+    <string name="delete_zone_label_workspace">"Eliminați"</string>
+    <string name="delete_target_remove_label">"Eliminați"</string>
+    <string name="delete_target_uninstall_label">"Dezinstalați"</string>
+    <string name="info_target_label">"Informații despre aplicație"</string>
+    <string name="permlab_install_shortcut">"Instalează comenzi rapide"</string>
+    <string name="permdesc_install_shortcut">"Permite unei aplicații să adauge comenzi rapide fără intervenția utilizatorului."</string>
+    <string name="permlab_uninstall_shortcut">"Dezinstalează comenzi rapide"</string>
+    <string name="permdesc_uninstall_shortcut">"Permite aplicației să elimine comenzi rapide fără intervenția utilizatorului."</string>
+    <string name="permlab_read_settings">"Citește setări și comenzi rapide pentru ecranul de pornire"</string>
+    <string name="permdesc_read_settings">"Permite aplicației să citească setările și comenzile rapide din ecranul de pornire."</string>
+    <string name="permlab_write_settings">"Scrie setări și comenzi rapide pentru ecranul de pornire"</string>
+    <string name="permdesc_write_settings">"Permite aplicației să modifice setările și comenzile rapide din ecranul de pornire."</string>
+    <string name="gadget_error_text">"Problemă la încărcarea widgetului"</string>
+    <string name="uninstall_system_app_text">"Aceasta este o aplicație de sistem și nu poate fi dezinstalată."</string>
+    <string name="folder_hint_text">"Dosar fără nume"</string>
+    <string name="first_run_cling_title">"Bun venit!"</string>
+    <string name="first_run_cling_description">"Simțiți-vă ca acasă."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Creați mai multe ecrane pentru aplicații și dosare"</string>
+    <string name="workspace_cling_title">"Organizați-vă spațiul"</string>
+    <string name="workspace_cling_move_item">"Atingeți lung fundalul pentru a gestiona imaginea de fundal, widgeturile și setările."</string>
+    <string name="folder_cling_title">"Iată un dosar"</string>
+    <string name="folder_cling_create_folder">"Pentru a crea un dosar similar, atingeți și țineți degetul pe o aplicație, apoi mutați-o deasupra alteia."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Widgeturi"</string>
+    <string name="overview_panel_button_system_settings_string">"Setări"</string>
+    <string name="all_apps_search_bar_hint">"Căutați aplicații"</string>
+    <string name="all_apps_loading_message">"Se încarcă aplicațiile..."</string>
+    <string name="all_apps_no_search_results">"Nu s-a găsit nicio aplicație pentru „<xliff:g id="QUERY">%1$s</xliff:g>”"</string>
+    <string name="all_apps_search_market_message">"Accesați <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

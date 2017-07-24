@@ -1,0 +1,139 @@
+
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontskipnonpubliclibraryclassmembers
+-dontpreverify
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+-keepclassmembers class * implements java.lang.reflect.InvocationHandler {
+	private java.lang.Object *(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]);
+}
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+
+-keepclasseswithmembers class * {
+	native <methods>;
+}
+
+-keepclasseswithmembers class * {
+	public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+	public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers enum * {
+	public static **[] values();
+	public static ** valueOf(java.lang.String);
+}
+-keep class * implements android.os.Parcelable {
+	public static final android.os.Parcelable$Creator *;
+}
+#MAD END
+-dontwarn android.support.v4.** 
+-keep class android.support.v4.** { *; } 
+-keep public class * extends android.support.v4.** 
+-keep public class * extends android.app.Fragment
+
+-dontwarn com.cooee.statistics.StatisticsUtil
+-dontwarn com.cooee.download.StatisticsUtil
+-dontwarn  com.ha.hb.**
+-dontwarn com.cooee.download.**
+-keep class com.ha.hb.**{*;}
+-keep class com.cooee.download.**{*;}
+
+-keep public class * extends android.support.v7.** 
+
+
+
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+-keep class android.support.**
+-dontwarn android.support.**
+
+#-keep public class com.iLoong.launcher.desktop.Disclaimer{
+#	public protected <methods>; 
+#	public protected *;
+#}
+-dontwarn com.iLoong.launcher.desktop.Disclaimer
+-keepclassmembers class com.iLoong.launcher.desktop.Disclaimer {
+    <methods>;
+}
+-dontwarn dalvik.system.**
+-keep class dalvik.system.** { *;}
+
+-dontwarn android.support.v4.** 
+-keep class android.support.v4.** { *; } 
+-keep public class * extends android.support.v4.** 
+-keep public class * extends android.app.Fragment
+
+-dontwarn com.cooee.dynamicload.**
+-keep class com.cooee.dynamicload.** {*; }
+
+
+-dontwarn cool.sdk.**
+-dontwarn com.umeng.analytics.**
+
+
+-libraryjars  /home/eason/svn/build/jars/dl_38694.jar
+-libraryjars  /home/eason/svn/build/jars/wallpaper.jar
+-libraryjars  /home/eason/svn/build/jars/kmob.jar
+-libraryjars  /home/eason/svn/build/jars/CooeeShellSdk.1.1.4.20170602.jar
+-libraryjars /home/eason/svn/build/jars/volley.jar
+-libraryjars /home/eason/svn/build/jars/CoolSdk-39948.jar
+-libraryjars /home/eason/svn/build/jars/wallpaperManagerBase.jar
+-libraryjars /home/eason/svn/build/jars/UUID_20170324_ver1.5.jar
+
+-dontwarn com.android.volley.**
+-keep class com.android.volley.** {*; }
+-keep class * extends com.android.volley.** {*; }
+-keep class cool.sdk.** {*; }
+
+
+
+
+-dontwarn com.cooee.wallpaper.wrap.IWallpaper
+-dontwarn com.cooee.dynamicload.DLHost
+-dontwarn com.cooee.shell.sdk.CooeeSdk
+-dontwarn com.cooee.wallpaper.wrap.WallpaperConfig
+-dontwarn com.cooee.wallpaper.wrap.IWallpaperCallbacks
+-dontwarn com.cooee.wallpaper.wrap.IWallpaper
+-dontwarn com.cooee.statistics.**
+-dontwarn com.cooee.wallpaper.host.**
+
+-keep class com.cooee.wallpaper.manager.ChangeWallpaperManager {*;}
+-keep class com.cooee.wallpaper.WallpaperPlugin {*;}
+-keep class * implements com.cooee.wallpaper.wrap.IWallpaper {*; }
+-keep class * implements com.cooee.wallpaper.wrap.IWallpaperCallbacks {*; }
+-keep class com.cooee.favorites.FavoritesPlugin {*;}
+-keep class * extends com.kmob.kmobsdk.** {*;}
+
+#-keepattributes SourceFile,LineNumberTable
+-dontwarn  android.location.Location
+-dontwarn  org.eclipse.jdt.annotation.**
+#TencentLocation
+-keepattributes *Annotation*
+-keepclassmembers class ** {
+    public void on*Event(...);
+}
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-dontwarn  org.eclipse.jdt.annotation.**
+#shell start
+-keep public class com.cooee.shell.sdk.CooeeSdk{
+	 public protected <methods>; 
+     public protected *;
+}
+#shell end

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Appen är inte installerad."</string>
+    <string name="widgets_tab_label">"Widgetar"</string>
+    <string name="toggle_weight_watcher">"Visa Mem"</string>
+    <string name="long_press_widget_to_add">"Tryck länge om du vill flytta en widget."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Appar"</string>
+    <string name="out_of_space">"Det finns inte plats för mer på den här startskärmen."</string>
+    <string name="hotseat_out_of_space">"Utrymmet på Hotseat är fullt."</string>
+    <string name="shortcut_uninstalled">"Genvägen <xliff:g id="NAME">%s</xliff:g> har tagits bort."</string>
+    <string name="shortcut_duplicate">"Genvägen <xliff:g id="NAME">%s</xliff:g> finns redan."</string>
+    <string name="title_select_application">"Välj app"</string>
+    <string name="hotseat_all_apps_button_string">"Appar"</string>
+    <string name="delete_zone_label_workspace">"Ta bort"</string>
+    <string name="delete_target_remove_label">"Ta bort"</string>
+    <string name="delete_target_uninstall_label">"Avinstallera"</string>
+    <string name="info_target_label">"Info om appen"</string>
+    <string name="permlab_install_shortcut">"Installera genvägar"</string>
+    <string name="permdesc_install_shortcut">"Tillåter att en app lägger till genvägar utan åtgärd från användaren."</string>
+    <string name="permlab_uninstall_shortcut">"Avinstallera genvägar"</string>
+    <string name="permdesc_uninstall_shortcut">"Tillåter att appen tar bort genvägar utan åtgärd från användaren."</string>
+    <string name="permlab_read_settings">"läsa inställningar och genvägar för startsidan"</string>
+    <string name="permdesc_read_settings">"Tillåter att appen läser inställningar och genvägar på startsidan."</string>
+    <string name="permlab_write_settings">"Skriva inställningar och genvägar för startsidan"</string>
+    <string name="permdesc_write_settings">"Tillåter att appen ändrar inställningar och genvägar på startsidan."</string>
+    <string name="gadget_error_text">"Det gick inte att läsa in widgeten"</string>
+    <string name="uninstall_system_app_text">"Det här är en systemapp som inte kan avinstalleras."</string>
+    <string name="folder_hint_text">"Namnlös mapp"</string>
+    <string name="first_run_cling_title">"Välkommen!"</string>
+    <string name="first_run_cling_description">"Känn dig som hemma."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Skapa fler skärmar för appar och mappar"</string>
+    <string name="workspace_cling_title">"Organisera ditt utrymme"</string>
+    <string name="workspace_cling_move_item">"Tryck länge på bakgrunden om du vill hantera bakgrundsbilder, widgetar och inställningar."</string>
+    <string name="folder_cling_title">"Det här är en mapp"</string>
+    <string name="folder_cling_create_folder">"Om du vill skapa en till mapp av det här slaget trycker du länge på en app och drar den sedan ovanpå en annan."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Widgetar"</string>
+    <string name="overview_panel_button_system_settings_string">"Inställningar"</string>
+    <string name="all_apps_search_bar_hint">"Sök efter appar"</string>
+    <string name="all_apps_loading_message">"Läser in appar …"</string>
+    <string name="all_apps_no_search_results">"Det gick inte att hitta några appar som matchar <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+    <string name="all_apps_search_market_message">"Gå till <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

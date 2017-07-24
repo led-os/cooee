@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+    <string-array name="launcher_classification_sub_entries">
+        <item>Muling pagsasa-uri ng lahat ng apps</item>
+        <item>Pagpanumbalik ng latag bago ang huling pagsasa-ayos</item>
+    </string-array>
+    <string-array name="launcher_stytle_entries">
+        <item>Single-layer mode</item>
+        <item>Double-layer mode</item>
+    </string-array>
+    <string-array name="launcher_classification_entries">
+        <item>Matalinong paguuri</item>
+        <item>Ipanumbalik ang kaayusan</item>
+    </string-array>
+    <string-array name="launcher_stytle_sub_entries">
+        <item>Tile all apps on the Launcher</item>
+        <item>Maglagay ng mga shortcut sa Launcher lamang</item>
+    </string-array>
+
+</resources>

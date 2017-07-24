@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Sovellusta ei ole asennettu."</string>
+    <string name="widgets_tab_label">"Widgetit"</string>
+    <string name="toggle_weight_watcher">"Näytä muisti"</string>
+    <string name="long_press_widget_to_add">"Valitse widget painamalla sitä pitkään."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Sovellukset"</string>
+    <string name="out_of_space">"Tässä aloitusruudussa ei ole enää tilaa."</string>
+    <string name="hotseat_out_of_space">"Hotseatissa ei ole enää tilaa."</string>
+    <string name="shortcut_uninstalled">"Pikakuvake <xliff:g id="NAME">%s</xliff:g> poistettiin."</string>
+    <string name="shortcut_duplicate">"Pikakuvake <xliff:g id="NAME">%s</xliff:g> on jo olemassa."</string>
+    <string name="title_select_application">"Valitse sovellus"</string>
+    <string name="hotseat_all_apps_button_string">"Sovellukset"</string>
+    <string name="delete_zone_label_workspace">"Poista"</string>
+    <string name="delete_target_remove_label">"Poista"</string>
+    <string name="delete_target_uninstall_label">"Poista"</string>
+    <string name="info_target_label">"Sovelluksen tiedot"</string>
+    <string name="permlab_install_shortcut">"Asenna pikakuvakkeita"</string>
+    <string name="permdesc_install_shortcut">"Antaa sovelluksen lisätä pikakuvakkeita itsenäisesti ilman käyttäjän valintaa."</string>
+    <string name="permlab_uninstall_shortcut">"Poista pikakuvakkeita"</string>
+    <string name="permdesc_uninstall_shortcut">"Antaa sovelluksen poistaa pikakuvakkeita ilman käyttäjän valintaa."</string>
+    <string name="permlab_read_settings">"Lue aloitusruudun asetuksia ja pikakuvakkeita"</string>
+    <string name="permdesc_read_settings">"Antaa sovelluksen lukea aloitusruudun asetukset ja pikakuvakkeet."</string>
+    <string name="permlab_write_settings">"Kirjoita aloitusruudun asetuksia ja pikakuvakkeita"</string>
+    <string name="permdesc_write_settings">"Antaa sovelluksen muuttaa aloitusruudun asetuksia ja pikakuvakkeita."</string>
+    <string name="gadget_error_text">"Ongelma ladattaessa widgetiä"</string>
+    <string name="uninstall_system_app_text">"Tämä on järjestelmäsovellus, eikä sitä voi poistaa."</string>
+    <string name="folder_hint_text">"Nimetön kansio"</string>
+    <string name="first_run_cling_title">"Tervetuloa!"</string>
+    <string name="first_run_cling_description">"Ole kuin kotonasi."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Luo lisää ruutuja sovelluksille ja kansioille"</string>
+    <string name="workspace_cling_title">"Järjestä tilasi"</string>
+    <string name="workspace_cling_move_item">"Hallitse taustakuvaa, widgetejä ja asetuksia koskettamalla taustaa pitkään."</string>
+    <string name="folder_cling_title">"Tässä on kansio"</string>
+    <string name="folder_cling_create_folder">"Luo se seuraavasti: kosketa sovellusta pitkään ja siirrä se sitten toisen päälle."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Widgetit"</string>
+    <string name="overview_panel_button_system_settings_string">"Asetukset"</string>
+    <string name="all_apps_search_bar_hint">"Sovellushaku"</string>
+    <string name="all_apps_loading_message">"Ladataan sovelluksia…"</string>
+    <string name="all_apps_no_search_results">"”<xliff:g id="QUERY">%1$s</xliff:g>” ei palauttanut sovelluksia."</string>
+    <string name="all_apps_search_market_message">"Siirry: <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

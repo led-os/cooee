@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- //添加配置项“switch_enable_show_beauty_center_in_edit_mode_hotseat”，是否在“编辑模式底边栏”中显示“美化中心”按钮。true显示；false不显示。默认true。	//xiatian add start -->
+    <item name="overview_panel_button_beauty_center_id" type="id"/>
+    <!-- //添加配置项“switch_enable_show_beauty_center_in_edit_mode_hotseat”，是否在“编辑模式底边栏”中显示“美化中心”按钮。true显示；false不显示。默认true。	//xiatian add end -->
+
+
+    <!-- //需求：配置项“config_applistbar_style”为“0”前提下，在双层模式时，不显示“编辑模式底边栏”中的“小组件”按钮。	//xiatian add start -->
+    <item name="overview_panel_button_widgets_id" type="id"/>
+    <!-- //需求：配置项“config_applistbar_style”为“0”前提下，在双层模式时，不显示“编辑模式底边栏”中的“小组件”按钮。	//xiatian add end -->
+
+</resources>

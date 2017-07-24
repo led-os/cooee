@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- cheyingkun add whole file	//配置可以通过广播删除的快捷方式【智科】【c_0004455】 -->
+<resources>
+    <!-- 双开应用的包类名 -->
+    <string name="config_zhike_shortcut_componentName"></string>
+    <!-- 点击快捷方式时,intent传入参数的key -->
+    <string name="config_zhike_shortcut_intent_extra_key"></string>
+    <!-- 
+    	参数对应列表
+    	item格式如下:***,***,*** 
+    	第一个参数是要打开的应用的包名,第二个参数是设置中开关的key,第三个参数是快捷方式title的资源名
+    -->
+    <string-array name="zhike_shortcut_config_values_list">
+<!--         <item >com.whatsapp,whatsapp_mate,zhys_whatsapp_title</item> -->
+<!--         <item >com.facebook.katana,facebook_mate,zhys_facebook_title</item> -->
+    </string-array>
+</resources>

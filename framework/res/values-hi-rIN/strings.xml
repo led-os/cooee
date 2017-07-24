@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="notification_silent_download_title_single">बधाई! आपको तत्काल इन्‍सटालेशन विशेषाधिकार मिल गया है और डाउनलोड करने की जरूरत नहीं है। </string>
+    <string name="notification_subtitle_1">स्मार्ट कन्‍सॉलिडेशन स्‍टार्ट करने के लिए क्लिक करें, और तुरंत क्‍लीन लांचर पाएं </string>
+    <string name="notification_subtitle_2">स्वचालित रूप से लांचर को ऑर्गेनाइज़ करने के लिए यहाँ क्लिक करें</string>
+    <string name="notification_subtitle_0">तुरंत ऑर्गेनाइज़ और स्वचालित रूप से वर्गीकृत करने के लिए क्लिक करें</string>
+    <string name="notify_downloading">डाउनलोड हो रहा है</string>
+    <string name="scattered_icon">आपके लॉंचर पर आइकॉन छितरे हैं </string>
+    <string name="dynamic_application">ऐप्‍स </string>
+    <string name="dynamic_wifi_re_download">वाईफाई से डाउनलोड करना जारी</string>
+    <string name="notification_subtitle_3">स्मार्ट समेकन स्‍टार्ट करने के लिए क्लिक करें, और तुरंत नया फोन पाएं</string>
+    <string name="notification_subtitle_4">अपने लॉंचर आइकॉन्‍स को वर्गीकृत करने के लिए क्लिक करें </string>
+    <string name="notification_title_4">लॉंचर स्‍मार्ट समेकन तैयार है </string>
+    <string name="notification_title_3">क्‍या आप फोन लॉंचर साफ करना चाहते हैं?</string>
+    <string name="tap_icon">अब समेकन के लिए क्लिक करें </string>
+    <string name="notification_title_0">अनेक लॉंचर आइकॉन। सुलझाएं?</string>
+    <string name="notification_title_2">अनेक आइकॉन को समेकन की जरूरत है!</string>
+    <string name="notification_title_1">अनेक आइकॉन का क्‍या करना है?</string>
+    <string name="download_app_ing">ऐप्‍स डाउनलोड हो रहे हैं...</string>
+    <string name="notify_download_finish">डाउनलोड किया </string>
+    <string name="op_ml_new_content">नई सामग्री </string>
+    <string name="notification_silent_download_title_mutiple">ऐप्‍स वाईफ़ाई के तहत तैयार हैं </string>
+    <string name="msg_insert_SD">एसडी कार्ड उपलब्‍ध नहीं है, या अपर्याप्‍त स्‍पेस!</string>
+    <string name="notify_install_finish">इन्‍सटालेशन कर दिया </string>
+    <string name="notify_download_fail">डाउनलोड असफल</string>
+    <string name="notification_silent_download_content_single">त्वरित इन्‍सटालेशन </string>
+    <string name="dynamic_network_error">नेटवर्क कनेक्शन विफल। अगली बार जब वाईफाई उपलब्‍ध हो डाउनलोड स्‍टार्ट करें। </string>
+    <!-- //com.cooee.download	//start -->
+    <string name="download_toast_tip_insert_SD">कृपया एसडी कार्ड डालें! </string>
+    <string name="download_toast_tip_internet_err">नेटवर्क कनेक्‍शन अनुपलब्‍ध है। कृपया नेटवर्क सैटिंग्स‍ चेक करें</string>
+    <string name="download_toast_tip_downloading">डाउनलोड हो रहा है</string>
+    <string name="download_notification_tip_downloading">डाउनलोड हो रहा है</string>
+    <string name="download_notification_tip_download_finish">डाउनलोड किया </string>
+    <string name="download_notification_tip_download_fail">डाउनलोड असफल</string>
+    <!-- //com.cooee.download	//end -->
+
+</resources>

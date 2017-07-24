@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"No se instaló la aplicación."</string>
+    <string name="widgets_tab_label">"Widgets"</string>
+    <string name="toggle_weight_watcher">"Mostrar memoria"</string>
+    <string name="long_press_widget_to_add">"Mantén presionado el widget que desees elegir."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Aplicaciones"</string>
+    <string name="out_of_space">"No hay más espacio en esta pantalla principal."</string>
+    <string name="hotseat_out_of_space">"No hay más espacio en la barra de accesos directos."</string>
+    <string name="shortcut_uninstalled">"Se eliminó el acceso directo \"<xliff:g id="NAME">%s</xliff:g>\"."</string>
+    <string name="shortcut_duplicate">"El acceso directo \"<xliff:g id="NAME">%s</xliff:g>\" ya existe."</string>
+    <string name="title_select_application">"Elegir aplicación"</string>
+    <string name="hotseat_all_apps_button_string">"Aplicaciones"</string>
+    <string name="delete_zone_label_workspace">"Eliminar"</string>
+    <string name="delete_target_remove_label">"Eliminar"</string>
+    <string name="delete_target_uninstall_label">"Desinstalar"</string>
+    <string name="info_target_label">"Información de la aplicación"</string>
+    <string name="permlab_install_shortcut">"Instalar accesos directos"</string>
+    <string name="permdesc_install_shortcut">"Permite que una aplicación agregue accesos directos sin que el usuario intervenga."</string>
+    <string name="permlab_uninstall_shortcut">"Desinstalar accesos directos"</string>
+    <string name="permdesc_uninstall_shortcut">"Permite que la aplicación elimine accesos directos sin que el usuario intervenga."</string>
+    <string name="permlab_read_settings">"Leer configuración y accesos directos de la pantalla principal"</string>
+    <string name="permdesc_read_settings">"Permite que la aplicación lea la configuración y los accesos directos de la pantalla principal."</string>
+    <string name="permlab_write_settings">"Escribir configuración y accesos directos de la pantalla principal"</string>
+    <string name="permdesc_write_settings">"Permite que la aplicación cambie la configuración y los accesos directos de la pantalla principal."</string>
+    <string name="gadget_error_text">"Problema al cargar el widget"</string>
+    <string name="uninstall_system_app_text">"Esta es una aplicación del sistema y no se puede desinstalar."</string>
+    <string name="folder_hint_text">"Carpeta sin nombre"</string>
+    <string name="first_run_cling_title">"¡Bienvenido/a!"</string>
+    <string name="first_run_cling_description">"Siéntete como en casa."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Crea más pantallas para aplicaciones y carpetas."</string>
+    <string name="workspace_cling_title">"Organiza tu espacio"</string>
+    <string name="workspace_cling_move_item">"Mantén presionado el fondo para administrar el fondo de pantalla, los widgets y la configuración."</string>
+    <string name="folder_cling_title">"Aquí tienes una carpeta"</string>
+    <string name="folder_cling_create_folder">"Para crear una carpeta como esta, mantén presionada una aplicación y luego muévela sobre otra."</string>
+    <string name="cling_dismiss">"Aceptar"</string>
+    <string name="overview_panel_button_widgets_string">"Widgets"</string>
+    <string name="overview_panel_button_system_settings_string">"Configuración"</string>
+    <string name="all_apps_search_bar_hint">"Buscar aplicaciones"</string>
+    <string name="all_apps_loading_message">"Cargando aplicaciones…"</string>
+    <string name="all_apps_no_search_results">"No hay aplicaciones que coincidan con <xliff:g id="QUERY">%1$s</xliff:g>."</string>
+    <string name="all_apps_search_market_message">"Ir a <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

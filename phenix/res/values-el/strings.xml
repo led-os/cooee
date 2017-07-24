@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Η εφαρμογή δεν έχει εγκατασταθεί."</string>
+    <string name="widgets_tab_label">"Γραφικά στοιχεία"</string>
+    <string name="toggle_weight_watcher">"Εμφάνιση Mem"</string>
+    <string name="long_press_widget_to_add">"Αγγίξτε παρατεταμένα για να πάρετε ένα γραφ.στοιχ."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Εφαρμογές"</string>
+    <string name="out_of_space">"Δεν υπάρχει χώρος σε αυτήν την αρχική οθόνη."</string>
+    <string name="hotseat_out_of_space">"Δεν υπάρχει άλλος χώρος στη γραμμή γρήγορης πρόσβασης."</string>
+    <string name="shortcut_uninstalled">"Η συντόμευση \"<xliff:g id="NAME">%s</xliff:g>\" καταργήθηκε."</string>
+    <string name="shortcut_duplicate">"Η συντόμευση \"<xliff:g id="NAME">%s</xliff:g>\" υπάρχει ήδη."</string>
+    <string name="title_select_application">"Επιλογή εφαρμογής"</string>
+    <string name="hotseat_all_apps_button_string">"Εφαρμογές"</string>
+    <string name="delete_zone_label_workspace">"Κατάργηση"</string>
+    <string name="delete_target_remove_label">"Κατάργηση"</string>
+    <string name="delete_target_uninstall_label">"Κατάργηση εγκατάστασης"</string>
+    <string name="info_target_label">"Πληροφορίες εφαρμογής"</string>
+    <string name="permlab_install_shortcut">"εγκατάσταση συντομεύσεων"</string>
+    <string name="permdesc_install_shortcut">"Επιτρέπει σε μια εφαρμογή την προσθήκη συντομεύσεων χωρίς την παρέμβαση του χρήστη."</string>
+    <string name="permlab_uninstall_shortcut">"κατάργηση εγκατάστασης συντομεύσεων"</string>
+    <string name="permdesc_uninstall_shortcut">"Επιτρέπει στην εφαρμογή την κατάργηση συντομεύσεων χωρίς την παρέμβαση του χρήστη."</string>
+    <string name="permlab_read_settings">"ανάγνωση ρυθμίσεων και συντομεύσεων αρχικής οθόνης"</string>
+    <string name="permdesc_read_settings">"Επιτρέπει στην εφαρμογή την ανάγνωση των ρυθμίσεων και των συντομεύσεων στην Αρχική οθόνη."</string>
+    <string name="permlab_write_settings">"εγγραφή ρυθμίσεων και συντομεύσεων αρχικής οθόνης"</string>
+    <string name="permdesc_write_settings">"Επιτρέπει στην εφαρμογή την αλλαγή των ρυθμίσεων και των συντομεύσεων στην Αρχική οθόνη."</string>
+    <string name="gadget_error_text">"Παρουσιάστηκε πρόβλημα στη φόρτωση του γραφικού στοιχείου"</string>
+    <string name="uninstall_system_app_text">"Αυτή είναι μια εφαρμογή συστήματος και δεν είναι δυνατή η κατάργηση της εγκατάστασής της."</string>
+    <string name="folder_hint_text">"Φάκελος χωρίς όνομα"</string>
+    <string name="first_run_cling_title">"Καλώς ορίσατε!"</string>
+    <string name="first_run_cling_description">"Νιώστε σαν στο σπίτι σας."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Δημιουργία περισσότερων οθονών για εφαρμογές και φακέλους"</string>
+    <string name="workspace_cling_title">"Οργανώστε το χώρο σας"</string>
+    <string name="workspace_cling_move_item">"Αγγίξτε παρατεταμένα το φόντο για να διαχειριστείτε την ταπετσαρία, τα γραφικά στοιχεία και τις ρυθμίσεις."</string>
+    <string name="folder_cling_title">"Ορίστε ένας φάκελος"</string>
+    <string name="folder_cling_create_folder">"Για να δημιουργήσετε έναν φάκελο σαν κι αυτόν, πατήστε παρατεταμένα μια εφαρμογή και στη συνέχεια, μετακινήστε τη πάνω σε μια άλλη."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Γραφικά στοιχεία"</string>
+    <string name="overview_panel_button_system_settings_string">"Ρυθμίσεις"</string>
+    <string name="all_apps_search_bar_hint">"Αναζήτηση εφαρμογών"</string>
+    <string name="all_apps_loading_message">"Φόρτωση εφαρμογών…"</string>
+    <string name="all_apps_no_search_results">"Δεν βρέθηκαν εφαρμογές για το ερώτημα \"<xliff:g id="QUERY">%1$s</xliff:g>\""</string>
+    <string name="all_apps_search_market_message">"Μετάβαση σε <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

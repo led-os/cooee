@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Приложението не е инсталирано."</string>
+    <string name="widgets_tab_label">"Приспособления"</string>
+    <string name="toggle_weight_watcher">"Показване на паметта"</string>
+    <string name="long_press_widget_to_add">"Докоснете и задръжте за избор на приспособление."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Приложения"</string>
+    <string name="out_of_space">"На този начален екран няма повече място."</string>
+    <string name="hotseat_out_of_space">"В трамплина няма повече място."</string>
+    <string name="shortcut_uninstalled">"Прекият път към <xliff:g id="NAME">%s</xliff:g> бе премахнат."</string>
+    <string name="shortcut_duplicate">"Прекият път към <xliff:g id="NAME">%s</xliff:g> вече съществува."</string>
+    <string name="title_select_application">"Избор на приложение"</string>
+    <string name="hotseat_all_apps_button_string">"Приложения"</string>
+    <string name="delete_zone_label_workspace">"Премахване"</string>
+    <string name="delete_target_remove_label">"Премахване"</string>
+    <string name="delete_target_uninstall_label">"Деинсталиране"</string>
+    <string name="info_target_label">"Информация за приложението"</string>
+    <string name="permlab_install_shortcut">"инсталиране на преки пътища"</string>
+    <string name="permdesc_install_shortcut">"Разрешава на приложението да добавя преки пътища без намеса на потребителя."</string>
+    <string name="permlab_uninstall_shortcut">"деинсталиране на преки пътища"</string>
+    <string name="permdesc_uninstall_shortcut">"Разрешава на приложението да премахва преки пътища без намеса на потребителя."</string>
+    <string name="permlab_read_settings">"четене на настройките и преките пътища в Начало"</string>
+    <string name="permdesc_read_settings">"Разрешава на приложението да чете настройките и преките пътища в Начало."</string>
+    <string name="permlab_write_settings">"запис на настройките и преките пътища в Начало"</string>
+    <string name="permdesc_write_settings">"Разрешава на приложението да променя настройките и преките пътища в Начало."</string>
+    <string name="gadget_error_text">"Проблем при зареждане на приспособлението"</string>
+    <string name="uninstall_system_app_text">"Това е системно приложение и не може да се деинсталира."</string>
+    <string name="folder_hint_text">"Папка без име"</string>
+    <string name="first_run_cling_title">"Добре дошли!"</string>
+    <string name="first_run_cling_description">"Персонализиране и приспособяване."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Създаване на още екрани за приложения и папки"</string>
+    <string name="workspace_cling_title">"Организиране на мястото ви"</string>
+    <string name="workspace_cling_move_item">"Докоснете и задръжте фона, за да управлявате тапета, приспособленията и настройките."</string>
+    <string name="folder_cling_title">"Ето една папка"</string>
+    <string name="folder_cling_create_folder">"За да създадете подобна, докоснете и задръжте приложение, след което го преместете върху друго."</string>
+    <string name="cling_dismiss">"ОK"</string>
+    <string name="overview_panel_button_widgets_string">"Приспособления"</string>
+    <string name="overview_panel_button_system_settings_string">"Настройки"</string>
+    <string name="all_apps_search_bar_hint">"Търсене в приложенията"</string>
+    <string name="all_apps_loading_message">"Приложенията се зареждат…"</string>
+    <string name="all_apps_no_search_results">"Няма намерени приложения, съответстващи на „<xliff:g id="QUERY">%1$s</xliff:g>“"</string>
+    <string name="all_apps_search_market_message">"Отваряне на <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

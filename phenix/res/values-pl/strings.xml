@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Aplikacja nie jest zainstalowana."</string>
+    <string name="widgets_tab_label">"Widżety"</string>
+    <string name="toggle_weight_watcher">"Pokaż pamięć"</string>
+    <string name="long_press_widget_to_add">"Aby dodać widżet, kliknij go i przytrzymaj."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Aplikacje"</string>
+    <string name="out_of_space">"Brak miejsca na tym ekranie głównym."</string>
+    <string name="hotseat_out_of_space">"Brak miejsca w kieszonce."</string>
+    <string name="shortcut_uninstalled">"Skrót „<xliff:g id="NAME">%s</xliff:g>” został usunięty."</string>
+    <string name="shortcut_duplicate">"Skrót „<xliff:g id="NAME">%s</xliff:g>” już istnieje."</string>
+    <string name="title_select_application">"Wybierz aplikację"</string>
+    <string name="hotseat_all_apps_button_string">"Aplikacje"</string>
+    <string name="delete_zone_label_workspace">"Usuń"</string>
+    <string name="delete_target_remove_label">"Usuń"</string>
+    <string name="delete_target_uninstall_label">"Odinstaluj"</string>
+    <string name="info_target_label">"Informacje o aplikacji"</string>
+    <string name="permlab_install_shortcut">"Instalowanie skrótów"</string>
+    <string name="permdesc_install_shortcut">"Pozwala aplikacji dodawać skróty bez interwencji użytkownika."</string>
+    <string name="permlab_uninstall_shortcut">"Odinstalowywanie skrótów"</string>
+    <string name="permdesc_uninstall_shortcut">"Pozwala aplikacji usuwać skróty bez interwencji użytkownika."</string>
+    <string name="permlab_read_settings">"Odczytywanie ustawień i skrótów na ekranie głównym"</string>
+    <string name="permdesc_read_settings">"Pozwala aplikacji na odczytywanie ustawień i skrótów na ekranie głównym."</string>
+    <string name="permlab_write_settings">"Zapisywanie ustawień i skrótów na ekranie głównym"</string>
+    <string name="permdesc_write_settings">"Umożliwia aplikacji zmianę ustawień i skrótów na ekranie głównym."</string>
+    <string name="gadget_error_text">"Problem podczas ładowania widżetu"</string>
+    <string name="uninstall_system_app_text">"To aplikacja systemowa i nie można jej odinstalować."</string>
+    <string name="folder_hint_text">"Folder bez nazwy"</string>
+    <string name="first_run_cling_title">"Witamy"</string>
+    <string name="first_run_cling_description">"Poczuj się jak u siebie."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Dodaj więcej ekranów na aplikacje i foldery"</string>
+    <string name="workspace_cling_title">"Uporządkuj obszar roboczy"</string>
+    <string name="workspace_cling_move_item">"Kliknij i przytrzymaj tło, by zmienić tapetę, widżety lub ustawienia."</string>
+    <string name="folder_cling_title">"Tu jest folder"</string>
+    <string name="folder_cling_create_folder">"Aby utworzyć taki sam, kliknij i przytrzymaj aplikację, a następnie przenieś ją na następną."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Widżety"</string>
+    <string name="overview_panel_button_system_settings_string">"Ustawienia"</string>
+    <string name="all_apps_search_bar_hint">"Szukaj w aplikacjach"</string>
+    <string name="all_apps_loading_message">"Wczytuję aplikacje…"</string>
+    <string name="all_apps_no_search_results">"Nie znaleziono aplikacji pasujących do zapytania „<xliff:g id="QUERY">%1$s</xliff:g>”"</string>
+    <string name="all_apps_search_market_message">"Otwórz <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

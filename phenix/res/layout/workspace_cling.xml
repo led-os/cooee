@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cooee.phenix.Cling xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.cooee.phenix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    launcher:drawIdentifier="workspace_portrait" >
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            style="@style/WorkspaceClingContentMarginStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/WorkspaceClingContentPaddingStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cling"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" >
+
+                <TextView
+                    style="@style/ClingTitleText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/workspace_cling_title" />
+
+                <TextView
+                    style="@style/ClingText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/workspace_cling_move_item" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cling_arrow_down" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/focused_hotseat_app_bubble"
+            style="@style/WorkspaceClingFocusedHotseatAppBubbleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="90dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                style="@style/WorkspaceClingFocusedHotseatAppBubbleContentStyle"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cling"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" >
+
+                <TextView
+                    android:id="@+id/focused_hotseat_app_title"
+                    style="@style/ClingTitleText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/focused_hotseat_app_description"
+                    style="@style/ClingText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/WorkspaceClingArrowDownStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:src="@drawable/cling_arrow_down" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <Button
+        style="@style/WorkspaceClingDismissButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="15dp"
+        android:onClick="dismissWorkspaceCling" />
+
+</com.cooee.phenix.Cling>

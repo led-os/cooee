@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Aplikacija ni nameščena."</string>
+    <string name="widgets_tab_label">"Pripomočki"</string>
+    <string name="toggle_weight_watcher">"Pokaži pomnilnik"</string>
+    <string name="long_press_widget_to_add">"Za izbiro pripomočka se ga dotaknite in pridržite."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Aplikacije"</string>
+    <string name="out_of_space">"Na tem začetnem zaslonu ni več prostora."</string>
+    <string name="hotseat_out_of_space">"V vrstici z ikonami ni več prostora."</string>
+    <string name="shortcut_uninstalled">"Bližnjica »<xliff:g id="NAME">%s</xliff:g>« je bila odstranjena."</string>
+    <string name="shortcut_duplicate">"Bližnjica »<xliff:g id="NAME">%s</xliff:g>« že obstaja."</string>
+    <string name="title_select_application">"Izberite aplikacijo"</string>
+    <string name="hotseat_all_apps_button_string">"Aplikacije"</string>
+    <string name="delete_zone_label_workspace">"Odstrani"</string>
+    <string name="delete_target_remove_label">"Odstrani"</string>
+    <string name="delete_target_uninstall_label">"Odstrani"</string>
+    <string name="info_target_label">"Podatki o aplikaciji"</string>
+    <string name="permlab_install_shortcut">"Namestitev bližnjic"</string>
+    <string name="permdesc_install_shortcut">"Aplikaciji dovoli dodajanje bližnjic brez posredovanja uporabnika."</string>
+    <string name="permlab_uninstall_shortcut">"Odstranitev bližnjic"</string>
+    <string name="permdesc_uninstall_shortcut">"Aplikaciji dovoli odstranjevanje bližnjic brez posredovanja uporabnika."</string>
+    <string name="permlab_read_settings">"branje nastavitev in bližnjic na začetnem zaslonu"</string>
+    <string name="permdesc_read_settings">"Aplikaciji dovoli branje nastavitev in bližnjic na začetnem zaslonu."</string>
+    <string name="permlab_write_settings">"Zapis nastavitev in bližnjic na začetnem zaslonu"</string>
+    <string name="permdesc_write_settings">"Aplikaciji dovoli spreminjanje nastavitev in bližnjic na začetnem zaslonu."</string>
+    <string name="gadget_error_text">"Težava pri nalaganju pripomočka"</string>
+    <string name="uninstall_system_app_text">"To je sistemska aplikacija in je ni mogoče odstraniti."</string>
+    <string name="folder_hint_text">"Neimenovana mapa"</string>
+    <string name="first_run_cling_title">"Pozdravljeni!"</string>
+    <string name="first_run_cling_description">"Počutite se kot doma."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Ustvarite več zaslonov za aplikacije in mape"</string>
+    <string name="workspace_cling_title">"Organizirajte svoj prostor"</string>
+    <string name="workspace_cling_move_item">"Če želite upravljati ozadje, pripomočke in nastavitve, se dotaknite ozadja in ga pridržite."</string>
+    <string name="folder_cling_title">"To je mapa"</string>
+    <string name="folder_cling_create_folder">"Če želite ustvariti mapo, podobno tej, se dotaknite aplikacije in jo pridržite, nato pa jo premaknite nad drugo."</string>
+    <string name="cling_dismiss">"V redu"</string>
+    <string name="overview_panel_button_widgets_string">"Pripomočki"</string>
+    <string name="overview_panel_button_system_settings_string">"Nastavitve"</string>
+    <string name="all_apps_search_bar_hint">"Iskanje po aplikacijah"</string>
+    <string name="all_apps_loading_message">"Nalaganje aplikacij …"</string>
+    <string name="all_apps_no_search_results">"Ni aplikacij, ki bi ustrezale poizvedbi »<xliff:g id="QUERY">%1$s</xliff:g>«"</string>
+    <string name="all_apps_search_market_message">"Odpri storitev <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

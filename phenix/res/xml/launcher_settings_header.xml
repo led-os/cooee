@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 桌面设置界面 的配置文件  可设置某个设置项不显示 -->
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:headers="http://schemas.android.com/apk/res/com.cooee.phenix" >
+
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSettings.LauncherHomeFragment"
+        headers:header_icon="@drawable/launcher_settings_home_icon"
+        headers:header_id="@+id/setting_launcher_home"
+        headers:header_summary=""
+        headers:header_title="@string/launcher_setting_default_launcher_item_title" />
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSettings.LauncherEffectFragment"
+        headers:header_icon="@drawable/launcher_settings_effect_icon"
+        headers:header_id="@+id/setting_effect"
+        headers:header_summary=""
+        headers:header_title="@string/desktop_slide" />
+
+    <!-- WangLei add start	//桌面和主菜单特效的分离 -->
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSetting.LauncherEffectFragment"
+        headers:header_icon="@drawable/launcher_settings_effect_icon"
+        headers:header_id="@+id/setting_workspace_effect"
+        headers:header_summary=""
+        headers:header_title="@string/workspace_effect" />
+
+    <!-- //添加配置项“switch_enable_show_workspace_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“桌面滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSettings.WorkspaceScrollTypeFragment"
+        headers:header_icon="@drawable/launcher_settings_workspace_scroll_type_icon"
+        headers:header_id="@+id/setting_workspace_scroll_type_id"
+        headers:header_summary=""
+        headers:header_title="@string/launcher_settings_workspace_scroll_type_title" />
+    <!-- //添加配置项“switch_enable_show_workspace_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“桌面滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSetting.LauncherAppListEffectFragment"
+        headers:header_icon="@drawable/launcher_settings_effect_icon"
+        headers:header_id="@+id/setting_applist_effect"
+        headers:header_summary=""
+        headers:header_title="@string/applist_effect" />
+    <!-- WangLei add end -->
+
+    <!-- //添加配置项“switch_enable_show_applist_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“主菜单滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSettings.ApplistScrollTypeFragment"
+        headers:header_icon="@drawable/launcher_settings_applist_scroll_type_icon"
+        headers:header_id="@+id/setting_applist_scroll_type_id"
+        headers:header_summary=""
+        headers:header_title="@string/launcher_settings_applist_scroll_type_title" />
+    <!-- //添加配置项“switch_enable_show_applist_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“主菜单滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+    <!-- //添加配置项“switch_enable_show_widget_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“小组件滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSettings.WidgetScrollTypeFragment"
+        headers:header_icon="@drawable/launcher_settings_widget_scroll_type_icon"
+        headers:header_id="@+id/setting_widget_scroll_type_id"
+        headers:header_summary=""
+        headers:header_title="@string/launcher_settings_widget_scroll_type_title" />
+    <!-- //添加配置项“switch_enable_show_widget_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“小组件滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSettings.LauncherStyleFragment"
+        headers:header_icon="@drawable/launcher_settings_desktopstyle_icon"
+        headers:header_id="@+id/setting_launcher_stytle"
+        headers:header_summary=""
+        headers:header_title="@string/select_launcher_style" />
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSettings.LauncherClassificationFragment"
+        headers:header_icon="@drawable/launcher_settings_classification_icon"
+        headers:header_id="@+id/setting_launcher_classification"
+        headers:header_summary=""
+        headers:header_title="@string/intelligent_classification" />
+
+    <!-- //和兴六部图标大小变化需求	//cheyingkun add start -->
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment="com.cooee.launcherSettings.LauncherAppSizeFragment"
+        headers:header_icon="@drawable/launcher_setting_app_icon_size"
+        headers:header_id="@+id/setting_app_icon_size"
+        headers:header_summary=""
+        headers:header_title="@string/app_icon_size" />
+    <!-- //和兴六部图标大小变化需求	//cheyingkun add end -->
+
+    <header
+        headers:header_canselected="true"
+        headers:header_fragment=""
+        headers:header_icon="@drawable/uiupdate_launcher_settings_about_icon"
+        headers:header_id="@+id/setting_about_launcher"
+        headers:header_summary=""
+        headers:header_title="@string/title_launcherAbout" />
+
+</preference-headers>

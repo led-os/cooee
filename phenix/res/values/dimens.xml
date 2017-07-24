@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dynamic Grid -->
+    <dimen name="dynamic_grid_edge_margin">6dp</dimen>
+    <!-- 边缘的外边距,一个基础值,好多控件的边距都根据这个边距计算得到.desiredWorkspaceLeftRightMarginPx;searchBarSpaceHeightPx;hotseatBarHeightPx;folderCellWidthPx;folderCellHeightPx;allAppsNumRows;allAppsNumCols;等等 -->
+    <!-- <dimen name="dynamic_grid_search_bar_max_width">500dp</dimen> -->
+    <!-- search_bar控件的最大宽度, -->
+    <dimen name="dynamic_grid_drop_bar_height">30dp</dimen>
+    <!-- 当没有搜索框时，定义垃圾框控件的高度，使workspace距顶端距离不要太大 -->
+    <!-- <dimen name="dynamic_grid_search_bar_height">30dp</dimen> -->
+    <!-- search_bar控件的高度,实际占用的高度大于这个数字,因为设置了边距 -->
+    <!-- <dimen name="dynamic_grid_page_indicator_height">24dp</dimen> -->
+    <!-- 页面指示器的高度 -->
+
+
+    <!-- Workspace -->
+    <dimen name="workspace_max_gap">16dp</dimen>
+    <!-- Workspace的最大间隙 ,影响桌面图标之间的距离.改变值无效,因为代码中没有读取这个配置.即使读取了,逻辑也不会走到mMaxGap的地方 -->
+    <dimen name="workspace_overscroll_drawable_padding">0dp</dimen>
+    <!-- workspace滚动切页过程中背景的边界,改变数值无效果.代码不走这段逻辑(可能描述的不够准确,因为以前逻辑较难恢复) -->
+    <dimen name="overview_panel_bottom_padding">10dp</dimen>
+    <!-- 编辑模式地边栏四个按钮的paddingBottom -->
+    <dimen name="overview_mode_page_offset">192dp</dimen>
+    <!-- 编辑模式下,页面跟屏幕顶部状态栏的距离 -->
+
+
+    <!-- SearchDropTargetBar -->
+    <dimen name="toolbar_button_vertical_padding">4dip</dimen>
+    <!-- 搜索框和卸载框垂直方向的内边距 -->
+    <dimen name="toolbar_button_horizontal_padding">12dip</dimen>
+    <!-- 卸载框的android:paddingStart和android:paddingEnd,修改所有配置的该数值可能无效,是因为DropTargetButton样式的paddingStart和paddingEnd有的用的是这个配置的值,有的是直接给的数字 -->
+    <!-- External toolbar icon size (for bounds) -->
+    <dimen name="toolbar_external_icon_width">36dp</dimen>
+    <!-- 小部件和allApp界面中,标签栏中商店图标的宽.修改无效果,布局中设置了gone,Launcher.java中DISABLE_MARKET_BUTTON=true 不显示 -->
+    <dimen name="toolbar_external_icon_height">36dp</dimen>
+    <!-- 小部件和allApp界面中,标签栏中商店图标的高.修改无效果,布局中设置了gone,Launcher.java中DISABLE_MARKET_BUTTON=true 不显示 -->
+
+
+    <!-- AllApps/Customize/AppsCustomize -->
+    <!-- The height of the tab bar - if this changes, we should update the -->
+    <!-- external icon width/height above to compensate -->
+    <dimen name="apps_customize_tab_bar_height">52dp</dimen>
+    <!-- 小部件和allApp界面中,标签栏的高度.修改无效果,布局中设置了gone -->
+    <dimen name="apps_customize_tab_bar_margin_top">0dp</dimen>
+    <!-- 小部件和allApp界面中,标签栏的margin_top.修改无效果,布局中设置了gone -->
+    <!-- <dimen name="app_icon_size">54dp</dimen> -->
+    <!-- 桌面图标的大小 -->
+
+
+    <!-- The AppsCustomize page indicator -->
+    <dimen name="apps_customize_page_indicator_margin_widgets">4dp</dimen>
+    <!-- <dimen name="apps_customize_page_indicator_margin_apps">4dp</dimen> -->
+    <!-- 小部件界面和allApp界面页面指示器的marginBottom -->
+    <dimen name="apps_customize_page_indicator_offset_widgets">16dp</dimen>
+    <!-- <dimen name="apps_customize_page_indicator_offset_bottom_apps">16dp</dimen> -->
+    <!-- 小部件界面和allApp界面页面图标布局整体的的marginBottom -->
+
+
+    <!-- Drag padding to add to the bottom of drop targets -->
+    <dimen name="drop_target_drag_padding">14dp</dimen>
+    <!-- 垃圾框的bottomPadding -->
+
+
+    <!-- Dragging -->
+    <!-- the area at the edge of the screen that makes the workspace go left -->
+    <!-- or right while you're dragging. -->
+    <dimen name="scroll_zone">20dp</dimen>
+    <!-- 拖动图标进行切页时,图标跟屏幕边界多少距离开始切到下一页 -->
+
+
+    <!-- When dragging items on the workspace, the number of dps by which the position of -->
+    <!-- the drag view should be offset from the position of the original view. -->
+    <dimen name="dragViewOffsetX">0dp</dimen>
+    <!-- 拖拽一个图标时,托起的图标跟之前图标位置在X轴的距离 -->
+    <dimen name="dragViewOffsetY">0dp</dimen>
+    <!-- 拖拽一个图标时,托起的图标跟之前图标位置在Y轴的距离 -->
+    <!-- When dragging an item, how much bigger (fixed dps) the dragged view -->
+    <!-- should be. If 0, it will not be scaled at all. -->
+    <dimen name="dragViewScale">12dp</dimen>
+    <!-- 托起一个图标,被托起后图标比桌面图标大多少 -->
+
+
+    <!-- Padding applied to AppWidget previews -->
+    <dimen name="app_widget_preview_padding_left">16dp</dimen>
+    <!-- 小部件界面中,每个部件图片的paddingStart -->
+    <dimen name="app_widget_preview_padding_right">16dp</dimen>
+    <!-- 小部件界面中,每个部件图片的paddingEnd -->
+    <dimen name="app_widget_preview_padding_top">32dp</dimen>
+    <!-- 小部件界面中,每个部件的图片paddingTop -->
+    <dimen name="app_widget_preview_label_margin_top">4dp</dimen>
+    <!-- 小部件界面中,每个部件的名字父容器的marginTop -->
+    <dimen name="app_widget_preview_label_margin_left">2dp</dimen>
+    <!-- 小部件界面中,每个部件的名字父容器的marginStart -->
+    <dimen name="app_widget_preview_label_margin_right">2dp</dimen>
+    <!-- 小部件界面中,每个部件的名字父容器的marginEnd -->
+
+
+    <!-- Padding applied to shortcut previews -->
+    <dimen name="shortcut_preview_padding_left">0dp</dimen>
+    <!-- 小部件界面中,图标生成的小部件,shortcut预览阴影的padding_left,也会影响预览图的大小. 只修改数值,无效果变化,因为代码逻辑先从数据库获取bitmap,如果获取到,就不会生成预览图,数值就无效 -->
+    <dimen name="shortcut_preview_padding_right">0dp</dimen>
+    <!-- 小部件界面中,图标生成的小部件,shortcut预览阴影的padding_right,也会影响预览图的大小.只修改数值,无效果变化,因为代码逻辑先从数据库获取bitmap,如果获取到,就不会生成预览图,数值就无效 -->
+    <dimen name="shortcut_preview_padding_top">0dp</dimen>
+    <!-- 小部件界面中,图标生成的小部件,shortcut预览阴影的padding_top.只修改数值,无效果变化,因为代码逻辑先从数据库获取bitmap,如果获取到,就不会生成预览图,数值就无效 -->
+
+
+    <!-- Folders -->
+    <!-- The amount that the preview contents are inset from the preview background -->
+    <dimen name="folder_preview_padding">4dp</dimen>
+    <!-- folder预览的padding,暂时没用,FolderIcon中对于文件夹预览的修改,改变了以前的逻辑. -->
+    <dimen name="folder_name_padding">10dp</dimen>
+    <!-- 文件夹打开后,name的paddingTop和paddingBottom -->
+    <dimen name="folderfullscreen_cell_gapx">25dp</dimen>
+    <!-- 全屏样式的文件夹打开后,cell的x方向的间距 -->
+    <dimen name="folderfullscreen_cell_gapy">25dp</dimen>
+    <!-- 全屏样式的文件夹打开后,cell的y方向的间距 -->
+    <dimen name="folderfullscreen_marginleft">2dp</dimen>
+    <!-- 全屏样式的文件夹打开后,celllayout距scrollview的左边距 -->
+    <dimen name="folderfullscreen_marginright">2dp</dimen>
+    <!-- 全屏样式的文件夹打开后,celllayout距scrollview的右边距 -->
+    <!-- //luomingjun add start	//桌面时钟 -->
+    <dimen name="widget_widget_time_number_width">288dp</dimen>
+    <!-- 桌面时钟数字的minWidth -->
+    <dimen name="widget_widget_time_number_height">144dp</dimen>
+    <!-- 桌面时钟数字的minHeight -->
+    <dimen name="widget_time_left_width">10px</dimen>
+    <!-- 暂时没用 -->
+    <dimen name="widget_time_number_width">73px</dimen>
+    <!-- 暂时没用 -->
+    <dimen name="widget_time_number_height">131px</dimen>
+    <!-- 暂时没用 -->
+    <dimen name="widget_time_dian_width">37px</dimen>
+    <!-- 暂时没用 -->
+    <dimen name="widget_time_month_left_width">24px</dimen>
+    <!-- 暂时没用 -->
+    <dimen name="widget_widget_time_number_height_top">67px</dimen>
+    <!-- 暂时没用 -->
+    <!-- //luomingjun add end -->
+
+
+    <!-- cheyingkun add start	桌面启动页样式（详见“BaseDefaultConfig”中说明） -->
+    <dimen name="loading_img_width">127dp</dimen>
+    <dimen name="loading_img_height">127dp</dimen>
+    <dimen name="loading_img_marginBottom">14dp</dimen>
+    <dimen name="loading_title_text_size">28sp</dimen>
+    <dimen name="loading_name_marginBottom">11dp</dimen>
+    <dimen name="loading_name_text_size">18sp</dimen>
+    <!-- cheyingkun add end -->
+
+
+    <!-- //编辑模式是否显示提示信息（提示信息内容为“拖动页面可改变页面位置”）。true为显示；false为不显示。默认false。【c_0004055】（编辑模式提示信息上边距）	//cheyingkun add start -->
+    <dimen name="overview_panel_text_hint_padding">50dp</dimen>
+    <!-- //编辑模式是否显示提示信息（提示信息内容为“拖动页面可改变页面位置”）。true为显示；false为不显示。默认false。【c_0004055】	//cheyingkun add end -->
+    <!-- //cheyingkun add start	//文件夹推荐应用 -->
+    <dimen name="native_adver_icon_layout_margin_top">18dp</dimen>
+    <dimen name="native_adver_icon_layout_margin_bottom">16dp</dimen>
+    <dimen name="native_adver_title_layout_height">27dp</dimen>
+    <!-- //cheyingkun add end	//文件夹推荐应用 -->
+    <!-- zhangjin add start -->
+    <!-- Container -->
+    <!-- Note: This needs to match the fixed insets for the search box. -->
+    <dimen name="container_bounds_inset">8dp</dimen>
+    <!-- Notes: container_bounds_inset - quantum_panel_outer_padding -->
+    <dimen name="container_bounds_minus_quantum_panel_padding_inset">4dp</dimen>
+    <dimen name="container_fastscroll_thumb_min_width">5dp</dimen>
+    <dimen name="container_fastscroll_thumb_max_width">9dp</dimen>
+    <dimen name="container_fastscroll_thumb_height">72dp</dimen>
+    <dimen name="container_fastscroll_thumb_touch_inset">-24dp</dimen>
+    <dimen name="container_fastscroll_popup_size">72dp</dimen>
+    <dimen name="container_fastscroll_popup_text_size">48dp</dimen>
+    <!-- All Apps -->
+    <dimen name="all_apps_grid_view_start_margin">0dp</dimen>
+    <dimen name="all_apps_grid_section_y_offset">8dp</dimen>
+    <dimen name="all_apps_grid_section_text_size">24sp</dimen>
+    <dimen name="all_apps_search_bar_height">48dp</dimen>
+    <dimen name="all_apps_search_bar_prediction_bar_padding">8dp</dimen>
+    <dimen name="all_apps_search_bar_padding_inset">8dp</dimen>
+    <dimen name="all_apps_icon_top_bottom_padding">8dp</dimen>
+    <dimen name="all_apps_icon_width_gap">24dp</dimen>
+    <!-- The top padding should account for the existing all_apps_list_top_bottom_padding -->
+    <dimen name="all_apps_prediction_icon_top_padding">8dp</dimen>
+    <dimen name="all_apps_prediction_icon_bottom_padding">18dp</dimen>
+    <dimen name="all_apps_list_top_bottom_padding">8dp</dimen>
+    <dimen name="all_apps_empty_search_message_top_offset">40dp</dimen>
+    <dimen name="all_apps_empty_search_bg_top_offset">144dp</dimen>
+    <dimen name="all_apps_background_canvas_width">700dp</dimen>
+    <dimen name="all_apps_background_canvas_height">475dp</dimen>
+    <dimen name="dynamic_grid_icon_drawable_padding">4dp</dimen>
+    <!-- Shadows and outlines -->
+    <dimen name="blur_size_thin_outline">1dp</dimen>
+    <dimen name="blur_size_medium_outline">2dp</dimen>
+    <dimen name="blur_size_click_shadow">4dp</dimen>
+    <dimen name="click_shadow_high_shift">2dp</dimen>
+    <!-- All Apps zhangjin add end -->
+
+
+    <!-- zhujieping，桌面布局 -->
+    <dimen name="dynamic_grid_search_bar_height">30dp</dimen>
+    <!-- search_bar控件的高度,实际占用的高度大于这个数字,因为设置了边距 -->
+    <dimen name="dynamic_grid_search_bar_max_width">360dp</dimen>
+    <!-- search_bar控件的最大宽度, -->
+    <dimen name="dynamic_grid_search_bar_x_padding">12dp</dimen>
+    <!-- search_bar左右边距 -->
+     <dimen name="dynamic_grid_search_bar_top_padding">10dp</dimen>
+     <dimen name="dynamic_grid_search_bar_bottom_padding">0dp</dimen>
+    <!-- search_bar上下边距 -->
+    <dimen name="dynamic_grid_hotseat_x_padding">23dp</dimen>
+    <!-- hotseat左右边距 -->
+    <dimen name="dynamic_grid_hotseat_top_padding">15dp</dimen>
+    <!-- hotseat上边距 -->
+    <dimen name="dynamic_grid_hotseat_bottom_padding">15dp</dimen>
+    <!-- hotseat下边距 -->
+    <dimen name="dynamic_grid_page_indicator_height">20dp</dimen>
+    <!-- indicator高度 -->
+    <dimen name="dynamic_grid_page_indicator_y_padding">4dp</dimen>
+    <!-- indicator上下边距 -->
+    <dimen name="dynamic_grid_workspace_celllayout_x_padding">20dp</dimen>
+    <!-- workspace中的celllayout左右边距，设置成0时，图标不贴边，是因为workspace中还有padding -->
+    <dimen name="dynamic_grid_workspace_padding_top">20dp</dimen>
+    <!-- workspace中跟searchbar的距离 -->
+    <dimen name="dynamic_grid_workspace_padding_bottom">20dp</dimen>
+    <!-- workspace中跟indicator的距离 -->
+    <dimen name="config_default_gap_between_icon_and_text">9.6dp</dimen>
+    <!-- 图标与文字间的间距 -->
+    <dimen name="app_icon_size">44.8dp</dimen>
+    <!-- 图标大小，现在的图标是原先的80%大小，上下设置padding，这样文字+图片的值没有变化 -->
+    <dimen name="dynamic_grid_icon_x_padding">5.6dp</dimen>
+    <dimen name="dynamic_grid_icon_top_padding">5.6dp</dimen>
+    <dimen name="dynamic_grid_icon_bottom_padding">0dp</dimen>
+    <dimen name="apps_customize_page_indicator_margin_apps">20dp</dimen>
+    <!-- 主菜单indicator距离低端的距离 -->
+    <dimen name="apps_customize_page_indicator_offset_bottom_apps">50dp</dimen>
+    <!-- 主菜单celllayout距离底端距离 -->
+    <dimen name="apps_customize_page_indicator_offset_top_apps">4dp</dimen>
+    <!-- 主菜单celllayout距离顶端距离 -->
+    <dimen name="dynamic_grid_apps_customize_celllayout_x_padding">20dp</dimen>
+    <!-- 主菜单celllayout左右边距 -->
+    <dimen name="dynamic_grid_apps_edge_margin">6dp</dimen>
+    <!-- 主菜单整体的padding，左右为dynamic_grid_apps_edge_margin，上下为dynamic_grid_apps_edge_margin*2 -->
+    <!-- zhujieping，桌面布局 -->
+    <dimen name="icon_tip_unread_bg_size">20dip</dimen>
+    <dimen name="icon_and_folder_icon_tip_hot_bg_size">20dip</dimen>
+    <dimen name="app_menu_appslist_bar_height">50dp</dimen>
+    <dimen name="app_menu_appslist_menu_width">120dp</dimen>
+    <dimen name="app_menu_sort_dialog_width">300dp</dimen>
+    <dimen name="app_menu_sort_dialog_title_textSize">19sp</dimen>
+    <dimen name="app_menu_sort_dialog_radiobutton_textSize">17sp</dimen>
+    <dimen name="app_menu_sort_dialog_cancelbutton_textSize">17sp</dimen>
+    <dimen name="appslist_textview_height">50dp</dimen>
+    <dimen name="dynamic_grid_hotseat_icon_top_padding">5.6dp</dimen>
+    <dimen name="dynamic_grid_hotseat_icon_bottom_padding">0dp</dimen>
+
+    <!-- 自更新对话框 add start gaominghui -->
+    <dimen name="uiupdate_dialog_logo_layout_width">150dp</dimen>
+    <dimen name="uiupdate_dialog_logo_image_width_height">120dp</dimen>
+    <!-- 自更新对话框 add end gaominghui -->
+
+
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add start -->
+    <dimen name="workspace_menu_vertical_list_content_margin_x">24dp</dimen>
+    <dimen name="workspace_menu_vertical_list_content_bg_top_radius">5dp</dimen>
+    <dimen name="workspace_menu_vertical_list_content_bg_stroke_width">2px</dimen>
+    <dimen name="workspace_menu_vertical_list_content_bg_stroke_bottom_offset">-2px</dimen>
+    <dimen name="workspace_menu_vertical_list_content_divider_height">1px</dimen>
+    <dimen name="workspace_menu_vertical_list_item_height">48dp</dimen>
+    <dimen name="workspace_menu_vertical_list_item_icon_size">30dp</dimen>
+    <dimen name="workspace_menu_vertical_list_item_icon_margin_left">10dp</dimen>
+    <dimen name="workspace_menu_vertical_list_item_title_padding_left">10dp</dimen>
+    <dimen name="workspace_menu_vertical_list_item_title_padding_right">10dp</dimen>
+    <dimen name="workspace_menu_vertical_list_item_title_text_size">20sp</dimen>
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add end -->
+
+    <dimen name="edit_mode_overview_panel_button_drawable_padding">10dp</dimen>
+    <dimen name="edit_mode_overview_panel_button_margin_horizon">16dp</dimen>
+    <dimen name="edit_mode_celllayout_background_top_padding">50dp</dimen>
+    <dimen name="edit_mode_celllayout_background_bottom_padding">44dp</dimen>
+    <dimen name="edit_mode_celllayout_background_left_padding">-5dp</dimen>
+    <dimen name="edit_mode_celllayout_background_right_padding">-5dp</dimen>
+    <dimen name="edit_mode_theme_item_padding_horizon">29dp</dimen>
+    <dimen name="edit_mode_theme_item_gap">13dp</dimen>
+    <dimen name="edit_mode_theme_item_imageview_width">44.8dp</dimen>
+    <dimen name="edit_mode_theme_item_imageview_padding">5.6dp</dimen>
+    <dimen name="edit_mode_wallpaper_item_padding_horizon">13dp</dimen>
+    <dimen name="edit_mode_wallpaper_item_gap">8dp</dimen>
+    <dimen name="edit_mode_theme_item_title_padding_bottom">8dp</dimen>
+    <!-- //gaominghui add start //添加配置项“switch_enable_set_home_page_in_overview_mode”，是否支持编辑模式设置home页 的功能。true为支持，false为不支持。默认为false。 -->
+    <dimen name="overview_celllayout_padding_left">-3.5dp</dimen>
+    <dimen name="overview_celllayout_padding_top">100dp</dimen>
+    <dimen name="overview_celllayout_padding_bottom">46.7dp</dimen>
+    <dimen name="overview_home_view_padding_left">62dp</dimen>
+    <dimen name="overview_home_view_padding_top">80dp</dimen>
+    <dimen name="overview_home_view_padding_bottom">0.8dp</dimen>
+    <dimen name="overview_home_view_layout_width">123dp</dimen>
+    <dimen name="overview_home_view_layout_height">73dp</dimen>
+    <!-- //gaominghui add end  //添加配置项“switch_enable_set_home_page_in_overview_mode”，是否支持编辑模式设置home页 的功能。true为支持，false为不支持。默认为false。 -->
+	<dimen name="applist_menu_item_gap">10dp</dimen>
+	<dimen name="applist_menu_item_textsize">18sp</dimen>
+	<!-- zhujieping add end //拓展配置项“config_applistbar_style”，添加可配置项4。4在主菜单上显示搜素栏。 -->
+	<dimen name="applist_search_bar_height">35dp</dimen>
+	<dimen name="applist_search_bar_margin_horizon">20dp</dimen>
+	<dimen name="applist_search_bar_margin_vertical">5dp</dimen>
+	<!-- zhujieping add end  -->
+	<!-- //拓展配置项“config_applist_style”，添加可配置项2。2是7.0的主菜单样式。 //zhujieping add start-->
+	<dimen name="all_apps_nougat_grid_section_size">12sp</dimen>
+	<dimen name="all_apps_nougat_item_y_padding">10dp</dimen>
+	<dimen name="all_apps_nougat_section_x_margin">15dp</dimen>
+	<dimen name="all_apps_nougat_section_margin_top">15dp</dimen>
+	<dimen name="all_apps_nougat_grid_view_start_margin">30dp</dimen>
+	<dimen name="all_apps_nougat_section_radius">10dp</dimen>
+	<dimen name="all_apps_nougat_section_size">13sp</dimen>
+	<dimen name="all_apps_nougat_section_vertical_margin">5dp</dimen>
+	<!-- ///拓展配置项“config_applist_style”，添加可配置项2。2是7.0的主菜单样式。 //zhujieping add end -->
+    <!-- //需求：进入主菜单动画类型。0为android4.4的launcher3进入主菜单动画类型；1为android7.0的launcher3进入主菜单动画类型。默认为0。 //zhujieping add start -->
+    <!-- All Apps -->
+    <dimen name="all_apps_button_scale_down">0dp</dimen>
+    <dimen name="all_apps_search_bar_margin_top">12dp</dimen>
+    <dimen name="all_apps_search_bar_icon_margin_right">4dp</dimen>
+    <dimen name="all_apps_search_bar_icon_margin_top">1dp</dimen>
+    <dimen name="all_apps_list_bottom_padding">8dp</dimen>
+    <dimen name="all_apps_caret_stroke_width">2dp</dimen>
+    <dimen name="all_apps_caret_shadow_spread">1dp</dimen>
+    <dimen name="all_apps_caret_size">13dp</dimen>
+    <dimen name="all_apps_caret_workspace_offset">4dp</dimen>
+
+    <dimen name="all_apps_header_max_elevation">3dp</dimen>
+    <dimen name="all_apps_header_scroll_to_elevation">16dp</dimen>
+    <dimen name="all_apps_header_shadow_height">6dp</dimen>
+    <dimen name="all_apps_divider_margin_vertical">8dp</dimen>
+    <dimen name="all_apps_bezel_swipe_height">24dp</dimen>
+    <dimen name="dynamic_grid_min_spring_loaded_space">8dp</dimen>
+    <!-- //需求：进入主菜单动画类型。0为android4.4的launcher3进入主菜单动画类型；1为android7.0的launcher3进入主菜单动画类型。默认为0。 //zhujieping add end -->
+    <!-- //拓展配置项“config_applistbar_style”，添加可配置项5。5在主菜单上方最左边显示“应用”，点击弹出选择排序的dialog。//zhujieping add start -->
+    <dimen name="applist_bar_textview_title_margin_left">15dp</dimen>
+    <dimen name="applist_bar_textview_title_drawable_padding">5dp</dimen>
+     <dimen name="applist_bar_textview_title_padding_horizon">10dp</dimen>
+    <!-- //拓展配置项“config_applistbar_style”，添加可配置项5。5在主菜单上方最左边显示“应用”，点击弹出选择排序的dialog。//zhujieping add end -->
+</resources>

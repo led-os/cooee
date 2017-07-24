@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- // xiatian add whole file //德盛伟业需求：添加uni3上的壁纸选择界面，并在系统的壁纸设置界面中显示。 -->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/galleryItemBackground"
+    android:focusable="true"
+    android:scaleType="fitXY" />

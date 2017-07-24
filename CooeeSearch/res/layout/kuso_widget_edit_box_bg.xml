@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/kuso_search_engine_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="0dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@id/kuso_search_engine_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <FrameLayout
+                        android:id="@+id/kuso_edit_layout"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="13.0dip"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:id="@+id/kuso_search_edit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@null"
+                            android:gravity="center_vertical"
+                            android:hint="@string/kuso_search_widget_edit_hint"
+                            android:singleLine="true"
+                            android:textColor="@color/kuso_white"
+                            android:textColorHint="@color/kuso_search_bar_hint"
+                            android:textSize="16.0sp" />
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/kuso_iconfont_sousuo_button"
+                        android:layout_width="25dip"
+                        android:layout_height="30dip"
+                        android:layout_gravity="right"
+                        android:src="@drawable/kuso_selector_search_button" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/kuso_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_gravity="bottom"
+            android:background="@color/kuso_search_bar_normal" />
+    </LinearLayout>
+
+</FrameLayout>

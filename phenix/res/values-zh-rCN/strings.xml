@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">文件夹</string>
+    <string name="activity_not_found">"未安装该应用。"</string>
+    <string name="widgets_tab_label">"小部件"</string>
+    <string name="toggle_weight_watcher">"显示内存空间"</string>
+    <string name="long_press_widget_to_add">"触摸并按住小部件即可选择。"</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"应用"</string>
+    <string name="out_of_space">"此主屏幕上已没有空间。"</string>
+    <string name="hotseat_out_of_space">"底部区域已无空间。"</string>
+    <string name="shortcut_uninstalled">"已删除“<xliff:g id="NAME">%s</xliff:g>”快捷方式。"</string>
+    <string name="shortcut_duplicate">"“<xliff:g id="NAME">%s</xliff:g>”快捷方式已存在。"</string>
+    <string name="title_select_application">"选择应用"</string>
+    <string name="hotseat_all_apps_button_string">"应用"</string>
+    <string name="delete_zone_label_workspace">"删除"</string>
+    <string name="delete_target_remove_label">"删除"</string>
+    <string name="delete_target_uninstall_label">"卸载"</string>
+    <string name="info_target_label">"应用信息"</string>
+    <string name="permlab_install_shortcut">"安装快捷方式"</string>
+    <string name="permdesc_install_shortcut">"允许应用自行添加快捷方式。"</string>
+    <string name="permlab_uninstall_shortcut">"卸载快捷方式"</string>
+    <string name="permdesc_uninstall_shortcut">"允许应用自行删除快捷方式。"</string>
+    <string name="permlab_read_settings">"读取主屏幕设置和快捷方式"</string>
+    <string name="permdesc_read_settings">"允许应用读取主屏幕中的设置和快捷方式。"</string>
+    <string name="permlab_write_settings">"写入主屏幕设置和快捷方式"</string>
+    <string name="permdesc_write_settings">"允许应用更改主屏幕中的设置和快捷方式。"</string>
+    <string name="gadget_error_text">"加载小部件时出现问题"</string>
+    <string name="uninstall_system_app_text">"这是系统应用，无法卸载。"</string>
+    <string name="folder_hint_text">"未命名文件夹"</string>
+    <string name="first_run_cling_title">"欢迎！"</string>
+    <string name="first_run_cling_description">"您的主屏幕您做主。"</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"添加更多屏幕来容纳应用和文件夹"</string>
+    <string name="workspace_cling_title">"整理您的空间"</string>
+    <string name="workspace_cling_move_item">"触摸并按住背景，即可管理壁纸、小部件和设置。"</string>
+    <string name="folder_cling_title">"这是一个文件夹"</string>
+    <string name="folder_cling_create_folder">"要创建一个类似的文件夹，请触摸并按住某个应用，然后将其移至另一个应用上。"</string>
+    <string name="cling_dismiss">"确定"</string>
+    <string name="overview_panel_button_widgets_string">"小部件"</string>
+    <string name="overview_panel_button_system_settings_string">"设置"</string>
+    <!-- com.cooee.download , start -->
+    <string name="msg_insert_SD">请插入SD卡!</string>
+    <string name="notify_downloading">正在下载</string>
+    <string name="notify_download_finish">下载完成</string>
+    <string name="notify_download_fail">下载失败</string>
+    <string name="internet_err">网络连接不可用，请检查网络设置</string>
+    <string name="downloading_toast">正在下载，请等待</string>
+    <string name="to_download_content">还未安装在您的手机上，点击确定将会下载安装!</string>
+    <string name="to_download_ok">确定</string>
+    <string name="to_download_cancel">取消</string>
+    <!-- com.cooee.download , end -->
+    <string name="app_name">Phenix</string>
+    <!-- desktop setting start -->
+    <string name="overview_panel_button_launcher_settings_string">桌面设置</string>
+    <string name="select_launcher_style">切换桌面模式</string>
+    <string name="intelligent_classification">智能分类</string>
+    <string name="desktop_slide">屏幕切页特效</string>
+    <string name="confirm_change_launcher_style">确认切换桌面模式?</string>
+    <string name="change_style_will_restar">切换桌面模式将重启</string>
+    <!-- WangLei add start	//桌面和主菜单特效的分离 -->
+    <string name="workspace_effect">桌面切页特效</string>
+    <string name="applist_effect">主菜单切页特效</string>
+    <!-- WangLei add end -->
+    <!-- desktop setting end -->
+    <!-- Dialog start -->
+    <string name="title">标题</string>
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <!-- Dialog end -->
+    <string name="overview_panel_button_beauty_center_string">美化中心</string>
+    <string name="unknow_error">未知错误</string>
+    <!-- cheyingkun add start -->
+    <!-- 解决“在其他桌面安装应用，phenix几率性异常停止运行”的问题。【i_0010424】 -->
+    <!-- 智能分类提示信息 -->
+    <string name="category_no_network">未连接网络</string>
+    <string name="category_is_running">正在分类</string>
+    <string name="category_fail">分类失败</string>
+    <string name="category_download_fail">下载失败，请检查T卡是否正常</string>
+    <string name="category_running">智能分类中…</string>
+    <string name="category_stop_running">恢复布局中…</string>
+    <!-- WangLei add -->
+    <!-- 桌面成功进行智能分类后选择恢复布局，桌面提示语仍然是"智能分类中..." 【i_0010742】 -->
+    <!-- 智能分类提示信息 -->
+    <!-- cheyingkun add end -->
+    <!-- zhujieping add begin -->
+    <string name="hava_not_category">未分类</string>
+    <string name="last_category_time">"上次分类时间：<xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <!-- zhujieping add end -->
+    <string name="category_more_apps">更多应用</string>
+    <!-- cheyingkun add	//智能分类文件夹更多应用适配中英繁 -->
+
+
+    <!-- //luomingjun add start	//桌面时钟 -->
+    <string name="widget_time_title"> 时钟插件</string>
+    <!-- luomingjun add started -->
+    <!-- 桌面时钟插件日期 -->
+    <string name="Sunday">星期日</string>
+    <string name="Monday">星期一</string>
+    <string name="Tuesday">星期二</string>
+    <string name="Wednesday">星期三</string>
+    <string name="Thursday">星期四</string>
+    <string name="Friday">星期五</string>
+    <string name="Saturday">星期六</string>
+    <!-- luomingjun add end -->
+    <!-- 桌面时钟插件日期 -->
+
+
+    <!-- cheyingkun add start	//加载主菜单提示信息【c_0003106】 -->
+    <string name="allApp_load_hint">加载中…</string>
+    <!-- cheyingkun add end -->
+
+
+    <!-- cheyingkun add start -->
+    <!-- 免责声明布局 -->
+    <string name="disclaimer_dialog_info">\u3000\u3000欢迎使用Phenix桌面，Phenix在使用的过程中完全免费，在使用过程中Phenix需要收集音乐、信息、联系人、通话记录中的信息，以便更好的为您提供完整的服务。\n\u3000\u3000此外Phenix的部分功能需要连接网络，联网会产生数据流量费，费用详情请咨询当地运营商。是否允许本软件的以上操作？</string>
+    <string name="no_remind_next_time">同意并且不再提示</string>
+    <string name="use_continue">继续使用</string>
+    <string name="warn">提醒</string>
+    <string name="dialog_button_negative">退出</string>
+    <string name="dialog_button_positive">同意</string>
+    <!-- cheyingkun add end -->
+    <string name="ok">确定</string>
+    <string name="widget_download_content">还未安装在您的手机上，点击确定将会下载安装!</string>
+    <!-- cheyingkun add start	桌面启动页样式（详见“BaseDefaultConfig”中说明） -->
+    <string name="loading_text">大繁至简</string>
+    <string name="loading_launcher_progress_text">桌面加载中&#8230;</string>
+    <!-- cheyingkun add	end -->
+
+
+    <!-- cheyingkun add start	修改桌面默认配置 -->
+    <string name="default_folder">Phenix 工具</string>
+    <!-- cheyingkun add end -->
+    <!-- category folder name start -->
+    <string name="category_folder800">生活</string>
+    <string name="category_folder801">新闻</string>
+    <string name="category_folder802">沟通</string>
+    <string name="category_folder803">影音</string>
+    <string name="category_folder804">阅读</string>
+    <string name="category_folder805">工具</string>
+    <string name="category_folder806">美化</string>
+    <string name="category_folder807">金融</string>
+    <string name="category_folder808">游戏</string>
+    <string name="category_folder_system">系统自带</string>
+    <string name="category_folder_moreapp">更多应用</string>
+    <!-- category folder name end -->
+
+
+    <!-- //xiatian add start	//德盛伟业需求：添加uni3上的壁纸选择界面，并在系统的壁纸设置界面中显示。 -->
+    <string name="wallpaper_instructions">设置壁纸</string>
+    <string name="pick_wallpaper">桌面壁纸</string>
+    <!-- //xiatian add end -->
+
+
+    <!-- //和兴六部图标大小变化需求	//cheyingkun add start -->
+    <string name="app_icon_size">图标大小</string>
+    <!-- //和兴六部图标大小变化需求	//cheyingkun add end -->
+
+
+    <!-- //编辑模式是否显示提示信息（提示信息内容为“拖动页面可改变页面位置”）。true为显示；false为不显示。默认false。【c_0004055】	//cheyingkun add start -->
+    <string name="overview_panel_text_hint_string">拖动页面可改变页面位置</string>
+    <!-- //编辑模式是否显示提示信息（提示信息内容为“拖动页面可改变页面位置”）。true为显示；false为不显示。默认false。【c_0004055】	//cheyingkun add end -->
+
+    <string name="launcher_update_activity_name">桌面更新</string>
+    <!-- //文件夹推荐应用	//cheyingkun add start -->
+    <string name="native_adver_title">推荐应用</string>
+    <!-- //文件夹推荐应用	//cheyingkun add end -->
+
+
+    <!-- //xiatian add start	//设置默认桌面引导 -->
+    <string name="launcher_setting_default_launcher_item_title">设置默认桌面</string>
+    <string name="default_launcher_guide_dialog_title">HOME 键设置</string>
+    <string name="default_launcher_guide_dialog_content">\u3000\u3000为了您有更好的体验，请设置为按下Home键启动phenix桌面。\n\n\u3000\u3000PS：您可以在桌面设置中更改设置。</string>
+    <string name="default_launcher_guide_dialog_ok">设置</string>
+    <string name="default_launcher_guide_dialog_cancel">取消</string>
+    <string name="default_launcher_tips_dialog_step1">第一步、首先，选择</string>
+    <string name="default_launcher_tips_dialog_step2">第二步、其次，点击“始终”</string>
+    <!-- //xiatian add end -->
+
+    <string name="all_apps_search_bar_hint">"搜索应用"</string>
+    <string name="all_apps_loading_message">"正在加载应用…"</string>
+    <string name="all_apps_no_search_results">"未找到与“<xliff:g id="QUERY">%1$s</xliff:g>”相符的应用"</string>
+    <string name="all_apps_search_market_message">"转到 <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+    <!-- //zhujieping add start //主菜单仿S5的menu功能 -->
+    <string name="app_menu_sort_app_name">按程序名称排序</string>
+    <string name="app_menu_sort_app_install_time">按安装时间排序</string>
+    <string name="app_menu_sort_app_use_frequency">按使用频率排序</string>
+    <string name="app_menu_sort_dialog_title">图标排序方式</string>
+    <string name="app_menu_sort_app_init">按出厂设置排序</string>
+    <string name="app_menu_appbar_tab_view_as">查看方式</string>
+    <string name="app_menu_appbar_tab_edit">编辑</string>
+    <string name="app_menu_appbar_tab_hide">隐藏应用</string>
+    <string name="app_menu_appbar_tab_search">搜索</string>
+    <!-- //zhujieping add end -->
+
+
+    <!-- //gaominghui add start -->
+    <string name="uiupdate_privacy_statement_link_url"><a href="http://uifolder.coolauncher.com.cn/policy/PrivacyPolicy.html">隐私声明</a>和<a href="http://uifolder.coolauncher.com.cn/policy/TermsOfService.html">服务条款</a></string>
+    <!-- //gaominghui add end -->
+
+
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add start -->
+    <string name="workspace_menu_vertical_list_item_title_widget">小组件</string>
+    <string name="workspace_menu_vertical_list_item_title_wallpaper">壁纸</string>
+    <string name="workspace_menu_vertical_list_item_title_theme">主题</string>
+    <string name="workspace_menu_vertical_list_item_title_edit_mode">编辑模式</string>
+    <string name="workspace_menu_vertical_list_item_title_launcher_settings">桌面设置</string>
+    <string name="workspace_menu_vertical_list_item_title_system_settings">系统设置</string>
+    <string name="pick_widget_activity_title">选择小组件</string>
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add end -->
+
+
+    <!-- //优化桌面设置中切页特效的配置方式：1.去掉无用的配置项“workspace_effect_entries”和“applist_effect_entries” 2.去掉了配置项中“workspace_effect_configs_values”和“applist_effect_configs_values”的索引值 	//chenliang add start -->
+    <string name="effect_jerk">跃动</string>
+    <string name="effect_classic">经典</string>
+    <string name="effect_laminated">层叠</string>
+    <string name="effect_inner_cube">内立方体</string>
+    <string name="effect_cube">立方体</string>
+    <string name="effect_sector">扇面</string>
+    <string name="effect_rollover">翻转</string>
+    <string name="effect_windmill">风车</string>
+    <string name="effect_wheel">车轮</string>
+    <string name="effect_fold_unfold">聚散</string>
+    <string name="effect_snake">贪吃蛇</string>
+    <string name="effect_chord">琴弦</string>
+    <string name="effect_random">随机</string>
+    <!-- //优化桌面设置中切页特效的配置方式：1.去掉无用的配置项“workspace_effect_entries”和“applist_effect_entries” 2.去掉了配置项中“workspace_effect_configs_values”和“applist_effect_configs_values”的索引值 	//chenliang add start -->
+    <!-- //zhujieping add start	//换主题不重启 -->
+    <string name="edit_theme_default_theme">默认主题</string>
+    <string name="overview_panel_button_theme_string">主题</string>
+    <string name="overview_panel_button_wallpaper_string">壁纸</string>
+    <string name="edit_more">更多</string>
+    <string name="message_theme_changing">主题应用中，请稍等...</string>
+    <!-- //zhujieping add end -->
+    <!-- //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add start -->
+    <string name="applist_mode_done">完成</string>
+    <!-- //更新APPLIST_BAR_STYLE_S6的需求：1、添加“卸载模式”；2、删除“编辑模式”；3、修改“默认排序方式”，由“名称”改为“安装时间”//zhujieping add end -->
+    <!-- //添加配置项“switch_enable_customer_lm_set_lockwallpaper”，增加锁屏壁纸的功能（进入uni3桌面壁纸，点击设置，弹出“设置桌面”、“设置锁屏”和“同时设置”选项）。true为显示，false不显示。默认为false。备注：该功能需要系统底层支持。//chenliang add start -->
+    <string name="wallpaper_lm_locker_setting_list_item_set_desktop">设置桌面</string>
+    <string name="wallpaper_lm_locker_setting_list_item_set_lockscreen">设置锁屏</string>
+    <string name="wallpaper_lm_locker_setting_list_item_set_both">同时设置</string>
+    <string name="wallpaper_lm_locker_setting_list_item_cancle">取消</string>
+    <!-- //添加配置项“switch_enable_customer_lm_set_lockwallpaper”，增加锁屏壁纸的功能（进入uni3桌面壁纸，点击设置，弹出“设置桌面”、“设置锁屏”和“同时设置”选项）。true为显示，false不显示。默认为false。备注：该功能需要系统底层支持。//chenliang add end -->
+
+
+    <!-- //添加配置项“switch_enable_show_workspace_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“桌面滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string name="launcher_settings_workspace_scroll_type_title">桌面滑动类型</string>
+    <!-- //添加配置项“switch_enable_show_workspace_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“桌面滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+
+    <!-- //添加配置项“switch_enable_show_applist_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“主菜单滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string name="launcher_settings_applist_scroll_type_title">主菜单滑动类型</string>
+    <!-- //添加配置项“switch_enable_show_applist_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“主菜单滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+
+    <!-- //添加配置项“switch_enable_show_widget_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“小组件滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add start -->
+    <string name="launcher_settings_widget_scroll_type_title">小组件滑动类型</string>
+    <!-- //添加配置项“switch_enable_show_widget_scroll_type_in_launcher_settings”，是否在“桌面设置”中显示“小组件滑动类型”菜单。true显示；false不显示。默认false。	//xiatian add end -->
+
+
+    <!-- //添加配置项“finish_activity_when_set_uni3_wallpaper_successfully”，当com.iLoong.launcher.desktop.WallpaperChooser配置enable为true时，true为关闭activity，false为不关闭activity，弹出设置成功的toast。	//zhujieping add start -->
+    <string name="set_wallpaper_success">设置成功</string>
+    <!-- //添加配置项“finish_activity_when_set_uni3_wallpaper_successfully”，当com.iLoong.launcher.desktop.WallpaperChooser配置enable为true时，true为关闭activity，false为不关闭activity，弹出设置成功的toast。	//zhujieping add end -->
+
+
+    <!-- //需求：添加“一键换主题”功能（1、虚图标；2、点击后，从已经安装的其他主题中，随机换一个）。	//xiatian add start -->
+    <string name="default_config_one_key_apply_theme_title">一键换主题</string>
+    <string name="one_key_apply_theme_error_tip">没有其他主题，无法切换主题</string>
+    <!-- //需求：添加“一键换主题”功能（1、虚图标；2、点击后，从已经安装的其他主题中，随机换一个）。	//xiatian add end -->
+
+    <!-- //添加配置项“config_empty_screen_id_in_drawer”，双层模式下，配置空白页id，如果该配置不为空，拖动图标等操作行成的空白页不删除，进入编辑模式，可添加、删除页面（仿s5）//zhujieping add start -->
+    <string name="can_not_delete_page">已到达屏幕最小数，无法继续删除</string>
+    <string name="delete_page_confirm_message">页面不为空，确定删除吗？</string>
+    <string name="delete_page">删除页面</string>
+    <!-- //添加配置项“config_empty_screen_id_in_drawer”，双层模式下，配置空白页id，如果该配置不为空，拖动图标等操作行成的空白页不删除，进入编辑模式，可添加、删除页面（仿s5）//zhujieping add end -->
+    <!-- //添加配置项“config_empty_screen_id_in_core”，单层模式下，配置空白页id，如果该配置不为空，拖动图标等操作行成的空白页不删除，进入编辑模式，可添加、删除页面（仿s5）。//zhujieping add start -->
+    <string name="can_not_delete_not_empty_page">不可以删除非空白页</string>
+    <!-- //添加配置项“config_empty_screen_id_in_core”，单层模式下，配置空白页id，如果该配置不为空，拖动图标等操作行成的空白页不删除，进入编辑模式，可添加、删除页面（仿s5）。//zhujieping add start -->
+
+</resources>

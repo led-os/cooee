@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="launcher_classification_sub_entries">
+        <item>Mereklasifikasi semua aplikasi</item>
+        <item>Mengembalikan tata letak sebelum penyortiran lalu</item>
+    </string-array>
+    <string-array name="launcher_stytle_entries">
+        <item>Mode layar tunggal</item>
+        <item>Modus layar ganda</item>
+    </string-array>
+    <string-array name="launcher_classification_entries">
+        <item>Klasifikasi pintar</item>
+        <item>Kembalikan tata letak</item>
+    </string-array>
+    <string-array name="launcher_stytle_sub_entries">
+        <item>Bariskan semua aplikasi pada peluncur</item>
+        <item>Tempatkan pintasan hanya pada peluncur</item>
+    </string-array>
+
+</resources>

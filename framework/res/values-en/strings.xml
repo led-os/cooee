@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="notification_silent_download_title_single">Congratulations! You get the instant installation privilege and don’t need to download.</string>
+    <string name="notification_subtitle_1">Click to start smart consolidation, and get a clean Launcher immediately</string>
+    <string name="notification_subtitle_2">Click here to organize the Launcher automatically</string>
+    <string name="notification_subtitle_0">Click to organize immediately and classify automatically</string>
+    <string name="notify_downloading">Downloading</string>
+    <string name="scattered_icon">There are scattered icons on your Launcher</string>
+    <string name="dynamic_application">Apps</string>
+    <string name="dynamic_wifi_re_download">Continuing to download via WIFI</string>
+    <string name="notification_subtitle_3">Click to start smart consolidation, and get a fresh phone immediately</string>
+    <string name="notification_subtitle_4">Click to classify your Launcher icons</string>
+    <string name="notification_title_4">Launcher smart consolidation is ready</string>
+    <string name="notification_title_3">Do you want to make the phone Launcher cleaner?</string>
+    <string name="tap_icon">Click to consolidate now</string>
+    <string name="notification_title_0">Too many Launcher icons. Sort out?</string>
+    <string name="notification_title_2">Too many icons need consolidation!</string>
+    <string name="notification_title_1">How to do with too many icons?</string>
+    <string name="download_app_ing">Downloading apps ...</string>
+    <string name="notify_download_finish">Downloaded</string>
+    <string name="op_ml_new_content">New content</string>
+    <string name="notification_silent_download_title_mutiple">\u0020apps are ready under WIFI</string>
+    <string name="msg_insert_SD">SD card not available, or insufficient space!</string>
+    <string name="notify_install_finish">Installation done</string>
+    <string name="notify_download_fail">Download failed</string>
+    <string name="notification_silent_download_content_single">Instant installation</string>
+    <string name="dynamic_network_error">Network connection fails. Start download when WiFi is available next time.</string>
+    <!-- //com.cooee.download	//start -->
+    <string name="download_toast_tip_insert_SD">Please insert the SD card!</string>
+    <string name="download_toast_tip_internet_err">Network connection is unavailable. Please check the network settings</string>
+    <string name="download_toast_tip_downloading">Downloading</string>
+    <string name="download_notification_tip_downloading">Downloading</string>
+    <string name="download_notification_tip_download_finish">Downloaded</string>
+    <string name="download_notification_tip_download_fail">Download failed</string>
+    <!-- //com.cooee.download	//end -->
+
+</resources>

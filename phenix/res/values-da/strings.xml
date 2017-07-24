@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_name">Folder</string>
+    <string name="activity_not_found">"Appen er ikke installeret."</string>
+    <string name="widgets_tab_label">"Widgets"</string>
+    <string name="toggle_weight_watcher">"Vis Mem"</string>
+    <string name="long_press_widget_to_add">"Tryk på en widget, og hold den nede for at vælge."</string>
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+    <string name="group_applications">"Apps"</string>
+    <string name="out_of_space">"Der er ikke mere plads på denne startskærm."</string>
+    <string name="hotseat_out_of_space">"Der er ikke mere plads i hotseat."</string>
+    <string name="shortcut_uninstalled">"Genvejen \"<xliff:g id="NAME">%s</xliff:g>\" blev fjernet."</string>
+    <string name="shortcut_duplicate">"Genvejen \"<xliff:g id="NAME">%s</xliff:g>\" findes allerede."</string>
+    <string name="title_select_application">"Vælg app"</string>
+    <string name="hotseat_all_apps_button_string">"Apps"</string>
+    <string name="delete_zone_label_workspace">"Fjern"</string>
+    <string name="delete_target_remove_label">"Fjern"</string>
+    <string name="delete_target_uninstall_label">"Afinstaller"</string>
+    <string name="info_target_label">"Oplysninger om appen"</string>
+    <string name="permlab_install_shortcut">"installer genveje"</string>
+    <string name="permdesc_install_shortcut">"Tillader, at en app tilføjer genveje uden brugerens indgriben."</string>
+    <string name="permlab_uninstall_shortcut">"afinstaller genveje"</string>
+    <string name="permdesc_uninstall_shortcut">"Tillader, at appen fjerner genveje uden brugerens indgriben."</string>
+    <string name="permlab_read_settings">"læs indstillinger og genveje for startskærmen"</string>
+    <string name="permdesc_read_settings">"Tillader, at appen læser indstillingerne og genvejene på startskærmen."</string>
+    <string name="permlab_write_settings">"skriv indstillinger og genveje for startskærmen"</string>
+    <string name="permdesc_write_settings">"Tillader, at appen ændrer indstillingerne og genvejene på startskærmen."</string>
+    <string name="gadget_error_text">"Der er problemer med indlæsning af widgetten"</string>
+    <string name="uninstall_system_app_text">"Dette er en systemapp, som ikke kan afinstalleres."</string>
+    <string name="folder_hint_text">"Unavngiven mappe"</string>
+    <string name="first_run_cling_title">"Velkommen"</string>
+    <string name="first_run_cling_description">"Føl dig hjemme."</string>
+    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_create_screens_hint">"Opret flere skærme til apps og mapper"</string>
+    <string name="workspace_cling_title">"Organiser din arbejdsplads"</string>
+    <string name="workspace_cling_move_item">"Tryk på en baggrund, og hold fingeren nede for at administrere baggrunde, widgets og indstillinger."</string>
+    <string name="folder_cling_title">"Her kan du se en mappe"</string>
+    <string name="folder_cling_create_folder">"Du kan oprette en mappe magen til denne ved at trykke på en app og holde fingeren nede, mens du flytter appen til en anden mappe."</string>
+    <string name="cling_dismiss">"OK"</string>
+    <string name="overview_panel_button_widgets_string">"Widgets"</string>
+    <string name="overview_panel_button_system_settings_string">"Indstillinger"</string>
+    <string name="all_apps_search_bar_hint">"Søg i Apps"</string>
+    <string name="all_apps_loading_message">"Indlæser apps…"</string>
+    <string name="all_apps_no_search_results">"Der blev ikke fundet nogen apps, som matcher \"<xliff:g id="QUERY">%1$s</xliff:g>\""</string>
+    <string name="all_apps_search_market_message">"Gå til <xliff:g id="QUERY">%1$s</xliff:g>"</string>
+
+</resources>

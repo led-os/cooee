@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The color tints to apply to the text and drag view when hovering -->
+    <!-- over the delete target or the info target -->
+    <color name="delete_target_hover_tint">#DAFF0000</color>
+    <color name="info_target_hover_tint">#DA0099CC</color>
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="workspace_all_apps_and_delete_zone_text_color">#CCFFFFFF</color>
+    <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#A0000000</color>
+    <color name="workspace_icon_text_color">#FFF</color>
+    <color name="apps_customize_icon_text_color">#FFF</color>
+    <color name="folder_items_text_color">#FF333333</color>
+    <color name="folderfullscreen_items_text_color">#FFFFFFFF</color>
+    <color name="outline_color">#FFFFFFFF</color>
+    <color name="first_run_cling_circle_background_color">#64b1ea</color>
+
+    <!-- //Launcher_setting //start -->
+    <color name="launcher_setting_background">#FAFAFA</color>
+    <!-- 桌面设置title的背景颜色 -->
+    <color name="launcher_setting_title_bar_background">#3F51B5</color>
+    <!-- 桌面设置title的文字颜色 -->
+    <color name="launcher_setting_title_bar_text_color">#F4FFF7</color>
+    <!-- 87%黑 start -->
+    <color name="launcher_setting_item_title_color">#DD000000</color>
+    <!-- 87%黑 end -->
+    <!-- 54%黑 start -->
+    <color name="launcher_setting_item_summary_title_color">#8A000000</color>
+    <!-- 54%黑 end -->
+    <!-- 26%黑 start -->
+    <color name="launcher_setting_item_disable_text_color">#42000000</color>
+    <!-- 26%黑 end -->
+    <color name="launcher_setting_item_focused">#66999999</color>
+    <color name="launcher_setting_item_unfocused">#FAFAFA</color>
+    <!-- 87%黑 start -->
+    <color name="launcher_setting_classification_item_text_clickable_color">#DD000000</color>
+    <!-- 87%黑 end -->
+    <!-- 26%黑 start -->
+    <color name="launcher_setting_classification_item_text_normal_color">#42000000</color>
+    <!-- 26%黑 end -->
+    <!-- //Launcher_setting //end -->
+
+
+    <!-- overview panel -->
+    <color name="overview_panel_button_text_color">#FFF</color>
+
+    <!-- //文件夹需求(模糊背景) 解决“文件夹第一次打开和之后打开模糊效果不统一”的问题。	//cheyingkun add start -->
+    <color name="folder_full_screen_bg_color_open">#44000000</color>
+    <color name="folder_full_screen_bg_color_close">#00000000</color>
+    <!-- //文件夹需求(模糊背景) 解决“文件夹第一次打开和之后打开模糊效果不统一”的问题。	//cheyingkun add end -->
+
+
+    <!-- //免责声明布局	 //cheyingkun add start -->
+    <!-- 免责声明颜色值 -->
+    <color name="disclaimer_dialog_confirm_pressed">#006645</color>
+    <color name="disclaimer_dialog_confirm_normal">#009966</color>
+    <color name="disclaimer_dialog_cancle_pressed">#2862A2</color>
+    <color name="disclaimer_dialog_cancle_normal">#5693D6</color>
+    <!-- //免责声明布局	 //cheyingkun add end -->
+
+
+    <!-- //桌面启动页样式（详见“BaseDefaultConfig”中说明）	//cheyingkun add start -->
+    <color name="loading_launcher_bg_color">#FFFF3300</color>
+    <color name="loading_launcher_title_color">#FFFFFFFF</color>
+    <color name="loading_launcher_name_color">#FFFFFFFF</color>
+    <!-- //桌面启动页样式（详见“BaseDefaultConfig”中说明）	//cheyingkun add end -->
+
+
+    <!-- //6.0 applist	//zhangjin add start -->
+    <!-- Containers -->
+    <color name="container_fastscroll_thumb_inactive_color">#009688</color>
+    <color name="container_fastscroll_thumb_active_color">#009688</color>
+    <!-- All Apps -->
+    <color name="all_apps_grid_section_text_color">#009688</color>
+    <color name="all_apps_search_market_button_focused_bg_color">#DDDDDD</color>
+    <color name="search_text_color">#4c4c4c</color>
+    <color name="ic_search_icon_color">#818181</color>
+    <color name="ic_arrow_icon_color">#818181</color>
+    <color name="focused_background">#80c6c5c5</color>
+    <color name="launcher_accent_color">#FFFFFFFF</color>
+    <color name="quantum_panel_text_color">#fff</color>
+    <color name="quantum_panel_bg_color">#88ffffff</color>
+    <color name="quantum_bg_color">#00000000</color>
+    <color name="quantum_panel_bg_color_dark">#FF374248</color>
+    <color name="allapps_icon_text_color">#f00</color>
+    <!-- //6.0 applist	//zhangjin add end -->
+
+
+    <!-- //applist menu bar	//zhujieping add start -->
+    <color name="app_menu_btn_cancel_off">#1d515c</color>
+    <color name="app_menu_btn_cancel_on">#255863</color>
+    <color name="app_menu_sort_dialog_title_background">#005060</color>
+    <color name="app_menu_sort_dialog_title_textcolor">#F1F2F2</color>
+    <color name="app_menu_sort_dialog_radiogroup_background">#002c35</color>
+    <color name="app_menu_sort_dialog_radiobutton_textcolor">#bdbdbd</color>
+    <color name="app_menu_sort_dialog_button_textcolor">#dbdedf</color>
+    <color name="app_menu_search_drop_target_bg_color">#33ffffff</color>
+    <!-- //applist menu bar	//zhujieping add end -->
+
+
+    <!-- //自更新	//gaominghui add start -->
+    <color name="uiupdate_progressbar_color">#00a651</color>
+    <color name="uiupdate_progressbar_bg_stroke_color">#a0a0a0</color>
+    <color name="uiupdate_progressbar_notify_bar_color">#27e995</color>
+    <color name="uiupdate_progressbar_notify_bg_color">#f0f0f0</color>
+    <color name="uiupdate_update_btn_close_unchecked_color">#5b5b5b</color>
+    <color name="uiupdate_update_btn_close_checked_color">#4a4a4a</color>
+    <color name="uiupdate_update_btn_install_unchecked_color">#009966</color>
+    <color name="uiupdate_update_btn_install_checked_color">#007a51</color>
+    <color name="uiupdate_update_dialog_bg_color">#e6e5e5e5</color>
+    <!-- //自更新	//gaominghui add end -->
+
+    <color name="hotseat_bg_color">#00ffffff</color>
+
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add start -->
+    <color name="workspace_menu_vertical_list_bg_color">#99000000</color>
+    <color name="workspace_menu_vertical_list_content_bg_color">#313131</color>
+    <color name="workspace_menu_vertical_list_content_bg_stroke_color">#7d7d7d</color>
+    <color name="workspace_menu_vertical_list_content_divider_color">#7d7d7d</color>
+    <color name="workspace_menu_vertical_list_item_title_text_normal_color">#ffffff</color>
+    <color name="workspace_menu_vertical_list_item_title_text_focus_color">#1ea5fb</color>
+    <!-- //需求：拓展配置项“config_menu_click_style”，添加可配置项2。2为打开“竖直列表”样式的桌面菜单。	//xiatian add end -->
+	
+    <!-- //拓展配置项“config_applist_style”，添加可配置项2。2是7.0的主菜单样式。  //zhujieping add start-->
+    <color name="all_apps_nougat_grid_section_text_color">#ffffffff</color>
+    <color name="all_apps_nougat_section_divider_color">#aaffffff</color>
+    <color name="all_apps_nougat_grid_section_background_color">#1cffffff</color>
+    <color name="all_apps_nougat_background_color">#aa000000</color>
+    <color name="all_apps_grid_section_text_unselected_color">#66ffffff</color>
+    <color name="all_apps_grid_section_text_selected_color">#ffffffff</color>
+    <!-- //拓展配置项“config_applist_style”，添加可配置项2。2是7.0的主菜单样式。 //zhujieping add end -->
+    <!--//需求：进入主菜单动画类型。0为android4.4的launcher3进入主菜单动画类型；1为android7.0的launcher3进入主菜单动画类型。默认为0。 //zhujieping add start  -->
+    <color name="all_apps_divider_color">#1E000000</color>
+    <color name="all_apps_caret_color">#FFFFFFFF</color>
+    <color name="all_apps_caret_shadow_color">#22000000</color>
+    <color name="all_apps_container_color">#FFF2F2F2</color>
+    <color name="all_apps_navbar_color">#28000000</color>
+    <!-- //需求：进入主菜单动画类型。0为android4.4的launcher3进入主菜单动画类型；1为android7.0的launcher3进入主菜单动画类型。默认为0。 //zhujieping add end -->
+	<color name="all_apps_favorites_divider_color">#ffffffff</color>
+    <!-- //添加配置项“switch_enable_customer_lm_set_lockwallpaper”，增加锁屏壁纸的功能（进入uni3桌面壁纸，点击设置，弹出“设置桌面”、“设置锁屏”和“同时设置”选项）。true为显示，false不显示。默认为false。备注：该功能需要系统底层支持。//chenliang add start -->	
+    <color name="alertdialog_item_bg">#5A595B</color>
+    <color name="alertdialog_text_color">#ffffff</color>
+    <color name="alertdialog_text_line_color">#0F0F13</color>
+    <color name="alertdialog_item_bg_pressed">#6A696B</color>
+    <!-- uni3壁纸选择器点击设置壁纸后显示的dialog的背景色 -->
+    <color name="alertdialog_bg">#303030</color>
+    <!-- //添加配置项“switch_enable_customer_lm_set_lockwallpaper”，增加锁屏壁纸的功能（进入uni3桌面壁纸，点击设置，弹出“设置桌面”、“设置锁屏”和“同时设置”选项）。true为显示，false不显示。默认为false。备注：该功能需要系统底层支持。//chenliang add end -->
+</resources>

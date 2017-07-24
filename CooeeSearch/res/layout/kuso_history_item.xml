@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="49dp"
+    android:orientation="vertical"
+    android:background="@drawable/kuso_selector_search_list_item"
+     >
+ 
+   <TextView 
+       android:id="@+id/kuso_tv_history_item"
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:textSize="13dp"
+       android:singleLine="true"
+       android:layout_marginLeft="17dp"
+       android:textColor="@color/kuso_history_text_color"/>
+   
+   <!-- //cheyingkun add start	//需求:仿谷歌搜索 -->
+   <View
+        android:id="@+id/kuso_history_item_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/kuso_line" />
+   <!-- //cheyingkun add end -->
+   
+</RelativeLayout>

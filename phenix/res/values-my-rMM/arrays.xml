@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="launcher_classification_sub_entries">
+        <item>ေအပီပီအားလံုးျပန္လည္အမ်ဳိးစားခြဲ</item>
+        <item>ေရွ႕တေခါက္နဂိုေနရာအတိုင္းျပန္ထား</item>
+    </string-array>
+    <string-array name="launcher_stytle_entries">
+        <item>မလႊာမုတ္</item>
+        <item>စံုလႊာမုတ္</item>
+    </string-array>
+    <string-array name="launcher_classification_entries">
+        <item>စမတ္အမ်ဳိးစားခြဲျခင္း</item>
+        <item>နဂိုေနရာခ်အတိုင္း…..</item>
+    </string-array>
+    <string-array name="launcher_stytle_sub_entries">
+        <item>ေအပီပီအားလံုးကိုဒပ္စေတာ့ေပၚတြင္စီထားမည္</item>
+        <item>ဒပ္စေတာ့ေပၚတြင္ေလွ်ာ့ကပ္သာထားမည္</item>
+    </string-array>
+
+</resources>
