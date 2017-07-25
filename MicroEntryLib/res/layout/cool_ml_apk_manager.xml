@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/cool_ml_page_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/cool_ml_rbutDownloadPage"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/cool_ml_pageselect_button_underline"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/cool_ml_donwload_manager"
+                android:textSize="@dimen/cool_ml_apk_manager_tab_bar_title_text_size" />
+
+            <RadioButton
+                android:id="@+id/cool_ml_rbutInstallPage"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/cool_ml_pageselect_button_underline"
+                android:button="@android:color/transparent"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/cool_ml_install_manager"
+                android:textSize="@dimen/cool_ml_apk_manager_tab_bar_title_text_size" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@color/cool_ml_apk_manager_divider_between_tab_and_list_color" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/cool_ml_themeGridPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/cool_ml_apk_manager_download_and_install_list_bg_color"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

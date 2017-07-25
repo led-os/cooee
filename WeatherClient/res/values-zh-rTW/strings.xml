@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_settings">設置</string>
+    <string name="no_data">不能顯示當前天氣</string>
+    <string name="city_fault">請輸入正確的城市名</string>
+    <string name="please_update">點擊刷新檢測更新</string>
+    <string name="please_add_city">請先添加城市</string>
+    <string name="updating">正在更新中</string>
+    <string name="update_failed">更新失敗，請檢測網絡</string>
+    <string name="update_fault">網絡數據錯誤</string>
+    <string name="search_city">搜索城市</string>
+    <string name="none">無</string>
+    <string name="na">N/A</string>
+    <string name="edit_list">編輯</string>
+    <string name="setting">設置</string>
+    <string name="exit">退出</string>
+    <string name="liststr1">啟動后更新</string>
+    <string name="liststr2">啟動天氣后自動刷更新內容</string>
+    <string name="liststr3">定時同步</string>
+    <string name="liststr4">自動下載數據</string>
+    <string name="liststr12">聲音效果</string>
+    <string name="liststr13">選擇可啟用聲音效果</string>
+    <string name="liststr14">選擇自動下載數據</string>
+    <string name="warning">數據費警告</string>
+    <string name="cancel">取消</string>
+    <string name="yestoday">昨天</string>
+    <string name="thedaybeforeyestoday">前天</string>
+    <string name="afewdaysago">幾天前</string>
+    <string name="systemtimeerror">系統時間有誤</string>
+    <string name="weather_refresh">刷新</string>
+    <string name="weather_add">添加</string>
+    <string name="weather_menu">菜單</string>
+
+    <string-array name="weekday">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+    <string name="app_name">"天氣"</string>
+    <string name="week0">"星期日"</string>
+    <string name="week1">"星期一"</string>
+    <string name="week2">"星期二"</string>
+    <string name="week3">"星期三"</string>
+    <string name="week4">"星期四"</string>
+    <string name="week5">"星期五"</string>
+    <string name="week6">"星期六"</string>
+    <string name="monthA">"1月"</string>
+    <string name="monthB">"2月"</string>
+    <string name="monthC">"3月"</string>
+    <string name="monthD">"4月"</string>
+    <string name="monthE">"5月"</string>
+    <string name="monthF">"6月"</string>
+    <string name="monthG">"7月"</string>
+    <string name="monthH">"8月"</string>
+    <string name="monthI">"9月"</string>
+    <string name="monthJ">"10月"</string>
+    <string name="monthK">"11月"</string>
+    <string name="monthL">"12月"</string>
+    <string name="lagmonth">月</string>
+    <string name="lagyear">年</string>
+    <string name="select_postalCode">選擇城市</string>
+    <string name="date_format_string">%1$s℃-%2$s℃</string>
+    <string name="selectpostakcode">點擊設置城市</string>
+    <string name="nodate">沒有可用數據</string>
+    <string name="addcity">添加</string>
+    <!-- <string name="defaultcity">北京</string> -->
+    <string name="setSkinTitle">皮肤选择</string>
+    <string name="liststr7">皮肤选择</string>
+
+    <string-array name="updateSkinsetting">
+        <item>经典</item>
+        <item>卡通</item>
+    </string-array>
+
+    <string name="updataingstr">正在更新...</string>
+    <string name="citymanage">城市管理</string>
+
+    <string-array name="updatetimesetting">
+        <item>每6小時</item>
+        <item>每12小時</item>
+        <item>每天一次</item>
+    </string-array>
+
+    <array name="dialoginfo">
+        <item name="updatecity">更新天氣</item>
+        <item name="deletecity">刪除城市</item>
+    </array>
+    <array name="dialoginfo_default">
+        <item name="updatecity">更新天氣</item>
+    </array>
+
+    <string name="popcitys">熱門城市</string>
+    <string name="cityexitmessage">已經存在</string>
+    <string name="waitinfo">待同步</string>
+    <string name="liststr5">更新日程</string>
+    <string name="lasttime">(最后更新时间)</string>
+    <string name="positioning">正在定位...</string>
+    <string name="position_updated">位置已更新</string>
+    <string name="position_failure">定位失敗，請檢測網絡</string>
+    <string name="position_success">定位成功</string>
+    <string name="refresh_finish">刷新完成</string>
+    <string name="refresh_failed">更新數據失敗</string>
+    <string name="warn">提醒</string>
+    <string name="no_remind_next_time">下次不再提醒</string>
+    <string name="i_know">我知道了</string>
+    <string name="use_continue">繼續使用</string>
+    <string name="disclaimer_dialog_info">天氣客戶端使用完全免費，使用客戶端可能會產生流量費用，流量費用由提供網絡服務的運營商收取，是否允許建立連接。</string>
+    <!-- <string name="lunar">農曆</string> -->
+    <string name="humidity">濕度</string>
+
+    <!-- 分享字串 start -->
+    <string name="current_temp">當前溫度</string>
+    <string name="high_temp">最高溫度</string>
+    <string name="low_temp">最低溫度</string>
+    <string name="share_temp">分享</string>
+    <!-- 分享字串 end -->
+</resources>

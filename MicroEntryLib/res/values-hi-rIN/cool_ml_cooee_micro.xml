@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><string name="cool_ml_install_jixu">इन्‍सटॉलेशन जारी रखें </string>
+<string name="cool_ml_dl_failed">डाउनलोड असफल</string>
+<string name="cool_ml_donwloadorinstall_manager">डाउनलोड / इन्‍सटॉलेशन  मैनेजमेंट</string>
+<string name="cool_ml_app_name4">Weizhi बिल्डिंग</string>
+<string name="cool_ml_app_name3">Kuyi मार्केट</string>
+<string name="cool_ml_download_jixu">डाउनलोड जारी रखें </string>
+<string name="cool_ml_new_content">लॉंचर अपडेट के लिए तैयार है</string>
+<string name="cool_ml_install_quxiao">इन्‍सटालेशन कैंसल करें</string>
+<string name="cool_ml_disclaimer_update">अब अपडेट करें </string>
+<string name="cool_ml_dl_installed_text">स्‍टार्ट के लिए क्लिक करें </string>
+<string name="cool_ml_dl_stop">डाउनलोड रोका गया</string>
+<string name="cool_ml_MeIcon_uninstall">ऐप्‍स अनइन्‍सटाल करें </string>
+<string name="cool_ml_dl_ing">टास्‍क डाउनलोड हो रहे हैं</string>
+<string name="cool_ml_install_manager">इन्‍सटालेशन मैनेजर</string>
+<string name="cool_ml_dl_sucess">डाउनलोड सफल </string>
+<string name="cool_ml_network_not_available">नेटवर्क अनुपलब्‍ध </string>
+<string name="cool_ml_dl_stop_text">डाउनलोड के लिए क्लिक करें </string>
+<string name="cool_ml_install_file_not_exsit">इन्‍सटालेशन फ़ाइल मौजूद नहीं है! </string>
+<string name="cool_ml_disclaimer_title">लॉंचर अपडेट के लिए तैयार है</string>
+<string name="cool_ml_dl_failed_text">दोबारा-डाउनलोड के लिए क्लिक करें </string>
+<string name="cool_ml_download_failed">डाउनलोड असफल</string>
+<string name="cool_ml_donwload_manager">डाउनलोड मैनेजर </string>
+<string name="cool_ml_dl_ing_text">देखने के लिए क्लिक करें </string>
+<string name="cool_ml_dl_sucess_text">इन्‍सटाल करेने के लिए क्लिक करें </string>
+<string name="cool_ml_dl_installed">इन्‍सटालेशन कर दिया </string>
+<string name="cool_ml_app_name2">हॉट ऐप्‍स </string>
+<string name="cool_ml_app_name1">गेम्‍स </string>
+<string name="cool_ml_more_content">डिटेल्‍स देखें &gt;&gt;&gt; </string>
+<string name="cool_ml_disclaimer_desc">लांचर सेवाएं अपग्रेड, और अधिक रोमांचक सामग्री </string>
+<string name="cool_ml_storage_not_available">स्‍टोरेज स्‍पेस अनुपलब्‍ध है </string>
+<string name="cool_ml_download_quxiao">डाउनलोड कैंसल करें </string>
+<string name="cool_ml_MeIcon_uninstalling">ऐप्‍स अनइन्‍सटालिंग... </string>
+</resources>

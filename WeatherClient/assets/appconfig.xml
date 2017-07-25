@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfig>
+
+    <!-- isHuaweiStyle 是否为华为格式 false为不是华为格式，true为 华为格式 -->
+
+    <item
+        name="isHuaweiStyle"
+        value="true"/>
+
+    <!-- defaultCity ， 默认城市 -->
+
+    <item
+        name="defaultCity"
+        value="北京"/>
+    
+    
+	<!-- 开启自动定位后，默认城市无效，
+	开启自动定位后会将热门城市中的第一个位置默认为定位按钮，需在res/values/arrays.xml中同步更改 -->
+	<!-- 如果天气客户端内置并且开启了定位，请在system/lib下面添加libtencent_loc.so这个文件 -->
+    <item
+        name="isPosition"
+        value="false"/>
+    <!-- 是否显示免责声明 -->
+    <item
+        name="showDisclaimer"
+        value="true"/>
+    
+    
+    <!-- 该开关是为朵唯定制的，是用于控制天气客户端主界面分享功能列表是否屏蔽指定apk，如要屏蔽指定apk，需要在res/values/arrays.xml/doov_shield_share同步添加需要屏蔽的apk的包名和类名-->
+    <!-- 该开关默认false关闭，true打开 -->
+    <item
+        name="isDoovShare"
+        value="false"/>
+    
+    <!-- 该开关打开后可以搜索国外城市数据（注意：搜索国外天气时需要输入国外城市的英文名称）同时也可以实现国外城市的定位，相当于天气客户端的国内和国外两个版本的合并，所以无需要请勿打开 -->
+    <!-- true打开，false关闭 ,如果该开关打开的以及定位开关也打开了，请同步到values/strings.xml中同步更改popcitys_foreign第一项-->
+    <item
+        name="isMerge"
+        value="false"/>
+    
+    <!-- 是否每次启动客户端后自动刷新天气信息 -->
+    <item
+        name="isUpdateWhenOpen"
+        value="false"/>
+     
+</AppConfig>
+
+

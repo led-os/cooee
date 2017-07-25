@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tool_bar_layout">
+
+    <!-- 第几个城市 -->
+
+
+    <!-- 当天温度 -->
+
+    <LinearLayout
+        android:layout_width="118.666666667dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginRight="8.6667dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_now_tmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="top"
+                android:gravity="center_horizontal"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="11"
+                android:textColor="#ffffffff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/textview_now_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textview_now_tmp"
+                android:layout_toRightOf="@+id/textview_now_tmp"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="℃"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_totay_high_tmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="0dp"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="19/13℃"
+                android:textColor="#ffffffff"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/textview_totay_low_tmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="0dp"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="中雨"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/week_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="周二"
+                android:textColor="#ffffffff"
+                android:textSize="12dp" />
+<!-- 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:shadowColor="#ff101010"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="更多详情"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/updatetime_textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp"
+        android:text="10小时之前"
+        android:textColor="#ffffffff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/updatetime_textView3"
+        android:layout_below="@+id/updatetime_textView3"
+        android:text="Weather.com.cn"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

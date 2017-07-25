@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><string name="cool_ml_install_jixu">Ituloy ang instalasyon</string>
+<string name="cool_ml_dl_failed">Di nagtagumpay ang pag-download</string>
+<string name="cool_ml_donwloadorinstall_manager">Pamamahala ng Instalasyon / Download</string>
+<string name="cool_ml_app_name4">WEIZHI BUILDING</string>
+<string name="cool_ml_app_name3">KUYI MARKET</string>
+<string name="cool_ml_download_jixu">Ipagpatuloy ang pag-download</string>
+<string name="cool_ml_new_content">Ang Launcher ay handa na para sa update</string>
+<string name="cool_ml_install_quxiao">I-kansel ang instalasyon</string>
+<string name="cool_ml_disclaimer_update">I-update ngayon</string>
+<string name="cool_ml_dl_installed_text">I-click upang magsimula</string>
+<string name="cool_ml_dl_stop">Pansamantalang tumigil ang download</string>
+<string name="cool_ml_MeIcon_uninstall">I-uninstall ang apps</string>
+<string name="cool_ml_dl_ing">tasks downloading</string>
+<string name="cool_ml_install_manager">INSTALLATION MANAGER</string>
+<string name="cool_ml_dl_sucess">Matagumpay na nai-download</string>
+<string name="cool_ml_network_not_available">Walang available na network</string>
+<string name="cool_ml_dl_stop_text">Iclick upang mai-download</string>
+<string name="cool_ml_install_file_not_exsit">Ang installation file ay hindi umiiral!</string>
+<string name="cool_ml_disclaimer_title">Ang Launcher ay handa na para sa update</string>
+<string name="cool_ml_dl_failed_text">I-click upang muling i-download</string>
+<string name="cool_ml_download_failed">Di nagtagumpay ang pag-download</string>
+<string name="cool_ml_donwload_manager">DOWNLOAD MANAGER</string>
+<string name="cool_ml_dl_ing_text">I-click upang makita</string>
+<string name="cool_ml_dl_sucess_text">I-click upang mailagay</string>
+<string name="cool_ml_dl_installed">Tapos na ang instalasyon</string>
+<string name="cool_ml_app_name2">HOT APPS</string>
+<string name="cool_ml_app_name1">Mga Laro</string>
+<string name="cool_ml_more_content">Tingnan ang detalye&gt;&gt;&gt;</string>
+<string name="cool_ml_disclaimer_desc">Pag-aangat ng serbisyo ng Launcher, mas nakatuwang mga laman</string>
+<string name="cool_ml_storage_not_available">Walang espasyong paglalagyan</string>
+<string name="cool_ml_download_quxiao">I-kansel ang Download</string>
+<string name="cool_ml_MeIcon_uninstalling">Ina-uninstall ang app…</string>
+</resources>

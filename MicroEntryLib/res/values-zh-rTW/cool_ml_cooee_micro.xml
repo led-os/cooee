@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="cool_ml_donwloadorinstall_manager">下載/安裝管理</string>
+    <string name="cool_ml_install_manager">安裝管理</string>
+    <string name="cool_ml_donwload_manager">下載管理</string>
+    <string name="cool_ml_app_name1">精品遊戲</string>
+    <string name="cool_ml_app_name2">裝機必備</string>
+    <string name="cool_ml_app_name3">酷易市場</string>
+    <string name="cool_ml_app_name4">未知齋</string>
+    <string name="cool_ml_download_failed">下載失敗</string>
+    <string name="cool_ml_network_not_available">網絡不可用</string>
+    <string name="cool_ml_storage_not_available">存儲空間不可用</string>
+    <string name="cool_ml_download_jixu">繼續下載</string>
+    <string name="cool_ml_download_quxiao">取消下載</string>
+    <string name="cool_ml_install_jixu">繼續安裝</string>
+    <string name="cool_ml_install_quxiao">取消安裝</string>
+    <string name="cool_ml_new_content">桌面新內容</string>
+    <string name="cool_ml_more_content">更多精彩內容，去看看！</string>
+    <string name="cool_ml_dl_ing">個任務正在下載</string>
+    <string name="cool_ml_dl_ing_text">點擊查看</string>
+    <string name="cool_ml_dl_stop">下載暫停</string>
+    <string name="cool_ml_dl_stop_text">點擊下載</string>
+    <string name="cool_ml_dl_sucess">下載成功</string>
+    <string name="cool_ml_dl_sucess_text">點擊安裝</string>
+    <string name="cool_ml_dl_failed">下載失敗</string>
+    <string name="cool_ml_dl_failed_text">點擊重新下載</string>
+    <string name="cool_ml_dl_installed">安裝完成</string>
+    <string name="cool_ml_dl_installed_text">點擊啟動</string>
+    <string name="cool_ml_install_file_not_exsit">安裝文件不存在!!!</string>
+    <string name="cool_ml_disclaimer_title">桌面已爲您准備好升級</string>
+    <string name="cool_ml_disclaimer_desc">桌面服務大升級, 內容豐富更加精彩</string>
+    <string name="cool_ml_disclaimer_update">現在升級</string>
+    <string name="cool_ml_apk_manager_install_item_install_button_text">安裝</string>
+    <string name="cool_ml_apk_manager_install_item_run_button_text">打開</string>
+    <string name="cool_ml_apk_manager_download_item_state_wait">等待下載</string>
+    <string name="cool_ml_apk_manager_download_item_state_pause">暫停</string>
+    <string name="cool_ml_MeIcon_uninstall">卸載應用</string>
+    <string name="cool_ml_MeIcon_uninstalling">應用卸載中...</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 软件管理listview每个item的布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cool_ml_apk_manager_download_and_install_item_bg_selector"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip" >
+
+            <ImageView
+                android:id="@+id/cool_ml_manager_appIco"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cool_ml_download_install" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/cool_ml_manager_appName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/cool_ml_manager_download_item_app_name_text_color"
+                android:textSize="@dimen/cool_ml_manager_download_item_app_name_text_size" />
+
+            <RelativeLayout
+                android:id="@+id/cool_ml_manager_download_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cool_ml_manager_appName"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/cool_ml_manager_download_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/cool_ml_manager_download_item_info_text_color"
+                    android:textSize="@dimen/cool_ml_manager_download_item_info_text_size" />
+
+                <TextView
+                    android:id="@+id/cool_ml_manager_appSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/cool_ml_manager_download_item_info_text_color"
+                    android:textSize="@dimen/cool_ml_manager_download_item_info_text_size" />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/cool_ml_manager_progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_below="@id/cool_ml_manager_download_info"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:max="100"
+                android:progressDrawable="@drawable/cool_ml_apk_manager_download_item_progressbar_layerlist" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cool_ml_manager_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dip"
+        android:background="@drawable/cool_ml_icon_btn_list_download"
+        android:gravity="center" />
+
+</LinearLayout>

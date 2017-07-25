@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="cool_ml_apk_manager_divider_between_tab_and_list_color">#44000000</color>
+
+    <!-- ME_RTFSC -->
+    <string name="cool_ml_app_name1">Fine game</string>
+    <string name="cool_ml_app_name2">application</string>
+    <string name="cool_ml_app_name3">CooleasyMarket</string>
+    <string name="cool_ml_app_name4">Unkonw Box</string>
+    <string name="cool_ml_donwloadorinstall_manager">Download/Install Manager</string>
+    <string name="cool_ml_install_manager">Install Manager</string>
+    <string name="cool_ml_donwload_manager">Download Manager</string>
+    <string name="cool_ml_download_failed">Download Failed</string>
+    <string name="cool_ml_network_not_available">Network Not Available</string>
+    <string name="cool_ml_storage_not_available">Storage Not Available</string>
+    <string name="cool_ml_download_jixu">Continue Download</string>
+    <string name="cool_ml_download_quxiao">Cancel Download</string>
+    <string name="cool_ml_install_jixu">Continue Install</string>
+    <string name="cool_ml_install_quxiao">Cancel Install</string>
+    <string name="cool_ml_new_content">Launcher upgrade is ready</string>
+    <string name="cool_ml_more_content">More>>></string>
+    <string name="cool_ml_dl_ing">Downloding Task</string>
+    <string name="cool_ml_dl_ing_text">Click to view</string>
+    <string name="cool_ml_dl_stop">Download pause</string>
+    <string name="cool_ml_dl_stop_text">Click to download</string>
+    <string name="cool_ml_dl_sucess">Download success</string>
+    <string name="cool_ml_dl_sucess_text">Click Install</string>
+    <string name="cool_ml_dl_failed">Failed to download</string>
+    <string name="cool_ml_dl_failed_text">Click to download</string>
+    <string name="cool_ml_dl_installed">installation is completed</string>
+    <string name="cool_ml_dl_installed_text">Click Start App</string>
+    <string name="cool_ml_install_file_not_exsit">Installation file does not exist!!!</string>
+    <string name="cool_ml_disclaimer_title">Launcher can be more fun</string>
+    <string name="cool_ml_disclaimer_desc">Richer content has been accquired</string>
+    <string name="cool_ml_disclaimer_update">Update now</string>
+
+    <dimen name="cool_ml_apk_manager_title_bar_height">58.0dip</dimen>
+
+    <color name="cool_ml_apk_manager_title_bar_bg_color">#77b94b</color>
+    <color name="cool_ml_apk_manager_title_bar_title_text_color">#ffffff</color>
+
+    <dimen name="cool_ml_apk_manager_title_bar_back_button_padding_left">20dip</dimen>
+    <dimen name="cool_ml_apk_manager_title_bar_title_text_size">20sp</dimen>
+    <dimen name="cool_ml_apk_manager_title_bar_gap_x_between_back_button_and_title">10dp</dimen>
+    <dimen name="cool_ml_apk_manager_tab_bar_title_text_size">16sp</dimen>
+
+    <color name="cool_ml_manager_download_item_app_name_text_color">#000000</color>
+
+    <dimen name="cool_ml_manager_download_item_app_name_text_size">16sp</dimen>
+
+    <color name="cool_ml_manager_download_item_info_text_color">#a2a2a2</color>
+
+    <dimen name="cool_ml_manager_download_item_info_text_size">14sp</dimen>
+
+    <color name="cool_ml_manager_install_item_app_name_text_color">#000000</color>
+
+    <dimen name="cool_ml_manager_install_item_app_name_text_size">16sp</dimen>
+
+    <color name="cool_ml_manager_install_item_info_text_color">#a2a2a2</color>
+
+    <dimen name="cool_ml_manager_install_item_info_text_size">14sp</dimen>
+
+    <string name="cool_ml_apk_manager_install_item_install_button_text">install</string>
+    <string name="cool_ml_apk_manager_install_item_run_button_text">run</string>
+
+    <color name="cool_ml_apk_manager_install_item_install_button_text_color">#ffffff</color>
+    <color name="cool_ml_apk_manager_install_item_run_button_text_color">#000000</color>
+    <color name="cool_ml_apk_manager_download_and_install_list_bg_color">#f7f7f7</color>
+
+    <string name="cool_ml_apk_manager_download_item_state_wait">wait</string>
+    <string name="cool_ml_apk_manager_download_item_state_pause">pause</string>
+    <string name="cool_ml_MeIcon_uninstall">App Uninstall</string>
+    <string name="cool_ml_MeIcon_uninstalling">App Uninstalling ....</string>
+
+</resources>

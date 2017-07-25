@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><string name="cool_ml_install_jixu">Continue a instalação  </string>
+<string name="cool_ml_dl_failed">Falha no baixar</string>
+<string name="cool_ml_donwloadorinstall_manager">Baixar/Gestão de Instalação</string>
+<string name="cool_ml_app_name4">Weizhi edifício</string>
+<string name="cool_ml_app_name3">Kuyi Mercado</string>
+<string name="cool_ml_download_jixu">Continuar para baixar</string>
+<string name="cool_ml_new_content">O desktop está pronto para atualização</string>
+<string name="cool_ml_install_quxiao">Cancelar a instalação</string>
+<string name="cool_ml_disclaimer_update">Actualizar agora</string>
+<string name="cool_ml_dl_installed_text">Clique para iniciar</string>
+<string name="cool_ml_dl_stop">Baixar pausa</string>
+<string name="cool_ml_MeIcon_uninstall">Desinstalar apps</string>
+<string name="cool_ml_dl_ing">Tarefas baixando</string>
+<string name="cool_ml_install_manager">Gerenciador de Instalação</string>
+<string name="cool_ml_dl_sucess">Baixado com sucesso</string>
+<string name="cool_ml_network_not_available">Rede indisponíveis</string>
+<string name="cool_ml_dl_stop_text">Clique para baixar</string>
+<string name="cool_ml_install_file_not_exsit">Arquivo de instalação não existe!</string>
+<string name="cool_ml_disclaimer_title">O desktop está pronto para atualização</string>
+<string name="cool_ml_dl_failed_text">Clique para re-baixar</string>
+<string name="cool_ml_download_failed">Falha no baixar</string>
+<string name="cool_ml_donwload_manager">Gerenciador de baixar</string>
+<string name="cool_ml_dl_ing_text">Clique para ver</string>
+<string name="cool_ml_dl_sucess_text">Clica para instalar</string>
+<string name="cool_ml_dl_installed">Instalação feito</string>
+<string name="cool_ml_app_name2">Apps quentes</string>
+<string name="cool_ml_app_name1">Jogos</string>
+<string name="cool_ml_more_content">Ver detalhes &gt;&gt;&gt;</string>
+<string name="cool_ml_disclaimer_desc">Desktop serviços de atualização, conteúdos mais emocionantes</string>
+<string name="cool_ml_storage_not_available">O espaço de armazenamento não está disponível</string>
+<string name="cool_ml_download_quxiao">Cancelar o download</string>
+<string name="cool_ml_MeIcon_uninstalling">Desinstalar app ...</string>
+</resources>
