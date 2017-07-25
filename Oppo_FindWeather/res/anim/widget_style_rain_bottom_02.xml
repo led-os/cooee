@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 雨滴下落2 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:fillAfter="true">
+
+    <translate 
+        android:duration="500"
+        android:fromYDelta="0%p"
+        android:repeatCount="2"
+        android:repeatMode="restart"
+        android:toYDelta="15%p"
+        android:startOffset="200"/>
+    <translate 
+        android:duration="500"
+        android:fromXDelta="0%p"
+        android:repeatCount="2"
+        android:repeatMode="restart"
+        android:toXDelta="-6.68%p"
+        android:startOffset="200"/>
+<alpha
+        android:duration="500"
+        android:fromAlpha="1.0"
+        android:repeatCount="2"
+        android:repeatMode="restart"
+        android:startOffset="200"
+        android:toAlpha="0.4" />
+</set>

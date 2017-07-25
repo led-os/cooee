@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/widget_background"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/todayweather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="-15dp"
+        android:contentDescription="@string/app_name" />
+
+    <FrameLayout
+        android:id="@+id/weather_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="right|top" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="bottom" >
+
+        <ImageView
+            android:id="@+id/dateLeft1"
+            android:layout_width="25dp"
+            android:layout_height="42dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/time_0" />
+
+        <ImageView
+            android:id="@+id/dateLeft2"
+            android:layout_width="25dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/dateLeft1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/time_0" />
+
+        <ImageView
+            android:id="@+id/timedot"
+            android:layout_width="15dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/dateLeft2"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/time_dot" />
+
+        <ImageView
+            android:id="@+id/dateRigth1"
+            android:layout_width="25dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/timedot"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/time_0" />
+
+        <ImageView
+            android:id="@+id/dateRigth2"
+            android:layout_width="25dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/dateRigth1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/time_0" />
+
+        <TextView
+            android:id="@+id/AM_PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/dateRigth2"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/dateRigth2"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/curadress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tadayDate"
+            android:layout_alignLeft="@+id/dateLeft1"
+            android:layout_below="@+id/dateLeft1"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tadayDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/curadress"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:id="@+id/refresh_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="35dp" >
+
+            <ImageView
+                android:id="@+id/refresh"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_refresh_bg" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/curweather_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/curadress"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="5.0dip"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/curweather_left0"
+                android:layout_width="11dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/temp_negative_sign" />
+
+            <ImageView
+                android:id="@+id/curweather_left1"
+                android:layout_width="11dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/temp_1" />
+
+            <ImageView
+                android:id="@+id/curweather_left2"
+                android:layout_width="11dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/temp_7" />
+
+            <ImageView
+                android:id="@+id/curweather_mark"
+                android:layout_width="11dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/temp_mark" />
+
+            <ImageView
+                android:id="@+id/curweather_right0"
+                android:layout_width="11dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/temp_negative_sign" />
+
+            <ImageView
+                android:id="@+id/curweather_right1"
+                android:layout_width="11dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/temp_2" />
+
+            <ImageView
+                android:id="@+id/curweather_right2"
+                android:layout_width="11dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/temp_7" />
+
+            <ImageView
+                android:id="@+id/curweather_unit"
+                android:layout_width="11dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/temp_show_degree" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

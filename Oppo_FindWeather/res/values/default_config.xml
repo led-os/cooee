@@ -1,0 +1,17 @@
+
+<resources>
+        <string name="enter_the_alarm_clock">1</string>
+    <!-- 1  点击时间  日历都是进入系统时间设置界面 -->
+    <!-- 0   点击时间  进入闹钟界面  点击日历都是进入系统时间设置界面 -->
+    <string name="enter_the_alarm_clock_calendar">1</string>
+    <!-- 2   点击时间  进入闹钟界面  点击日历都是进入系统日历界面  -->
+    
+    <!-- weather 没有获取到天气数据时 默认显示值 start -->
+<!-- 天气客户端的对接方式  0表示通过天气广播action获取数据  1表示通过ContentProvider获取数据-->
+	<integer name="weather_default_dock_mode">1</integer>
+	<!-- 是否显示天气布局  true显示 false隐藏-->
+	<bool name="weather_default_is_available">true</bool>
+	<!-- 点击天气组件后默认进入的天气客户端apk的包名，不填则根据默认对接2345天气客户端(com.tianqiwhite),我们的天气客户端包名是com.cooee.widget.samweatherclock -->
+	<string name="weather_default_packageName">com.cooee.widget.samweatherclock</string>
+     <!-- weather 没有获取到天气数据时 默认显示值 end -->
+</resources>
