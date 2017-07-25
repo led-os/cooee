@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1280x720 -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 插件宽高 -->
+    <dimen name="widget_width_min">290dp</dimen>
+    <dimen name="widget_height_min">51dp</dimen>
+
+    <!-- 天气时钟插件配置 start -->
+    <!-- clock start -->
+	<!-- 是否显示时钟日历 -->
+	<bool name="show_clockView">true</bool>
+	<!-- 时间左边距 -->
+	<dimen name="clock_time_margin_left">7.5dp</dimen>
+	<!-- 时间上边距 -->
+	<dimen name="clock_time_margin_top">7.5dp</dimen>
+	<!-- 时间之间的间隔 -->
+	<dimen name="clock_time_gap_x_between_number_and_number">0dp</dimen>
+	<!-- 时间"点"与左边小时之间的间隔 -->
+	<dimen name="clock_time_gap_x_between_hour_and_dot">0dp</dimen>
+	<!-- 日期边距 -->
+	<dimen name="clock_date_margin_top">33dp</dimen>
+	<dimen name="clock_date_margin_left">126.5dp</dimen>
+	<!-- 是否截取日期长度 更改日期为 日期/月份 默认false 要截取true -->
+	<bool name="sub_week">false</bool>
+
+	<!-- 城市边距 -->
+	<dimen name="weather_city_margin_left">126.5dp</dimen>
+	<dimen name="weather_city_margin_top">17.5dp</dimen>
+	<!-- 没有数据时候是否显示天气模块 true 显示默认数据 false 不显示任何数据 默认不显示 -->
+	<bool name="show_default_data">true</bool>
+	<style name="weather_city_and_temperatrue_text_style">
+		<!-- 城市名字和温度的文字颜色 -->
+		<item name="android:textColor">#FFFFFFFF</item>
+		<!-- 城市名字和温度的阴影 -->
+		<item name="android:shadowColor">#FFE4E1C0</item>
+		<!-- 城市名字和温度的投影距离 -->
+		<item name="android:shadowDx">1.5</item>
+		<item name="android:shadowDy">1.5</item>
+		<item name="android:textSize">12sp</item>
+	</style>
+
+	<!-- 天气图片边距 -->
+	<dimen name="weather_data_margin_right">32dp</dimen>
+	<dimen name="weather_data_margin_top">5dp</dimen>
+	<!-- 温度边距 -->
+	<dimen name="weather_temperature_margin_right">5dp</dimen>
+	<dimen name="weather_temperature_margin_top">34.5dp</dimen>
+	<!-- 温度范围边距 -->
+	<dimen name="weather_temperature_range_margin_right">25dp</dimen>
+	<dimen name="weather_temperature_range_margin_top">37.5dp</dimen>
+	<!-- 点击时间组件后进入的默认apk的包名，不填则根据默认规则进入时钟 -->
+	<string name="default_clock_package"></string>
+	
+	 <!-- weather 没有获取到天气数据时 默认显示值 start -->
+	 <!-- 天气客户端的对接方式  0表示通过天气广播action获取数据  1表示通过ContentProvider获取数据-->
+	<integer name="weather_default_dock_mode">0</integer>
+	<!-- 是否显示天气布局  true显示 false隐藏-->
+	<bool name="weather_default_is_available">true</bool>
+	<!-- 点击天气组件后默认进入的天气客户端apk的包名，不填则根据默认对接2345天气客户端(com.tianqiwhite),我们的天气客户端包名是com.cooee.widget.samweatherclock -->
+	<string name="weather_default_packageName">com.tianqiwhite</string>
+	<!-- 城市名称 -->
+	<string name="weather_default_cityName">----</string>
+	<!-- 具体天气情况 （晴转多云，小雨等）-->
+	<string name="weather_default_condition">晴</string>
+	<!-- 天气大的类别分类（WEATHER_FINE , // 晴朗
+		WEATHER_CLOUDY , // 多云
+		WEATHER_HAZE , // 雾霾
+		WEATHER_OVERCAST , // 阴
+		WEATHER_SNOW , // 雪
+		WEATHER_SLEET , // 雨夹雪
+		WEATHER_THUNDERSTORM , // 雷阵雨
+		WEATHER_STORM , // 阵雨
+		WEATHER_LIGHTRAIN , // 小雨
+		WEATHER_RAIN , // 中雨
+		WEATHER_RAINSTORM , // 大雨
+		WEATHER_FOG , // 大雾
+		WEATHER_HOT , // 炎热
+		WEATHER_UNKOWN //未知） -->
+	<string name="weather_default_weatherIndex"></string>
+	<!-- 当前温度 -->
+	<integer name="weather_default_tempC">0</integer>
+	<!-- 当前最高温度 -->
+	<integer name="weather_default_HtempC">0</integer>
+	<!-- 当前最低温度 -->
+	<integer name="weather_default_LtempC">0</integer>
+<!-- weather 没有获取到天气数据时 默认显示值 end -->
+	
+    <!-- 天气时钟插件配置 end -->
+
+
+
+
+</resources>

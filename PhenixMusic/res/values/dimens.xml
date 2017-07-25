@@ -1,0 +1,27 @@
+<resources>
+
+    <dimen name="widget_width_min">120dp</dimen>
+    <dimen name="widget_height_min">155dp</dimen>
+    <!-- 上一曲按钮 -->
+    <dimen name="music_previous_button_width">20dp</dimen>
+    <dimen name="music_previous_button_height">20dp</dimen>
+    <dimen name="music_previous_button_marginLeft">20.5dp</dimen>
+    <dimen name="music_previous_button_marginBottom">17.5dp</dimen>
+    <!-- 上一曲的内边距,为了扩大点击区域 -->
+    <dimen name="music_previous_button_paddingLeft">5.5dp</dimen>
+    <dimen name="music_previous_button_paddingRight">5.5dp</dimen>
+    <dimen name="music_previous_button_paddingTop">2.5dp</dimen>
+    <dimen name="music_previous_button_paddingBottom">2.5dp</dimen>
+    <!-- 播放/暂停按钮 -->
+    <dimen name="music_play_button_width">20dp</dimen>
+    <dimen name="music_play_button_height">20dp</dimen>
+    <dimen name="music_play_button_marginBottom">16dp</dimen>
+    <!-- 歌词 -->
+    <dimen name="music_tv_song_name_marginBottom">4dp</dimen>
+    <dimen name="music_song_name_text_size">12sp</dimen>
+
+    <!-- 按钮 歌名背景 -->
+    <dimen name="music_control_and_song_name_bg_height">60dp</dimen>
+    <dimen name="music_control_and_song_name_bg_margin_bottom">10dp</dimen>
+
+</resources>

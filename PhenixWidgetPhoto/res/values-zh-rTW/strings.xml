@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Phenix 相冊</string>
+    <string name="photo_choose_imgs">選擇圖片</string>
+    <string name="photo_view_photos">檢視相片</string>
+    <string name="photo_choose_album">選擇相簿</string>
+    <string name="photo_choose_an_img">選擇圖片</string>
+    <string name="photo_pick_pic_dialog_cancel">取消</string>
+
+</resources>

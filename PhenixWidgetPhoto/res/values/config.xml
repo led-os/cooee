@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="widget_width_min">120dp</dimen>
+    <dimen name="widget_height_min">155dp</dimen>
+
+    <bool name="isShowChooseAlbum">false</bool>
+
+    <dimen name="photo_pick_pic_dialog_activity_text_size">19sp</dimen>
+    <dimen name="photo_pick_pic_dialog_activity_item_margin_left">20dp</dimen>
+
+    <color name="photo_pick_pic_dialog_activity_item_pressed_color">#fff2f2f2</color>
+    <color name="photo_pick_pic_dialog_activity_item_unpressed_color">#00f9f9f9</color>
+
+</resources>

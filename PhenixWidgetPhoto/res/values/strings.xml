@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Phenix Photo</string>
+    <string name="photo_choose_imgs">Choose images</string>
+    <string name="photo_view_photos">View photos</string>
+    <string name="photo_choose_album">Choose an album</string>
+    <string name="photo_choose_an_img">Choose an image</string>
+    <string name="photo_pick_pic_dialog_cancel">Cancel</string>
+
+</resources>
