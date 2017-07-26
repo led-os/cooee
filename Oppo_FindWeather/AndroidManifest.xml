@@ -1,271 +1,0 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cooee.widget.FindWeatherClock"
-    android:installLocation="internalOnly"
-    android:versionCode="34976"
-    android:versionName="2017.04.17.34976" >
-
-    <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="15" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.GET_TASKS" />
-    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.SEND_SMS" />
-    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-    <uses-permission android:name="android.permission.READ_SMS" />
-    <uses-permission android:name="android.permission.READ_CALL_LOG" />
-
-    <!-- shell 注册权限开始 -->
-    <!-- shell 注册权限结束 -->
-
-
-    <!-- kepush start -->
-    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
-    <uses-permission android:name="com.android.launcher.permission.CREATE_SHORTCUT" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
-    <!-- kepush end -->
-
-    <application
-        android:allowClearUserData="false"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:persistent="true"
-        android:theme="@style/AppTheme" >
-
-        <!--
-        <activity
-            android:name="com.cooee.widget.TranWeatherClock.MainActivity"
-            android:finishOnTaskLaunch="true"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        -->
-
-        <receiver
-            android:name="com.cooee.widget.TranWeatherClock.WeatherProvider"
-            android:label="@string/app_name"
-            android:process=":remote" >
-            <intent-filter>
-                <action android:name="android.intent.action.DATE_CHANGED" />
-                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-                <action android:name="android.intent.action.TIME_CHANGED" />
-                <action android:name="android.intent.action.TIME_SET" />
-                <action android:name="com.android.launcher.changed.resume" />
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-       
-                <!-- 解锁广播 -->
-                <action android:name="android.intent.action.USER_PRESENT" />
-                <!-- launcher切页广播 -->
-                <action android:name="com.cool.launcher.workspace.finishAutoEffect" />
-                <!-- 自己给自己发送的广播 -->
-                <action android:name="com.cooee.findweather.ON_QUARTER_HOUR" />
-                <action android:name="com.cooee.launcher.TIME_TICK" />
-                <action android:name="com.android.timer.BT_REFRESH_ACTION" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/weatherprodiver" />
-        </receiver>
-
-        <!--
-        <activity
-            android:name="com.cooee.widget.TranWeatherClock.localConfigureActivity"
-            android:icon="@drawable/ic_launcher"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar" >
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
-            </intent-filter>
-        </activity>
-        -->
-        <receiver android:name="com.kpsh.sdk.KpshReceiver" >
-            <intent-filter android:priority="2147483647" >
-                <action android:name="android.intent.action.PACKAGE_REMOVED" />
-                <action android:name="android.intent.action.PACKAGE_ADDED" />
-                <action android:name="android.intent.action.PACKAGE_REPLACED" />
-
-                <data android:scheme="package" />
-            </intent-filter>
-            <intent-filter android:priority="2147483647" >
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name="android.intent.action.PHONE_STATE" />
-                <action android:name="android.intent.action.USER_PRESENT" />
-                <action android:name="android.intent.action.USER_CLEARNOTIFY" />
-                <action android:name="android.intent.action.SEND_TO_KPSH" />
-                <action android:name="android.intent.action.CHECK_RECEIVER" />
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-
-        <service android:name="com.cooee.widget.TranWeatherClock.WeatherService" >
-            <intent-filter android:priority="1000" >
-
-                <!-- 更改时间或日期 -->
-                <action android:name="android.intent.action.DATE_CHANGED" />
-                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-                <action android:name="android.intent.action.TIME_CHANGED" />
-                <action android:name="android.intent.action.TIME_SET" />
-                <!-- 秒钟每到0秒系统发送的广播 根据文档 此处注册TIME_TICK无效 -->
-                <action android:name="android.intent.action.TIME_TICK" />
-            </intent-filter>
-        </service>
-        <!--
-        <activity
-            android:name="com.cooee.app.Tranincooeeweather.view.WeatherAddPost"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
-            <intent-filter>
-                <action android:name="com.cooee.weather.ADD_POST" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.cooee.app.Tranincooeeweather.view.WeatherEditPost"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.cooee.app.Tranincooeeweather.view.WeatherSetting"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
-        </activity>
-
-        <receiver android:name="com.cooee.app.Tranincooeeweather.view.WeatherReceiver" >
-            <intent-filter>
-                <action android:name="com.cooee.weather.data.action.UPDATE_RESULT" />
-            </intent-filter>
-        </receiver>
-
-        dataprovider
-        <service android:name="com.cooee.app.Tranincooeeweather.dataprovider.weatherDataService" >
-            <intent-filter>
-                <action android:name="com.cooee.app.Tranincooeeweather.dataprovider.weatherDataService" />
-            </intent-filter>
-        </service>
-
-        <provider
-            android:name="com.cooee.app.Tranincooeeweather.dataprovider.weatherdataprovider"
-            android:authorities="com.cooee.app.Tranincooeeweather.dataprovider" >
-        </provider>
-        -->
-
-        <service
-            android:name="com.cooee.statistics.StatisticsServiceNew"
-            android:enabled="true"
-            android:exported="true" />
-        <!--
-            <receiver android:name="DataprociderReciever" >
-            <intent-filter>
-                <action android:name="com.cooee.weather.datacom.action.NUM_COUNT" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" >
-                </action>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="cooee.weather.data.action.UPDATE_RESULT" >
-                </action>
-
-                <data android:scheme="updateResult" >
-                </data>
-            </intent-filter>
-        -->
-        <!-- shell 注册组件开始 -->
-        <service
-            android:name="com.kpsh.sdk.KpshService"
-            android:process="com.kpsh.kpshservice" >
-            <intent-filter android:priority="250" >
-                <action android:name="com.kpsh.sdk.action.KpshService" />
-            </intent-filter>
-        </service>
-        <service
-            android:name="com.cooee.shell.shell.SdkServiceHullV5"
-            android:process="com.platform.shell.sdk" >
-            <intent-filter android:priority="250" >
-                <action android:name="com.cooee.shell.action.SdkServiceV5" />
-            </intent-filter>
-        </service>
-        <service
-            android:name="com.cooee.shell.pay.PayServiceHullV5"
-            android:process="com.platform.shell.pay" >
-            <intent-filter android:priority="250" >
-                <action android:name="com.cooee.shell.action.PayServiceV5" />
-            </intent-filter>
-        </service>
-        <!-- 我们统计需要的服务 -->
-        <service
-            android:name="com.cooee.statistics.StatisticsServiceNew"
-            android:enabled="true"
-            android:exported="true"
-            android:process="com.cooee.statistics.themebox" />
-
-        <activity
-            android:name="com.cooee.widget.TranWeatherClock.DownloadActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Translucent_NoTitle" >
-        </activity>
-        <activity
-            android:name="com.cooee.shell.shell.SdkActivityHullV5"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@android:color/transparent" >
-        </activity>
-        <activity
-            android:name="com.cooee.shell.pay.PayActivityHullV5"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.cooee.shell.download.DownloaderActivityHullV5"
-            android:configChanges="orientation|keyboardHidden|screenSize" >
-        </activity>
-        <activity
-            android:name="com.kpsh.sdk.KpshActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="true"
-            android:taskAffinity="com.kpsh.sdk.callScreen"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-
-        <receiver android:name="com.cooee.shell.shell.SdkReceiverHullV5" >
-            <intent-filter android:priority="2147483647" >
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name="android.intent.action.PHONE_STATE" />
-                <action android:name="android.intent.action.USER_PRESENT" />
-                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
-                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-            </intent-filter>
-        </receiver>
-        <!-- shell 注册组件结束 -->
-    </application>
-
-</manifest>

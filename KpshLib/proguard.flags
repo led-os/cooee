@@ -1,4 +1,0 @@
--keep public class com.cooee.shell.sdk.CooeeSdk{
-public protected <methods>;
-public protected *;
-}

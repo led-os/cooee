@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <drawable name="pressed_color">#ffe5e5e5</drawable>
-	<drawable name="normal_color">#ffffffff</drawable>
-</resources>
